@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54A9A1D1-1341-4FCE-A8FF-A91C44A8C82E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Loader</RootNamespace>
+    <AssemblyName>Loader</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>0.0.0.1</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D6AED48B30BAB10F518C369FDA44CE2E5FE4DBAD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Loader_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db, processorArchitecture=MSIL">
+      <HintPath>packages\Siticone.Desktop.UI.2.0.9\lib\net40\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI, Version=1.0.0.3, Culture=neutral, PublicKeyToken=da23b5286e22db85, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntiDump.cs" />
+    <Compile Include="AntiDump2.cs" />
+    <Compile Include="Configuration\changelog1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\changelog1.Designer.cs">
+      <DependentUpon>changelog1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\settings1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\settings1.Designer.cs">
+      <DependentUpon>settings1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HashChecks.cs" />
+    <Compile Include="KeyAuth.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\cs1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Products\cs1.Designer.cs">
+      <DependentUpon>cs1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\gtaV1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Products\gtaV1.Designer.cs">
+      <DependentUpon>gtaV1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\lolbot1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Products\lolbot1.Designer.cs">
+      <DependentUpon>lolbot1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products\valo1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Products\valo1.Designer.cs">
+      <DependentUpon>valo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protection.cs" />
+    <Compile Include="Theme\ThemeHelper.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="Configuration\changelog1.resx">
+      <DependentUpon>changelog1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\settings1.resx">
+      <DependentUpon>settings1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\cs1.resx">
+      <DependentUpon>cs1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\gtaV1.resx">
+      <DependentUpon>gtaV1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\lolbot1.resx">
+      <DependentUpon>lolbot1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products\valo1.resx">
+      <DependentUpon>valo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Loader_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Connection\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\news_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software_license_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valorant-272x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changelog_update_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undetected.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inject_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rememberme_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lolback.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gtaback.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lolback1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\gta-5.jpg" />
+    <None Include="Resources\lol.png" />
+    <None Include="Resources\gtaback1.jpg" />
+    <None Include="Resources\gta-51.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
