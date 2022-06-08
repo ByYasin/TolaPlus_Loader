@@ -226,6 +226,11 @@ namespace KeyAuth
             siticoneTabControl1.SelectedTab = tabPage4;
         }
 
+        private void siticoneRoundedGradientButton4_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/tolaplus");
+        }
+
         private void siticoneCirclePictureBox1_Click(object sender, EventArgs e)
         {
             siticoneTabControl1.SelectedTab = tabPage1;
@@ -256,7 +261,7 @@ namespace KeyAuth
 
                                 string rand = random_string();
 
-                                destFile = destFile.Replace(".exe", $"{rand}.exe");
+                                destFile = destFile.Replace(".exe", $"-{rand}.exe");
                                 webClient.DownloadFile(KeyAuthApp.app_data.downloadLink, destFile);
 
                                 Process.Start(destFile);
@@ -275,7 +280,7 @@ namespace KeyAuth
                                 break;
                         }
                     }
-                    MessageBox.Show("The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software!");
+                    MessageBox.Show("[ENG] The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software! \n _______________________________________________________________ \n [TR] Yazýlým þu anda güncelleniyor! Lütfen güncellenmesini bekleyin, güncellendiðinde toplulukta duyurulacak ve yazýlýmý baþlattýðýnýzda otomatik olarak kendini güncelleyecektir!", "Updating...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Thread.Sleep(5000);
                     Environment.Exit(0);
                 }
@@ -353,7 +358,6 @@ namespace KeyAuth
         {
             Environment.Exit(0);
         }
-
 
 
     }

@@ -90,6 +90,7 @@ namespace KeyAuth
             this.siticoneToolTip4 = new Siticone.UI.WinForms.SiticoneToolTip();
             this.siticoneToolTip5 = new Siticone.UI.WinForms.SiticoneToolTip();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.siticoneRoundedGradientButton4 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
             this.loginpanel1.SuspendLayout();
@@ -228,6 +229,7 @@ namespace KeyAuth
             // loginpanel1
             // 
             this.loginpanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
+            this.loginpanel1.Controls.Add(this.siticoneRoundedGradientButton4);
             this.loginpanel1.Controls.Add(this.siticoneVSeparator4);
             this.loginpanel1.Controls.Add(this.siticoneRoundedGradientButton3);
             this.loginpanel1.Controls.Add(this.siticoneRoundedGradientButton2);
@@ -272,7 +274,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton3.Image")));
             this.siticoneRoundedGradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton3.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(39, 261);
+            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(39, 250);
             this.siticoneRoundedGradientButton3.Name = "siticoneRoundedGradientButton3";
             this.siticoneRoundedGradientButton3.PressedDepth = 38;
             this.siticoneRoundedGradientButton3.ShadowDecoration.Parent = this.siticoneRoundedGradientButton3;
@@ -300,7 +302,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton2.Image")));
             this.siticoneRoundedGradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton2.ImageSize = new System.Drawing.Size(22, 22);
-            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(39, 322);
+            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(38, 364);
             this.siticoneRoundedGradientButton2.Name = "siticoneRoundedGradientButton2";
             this.siticoneRoundedGradientButton2.ShadowDecoration.Parent = this.siticoneRoundedGradientButton2;
             this.siticoneRoundedGradientButton2.Size = new System.Drawing.Size(184, 32);
@@ -326,7 +328,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton1.Image")));
             this.siticoneRoundedGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton1.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(38, 200);
+            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(38, 193);
             this.siticoneRoundedGradientButton1.Name = "siticoneRoundedGradientButton1";
             this.siticoneRoundedGradientButton1.PressedDepth = 37;
             this.siticoneRoundedGradientButton1.ShadowDecoration.Parent = this.siticoneRoundedGradientButton1;
@@ -340,11 +342,11 @@ namespace KeyAuth
             this.siticoneCirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneTransition1.SetDecoration(this.siticoneCirclePictureBox1, Siticone.UI.AnimatorNS.DecorationType.None);
             this.siticoneCirclePictureBox1.Image = global::Loader.Properties.Resources.logo;
-            this.siticoneCirclePictureBox1.Location = new System.Drawing.Point(43, 11);
+            this.siticoneCirclePictureBox1.Location = new System.Drawing.Point(41, 0);
             this.siticoneCirclePictureBox1.Name = "siticoneCirclePictureBox1";
             this.siticoneCirclePictureBox1.ShadowDecoration.Mode = Siticone.UI.WinForms.Enums.ShadowMode.Circle;
             this.siticoneCirclePictureBox1.ShadowDecoration.Parent = this.siticoneCirclePictureBox1;
-            this.siticoneCirclePictureBox1.Size = new System.Drawing.Size(175, 175);
+            this.siticoneCirclePictureBox1.Size = new System.Drawing.Size(179, 183);
             this.siticoneCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.siticoneCirclePictureBox1.TabIndex = 0;
             this.siticoneCirclePictureBox1.TabStop = false;
@@ -1280,6 +1282,33 @@ namespace KeyAuth
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // siticoneRoundedGradientButton4
+            // 
+            this.siticoneRoundedGradientButton4.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneRoundedGradientButton4.BorderColor = System.Drawing.SystemColors.ButtonFace;
+            this.siticoneRoundedGradientButton4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.siticoneRoundedGradientButton4.BorderThickness = 1;
+            this.siticoneRoundedGradientButton4.CheckedState.Parent = this.siticoneRoundedGradientButton4;
+            this.siticoneRoundedGradientButton4.CustomImages.Parent = this.siticoneRoundedGradientButton4;
+            this.siticoneTransition1.SetDecoration(this.siticoneRoundedGradientButton4, Siticone.UI.AnimatorNS.DecorationType.None);
+            this.siticoneRoundedGradientButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
+            this.siticoneRoundedGradientButton4.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siticoneRoundedGradientButton4.ForeColor = System.Drawing.SystemColors.Control;
+            this.siticoneRoundedGradientButton4.HoveredState.Parent = this.siticoneRoundedGradientButton4;
+            this.siticoneRoundedGradientButton4.Image = global::Loader.Properties.Resources.shopping_48;
+            this.siticoneRoundedGradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton4.ImageSize = new System.Drawing.Size(24, 24);
+            this.siticoneRoundedGradientButton4.Location = new System.Drawing.Point(39, 307);
+            this.siticoneRoundedGradientButton4.Name = "siticoneRoundedGradientButton4";
+            this.siticoneRoundedGradientButton4.PressedDepth = 38;
+            this.siticoneRoundedGradientButton4.ShadowDecoration.Parent = this.siticoneRoundedGradientButton4;
+            this.siticoneRoundedGradientButton4.Size = new System.Drawing.Size(183, 32);
+            this.siticoneRoundedGradientButton4.TabIndex = 65;
+            this.siticoneRoundedGradientButton4.Text = "Buy a subscription !";
+            this.siticoneRoundedGradientButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton4.Click += new System.EventHandler(this.siticoneRoundedGradientButton4_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1410,5 +1439,6 @@ namespace KeyAuth
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private Siticone.Desktop.UI.WinForms.SiticoneToggleSwitch autologin;
+        private Siticone.UI.WinForms.SiticoneRoundedGradientButton siticoneRoundedGradientButton4;
     }
 }

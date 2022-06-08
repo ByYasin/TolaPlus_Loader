@@ -239,7 +239,7 @@ namespace KeyAuth
 
         private void buyrenewbutton_Click(object sender, EventArgs e)
         {
-            Process.Start("https://discord.gg/NUvhvDD5BM");
+            Process.Start("https://discord.gg/tolaplus");
         }
 
 
