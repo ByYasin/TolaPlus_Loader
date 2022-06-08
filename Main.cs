@@ -76,51 +76,7 @@ namespace KeyAuth
             subscriptionDaysLabel.Text = "Expiry: " + Login.KeyAuthApp.expirydaysleft();
             if (subscriptionDaysLabel.Text == "Expiry: 0 Days 0 Hours 0 Minutes 0 Seconds left.")
             {
-                foreach (var process in Process.GetProcessesByName("1"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("hl"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("VALORANT-Win64-Shipping"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("VALORANT"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("Skype"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("RiotClientServices"))
-                {
-                    process.Kill();
-                }
-
-                foreach (var process in Process.GetProcessesByName("LeagueClient"))
-                {
-                    process.Kill();
-                }
-
-                foreach (var process in Process.GetProcessesByName("LeagueClientUx"))
-                {
-                    process.Kill();
-                }
-
-                foreach (var process in Process.GetProcessesByName("LeagueClientUxRender"))
-                {
-                    process.Kill();
-                }
-                foreach (var process in Process.GetProcessesByName("GTA5"))
-                {
-                    process.Kill();
-                }
-
-                Thread.Sleep(500);
+                closing_Data();
                 Environment.Exit(0);
             }
 
@@ -302,10 +258,8 @@ namespace KeyAuth
             siticoneTabControl1.SelectedTab = tabPage8;
         }
 
-
-        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        private void closing_Data()
         {
-
             foreach (var process in Process.GetProcessesByName("1"))
             {
                 process.Kill();
@@ -350,11 +304,10 @@ namespace KeyAuth
                 process.Kill();
             }
 
-
             Thread.Sleep(500);
             string download1 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
             string download2 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\cs.zip");
-            string download3 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\SkypeValorant.zip");
+            string download3 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
             string download4 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\AqXsReAvG.zip");
             string download5 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\LoLBot.zip");
 
@@ -365,8 +318,13 @@ namespace KeyAuth
             File.Delete(download5);
 
             Thread.Sleep(500);
-            Environment.Exit(0);
+        }
 
+
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            closing_Data();
+            Environment.Exit(0);
 
         }
 
