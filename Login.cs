@@ -18,6 +18,7 @@ using System.IO;
 using KeyAuth;
 using Siticone.Desktop.UI.WinForms.Suite;
 
+
 namespace KeyAuth
 {
     public partial class Login : Form
@@ -232,6 +233,7 @@ namespace KeyAuth
 
         private void Login_Load(object sender, EventArgs e)
         {
+
             //themecolor_Data();
             try
             {

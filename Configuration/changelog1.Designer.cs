@@ -432,7 +432,7 @@
             this.siticoneHtmlLabel7.Name = "siticoneHtmlLabel7";
             this.siticoneHtmlLabel7.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel7.TabIndex = 2;
-            this.siticoneHtmlLabel7.Text = "07.06.2022 - 18:51 (GMT+03:00)";
+            this.siticoneHtmlLabel7.Text = "08.06.2022 - 18:51 (GMT+03:00)";
             // 
             // siticoneHtmlLabel6
             // 
@@ -470,7 +470,7 @@
             this.Controls.Add(this.siticonePanel9);
             this.Controls.Add(this.siticoneHtmlLabel5);
             this.Name = "changelog1";
-            this.Size = new System.Drawing.Size(598, 380);
+            this.Size = new System.Drawing.Size(581, 363);
             this.siticonePanel7.ResumeLayout(false);
             this.siticonePanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox15)).EndInit();
