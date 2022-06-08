@@ -75,6 +75,7 @@ namespace KeyAuth
             this.siticoneTabControl1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.changelog12 = new Loader.Configuration.changelog1();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.LoLBotCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel16 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
@@ -105,18 +106,17 @@ namespace KeyAuth
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CScheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.settings12 = new Loader.Configuration.settings1();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.cs12 = new Loader.Products.cs1();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.valo3 = new Loader.Products.valo();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.gtaV12 = new Loader.Products.gtaV1();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.lolbot12 = new Loader.Products.lolbot1();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
-            this.changelog12 = new Loader.Configuration.changelog1();
-            this.settings12 = new Loader.Configuration.settings1();
-            this.cs12 = new Loader.Products.cs1();
-            this.valo3 = new Loader.Products.valo();
-            this.gtaV12 = new Loader.Products.gtaV1();
-            this.lolbot12 = new Loader.Products.lolbot1();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
@@ -1014,6 +1014,17 @@ namespace KeyAuth
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
             // 
+            // changelog12
+            // 
+            this.changelog12.AutoScroll = true;
+            this.changelog12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.changelog12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changelog12.Location = new System.Drawing.Point(3, 3);
+            this.changelog12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.changelog12.Name = "changelog12";
+            this.changelog12.Size = new System.Drawing.Size(748, 438);
+            this.changelog12.TabIndex = 0;
+            // 
             // tabPage3
             // 
             this.tabPage3.AutoScroll = true;
@@ -1445,15 +1456,35 @@ namespace KeyAuth
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
             // 
+            // settings12
+            // 
+            this.settings12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.settings12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settings12.Location = new System.Drawing.Point(0, 0);
+            this.settings12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.settings12.Name = "settings12";
+            this.settings12.Size = new System.Drawing.Size(754, 444);
+            this.settings12.TabIndex = 0;
+            // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage5.Controls.Add(this.cs12);
-            this.tabPage5.Location = new System.Drawing.Point(5, 4);
+            this.tabPage5.Location = new System.Drawing.Point(184, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(754, 444);
+            this.tabPage5.Size = new System.Drawing.Size(575, 444);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CS";
+            // 
+            // cs12
+            // 
+            this.cs12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.cs12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cs12.Location = new System.Drawing.Point(0, 0);
+            this.cs12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cs12.Name = "cs12";
+            this.cs12.Size = new System.Drawing.Size(575, 444);
+            this.cs12.TabIndex = 0;
             // 
             // tabPage6
             // 
@@ -1466,6 +1497,16 @@ namespace KeyAuth
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Valo";
             // 
+            // valo3
+            // 
+            this.valo3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.valo3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.valo3.Location = new System.Drawing.Point(3, 3);
+            this.valo3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.valo3.Name = "valo3";
+            this.valo3.Size = new System.Drawing.Size(748, 438);
+            this.valo3.TabIndex = 0;
+            // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
@@ -1476,6 +1517,16 @@ namespace KeyAuth
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "GtaV";
             // 
+            // gtaV12
+            // 
+            this.gtaV12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.gtaV12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gtaV12.Location = new System.Drawing.Point(0, 0);
+            this.gtaV12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gtaV12.Name = "gtaV12";
+            this.gtaV12.Size = new System.Drawing.Size(754, 444);
+            this.gtaV12.TabIndex = 0;
+            // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
@@ -1485,6 +1536,16 @@ namespace KeyAuth
             this.tabPage8.Size = new System.Drawing.Size(754, 444);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "LoLBot";
+            // 
+            // lolbot12
+            // 
+            this.lolbot12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.lolbot12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lolbot12.Location = new System.Drawing.Point(0, 0);
+            this.lolbot12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.lolbot12.Name = "lolbot12";
+            this.lolbot12.Size = new System.Drawing.Size(754, 444);
+            this.lolbot12.TabIndex = 0;
             // 
             // siticoneBorderlessForm1
             // 
@@ -1501,67 +1562,6 @@ namespace KeyAuth
             // 
             this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
             this.siticoneAnimateWindow1.TargetForm = this;
-            // 
-            // changelog12
-            // 
-            this.changelog12.AutoScroll = true;
-            this.changelog12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.changelog12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.changelog12.Location = new System.Drawing.Point(3, 3);
-            this.changelog12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.changelog12.Name = "changelog12";
-            this.changelog12.Size = new System.Drawing.Size(748, 438);
-            this.changelog12.TabIndex = 0;
-            // 
-            // settings12
-            // 
-            this.settings12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.settings12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.settings12.Location = new System.Drawing.Point(0, 0);
-            this.settings12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.settings12.Name = "settings12";
-            this.settings12.Size = new System.Drawing.Size(754, 444);
-            this.settings12.TabIndex = 0;
-            // 
-            // cs12
-            // 
-            this.cs12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.cs12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cs12.Location = new System.Drawing.Point(0, 0);
-            this.cs12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.cs12.Name = "cs12";
-            this.cs12.Size = new System.Drawing.Size(754, 444);
-            this.cs12.TabIndex = 0;
-            // 
-            // valo3
-            // 
-            this.valo3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.valo3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.valo3.Location = new System.Drawing.Point(3, 3);
-            this.valo3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.valo3.Name = "valo3";
-            this.valo3.Size = new System.Drawing.Size(748, 438);
-            this.valo3.TabIndex = 0;
-            // 
-            // gtaV12
-            // 
-            this.gtaV12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.gtaV12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gtaV12.Location = new System.Drawing.Point(0, 0);
-            this.gtaV12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.gtaV12.Name = "gtaV12";
-            this.gtaV12.Size = new System.Drawing.Size(754, 444);
-            this.gtaV12.TabIndex = 0;
-            // 
-            // lolbot12
-            // 
-            this.lolbot12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.lolbot12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lolbot12.Location = new System.Drawing.Point(0, 0);
-            this.lolbot12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.lolbot12.Name = "lolbot12";
-            this.lolbot12.Size = new System.Drawing.Size(754, 444);
-            this.lolbot12.TabIndex = 0;
             // 
             // Main
             // 

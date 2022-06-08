@@ -109,7 +109,7 @@
             this.cheatupdatedatelabel.Name = "cheatupdatedatelabel";
             this.cheatupdatedatelabel.Size = new System.Drawing.Size(65, 19);
             this.cheatupdatedatelabel.TabIndex = 3;
-            this.cheatupdatedatelabel.Text = "29.05.2022";
+            this.cheatupdatedatelabel.Text = "09.06.2022";
             // 
             // siticoneHtmlLabel2
             // 
