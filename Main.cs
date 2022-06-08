@@ -306,10 +306,10 @@ namespace KeyAuth
 
             Thread.Sleep(500);
             string download1 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
-            string download2 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\cs.zip");
+            string download2 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\TuYtHgPoMa.zip");
             string download3 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
-            string download4 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\AqXsReAvG.zip");
-            string download5 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\LoLBot.zip");
+            string download4 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\GqTsAcXgU.zip");
+            string download5 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\PmYvRxEaQw.zip");
 
             Directory.Delete(download1, true);
             File.Delete(download2);

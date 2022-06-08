@@ -5,7 +5,6 @@ using System.Data;
 using Microsoft.Win32;
 using Microsoft.Win32.SafeHandles;
 using System.Windows.Data;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -32,11 +31,11 @@ namespace Loader.Products
 
             try
             {
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\LoLBot.zip");
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\PmYvRxEaQw.zip");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/980558942042210394/LoLBot.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/984117119912378368/PmYvRxEaQw.zip"), @download);
 
                 Thread.Sleep(2000);
                 string zipPatch = download;
