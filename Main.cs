@@ -81,7 +81,7 @@ namespace KeyAuth
             }
 
 
-            if (subscription.Text == "Active Subscription: CS 1.6" || subscription.Text == "Active Subscription: Admin")
+            if (subscription.Text == "Active Subscription: CS 1.6" || subscription.Text == "Active Subscription: Premium")
             {
                 CScheatPictureBox.Image = Loader.Properties.Resources.cs16;
                 subscriptionPictureBox.Image = Loader.Properties.Resources.cs16;
@@ -93,7 +93,7 @@ namespace KeyAuth
                 CSCheatPanel.Visible = false;
             }
 
-            if (subscription.Text == "Active Subscription: Valorant" || subscription.Text == "Active Subscription: Admin")
+            if (subscription.Text == "Active Subscription: Valorant" || subscription.Text == "Active Subscription: Premium")
             {
                 ValocheatPictureBox.Image = Loader.Properties.Resources.Valorant_272x380;
                 subscriptionPictureBox.Image = Loader.Properties.Resources.Valorant_272x380;
@@ -105,7 +105,7 @@ namespace KeyAuth
                 ValorantCheatPanel.Visible = false;
             }
 
-            if (subscription.Text == "Active Subscription: Gta V" || subscription.Text == "Active Subscription: Admin")
+            if (subscription.Text == "Active Subscription: Gta V" || subscription.Text == "Active Subscription: Premium")
             {
                 GtaVcheatPictureBox.Image = Loader.Properties.Resources.gta_5;
                 subscriptionPictureBox.Image = Loader.Properties.Resources.gta_5;
@@ -116,7 +116,7 @@ namespace KeyAuth
                 GtaVCheatPanel.Visible = false;
             }
 
-            if (subscription.Text == "Active Subscription: League of Legends Bot" || subscription.Text == "Active Subscription: Admin")
+            if (subscription.Text == "Active Subscription: League of Legends Bot" || subscription.Text == "Active Subscription: Premium")
             {
                 LolcheatPictureBox.Image = Loader.Properties.Resources.lol;
                 subscriptionPictureBox.Image = Loader.Properties.Resources.lol;

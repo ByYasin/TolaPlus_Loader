@@ -184,7 +184,7 @@
             this.siticoneHtmlLabel20.Name = "siticoneHtmlLabel20";
             this.siticoneHtmlLabel20.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel20.TabIndex = 2;
-            this.siticoneHtmlLabel20.Text = "07.06.2022 - 18:52 (GMT+03:00)";
+            this.siticoneHtmlLabel20.Text = "07.06.2022 - 18:53 (GMT+03:00)";
             // 
             // siticoneHtmlLabel21
             // 
@@ -308,7 +308,7 @@
             this.siticoneHtmlLabel11.Name = "siticoneHtmlLabel11";
             this.siticoneHtmlLabel11.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel11.TabIndex = 2;
-            this.siticoneHtmlLabel11.Text = "06.06.2022 - 17:17 (GMT+03:00)";
+            this.siticoneHtmlLabel11.Text = "08.06.2022 - 17:02 (GMT+03:00)";
             // 
             // siticoneHtmlLabel12
             // 
@@ -370,7 +370,7 @@
             this.siticoneHtmlLabel8.Name = "siticoneHtmlLabel8";
             this.siticoneHtmlLabel8.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel8.TabIndex = 2;
-            this.siticoneHtmlLabel8.Text = "07.06.2022 - 17:49 (GMT+03:00)";
+            this.siticoneHtmlLabel8.Text = "08.06.2022 - 17:49 (GMT+03:00)";
             // 
             // siticoneHtmlLabel9
             // 
@@ -456,7 +456,7 @@
             this.siticoneHtmlLabel1.TabIndex = 0;
             this.siticoneHtmlLabel1.Text = "Added CS 1.6 Cheat!";
             // 
-            // changelog
+            // changelog1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -469,8 +469,8 @@
             this.Controls.Add(this.siticonePanel10);
             this.Controls.Add(this.siticonePanel9);
             this.Controls.Add(this.siticoneHtmlLabel5);
-            this.Name = "changelog";
-            this.Size = new System.Drawing.Size(632, 397);
+            this.Name = "changelog1";
+            this.Size = new System.Drawing.Size(615, 397);
             this.siticonePanel7.ResumeLayout(false);
             this.siticonePanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox15)).EndInit();

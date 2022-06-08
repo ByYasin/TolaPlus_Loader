@@ -35,7 +35,7 @@ namespace Loader.Products
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/980562391685300304/PmYvRxEaQw.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/984148036156538910/GqTsAcXgU.zip"), @download);
 
                 Thread.Sleep(10000);
                 string zipPatch = download;
