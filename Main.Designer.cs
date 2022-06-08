@@ -192,7 +192,7 @@ namespace KeyAuth
             // 
             this.siticoneVSeparator5.BackColor = System.Drawing.Color.Transparent;
             this.siticoneVSeparator5.FillColor = System.Drawing.Color.DodgerBlue;
-            this.siticoneVSeparator5.Location = new System.Drawing.Point(708, 0);
+            this.siticoneVSeparator5.Location = new System.Drawing.Point(698, 0);
             this.siticoneVSeparator5.Name = "siticoneVSeparator5";
             this.siticoneVSeparator5.Size = new System.Drawing.Size(10, 32);
             this.siticoneVSeparator5.TabIndex = 64;
@@ -201,7 +201,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
-            this.siticonePictureBox4.Location = new System.Drawing.Point(736, 4);
+            this.siticonePictureBox4.Location = new System.Drawing.Point(726, 4);
             this.siticonePictureBox4.Name = "siticonePictureBox4";
             this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
             this.siticonePictureBox4.Size = new System.Drawing.Size(25, 25);
@@ -231,7 +231,7 @@ namespace KeyAuth
             this.numOnlineUsers.BackColor = System.Drawing.Color.Transparent;
             this.numOnlineUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numOnlineUsers.ForeColor = System.Drawing.SystemColors.Control;
-            this.numOnlineUsers.Location = new System.Drawing.Point(550, 8);
+            this.numOnlineUsers.Location = new System.Drawing.Point(540, 8);
             this.numOnlineUsers.Margin = new System.Windows.Forms.Padding(2);
             this.numOnlineUsers.Name = "numOnlineUsers";
             this.numOnlineUsers.Size = new System.Drawing.Size(124, 17);
@@ -243,7 +243,7 @@ namespace KeyAuth
             this.versiontitlelabel.BackColor = System.Drawing.Color.Transparent;
             this.versiontitlelabel.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.versiontitlelabel.ForeColor = System.Drawing.Color.White;
-            this.versiontitlelabel.Location = new System.Drawing.Point(763, 8);
+            this.versiontitlelabel.Location = new System.Drawing.Point(754, 8);
             this.versiontitlelabel.Margin = new System.Windows.Forms.Padding(2);
             this.versiontitlelabel.Name = "versiontitlelabel";
             this.versiontitlelabel.Size = new System.Drawing.Size(29, 17);
@@ -295,7 +295,7 @@ namespace KeyAuth
             this.version.BackColor = System.Drawing.Color.Transparent;
             this.version.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.version.ForeColor = System.Drawing.Color.White;
-            this.version.Location = new System.Drawing.Point(793, 8);
+            this.version.Location = new System.Drawing.Point(783, 8);
             this.version.Margin = new System.Windows.Forms.Padding(2);
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(73, 17);
@@ -317,7 +317,7 @@ namespace KeyAuth
             this.key.BackColor = System.Drawing.Color.Transparent;
             this.key.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.key.ForeColor = System.Drawing.SystemColors.Control;
-            this.key.Location = new System.Drawing.Point(69, 424);
+            this.key.Location = new System.Drawing.Point(68, 424);
             this.key.Margin = new System.Windows.Forms.Padding(2);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(87, 17);
@@ -589,7 +589,7 @@ namespace KeyAuth
             this.welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.welcomelabel.ForeColor = System.Drawing.Color.White;
-            this.welcomelabel.Location = new System.Drawing.Point(69, 405);
+            this.welcomelabel.Location = new System.Drawing.Point(68, 403);
             this.welcomelabel.Margin = new System.Windows.Forms.Padding(2);
             this.welcomelabel.Name = "welcomelabel";
             this.welcomelabel.Size = new System.Drawing.Size(56, 17);
@@ -600,7 +600,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox3.Image")));
-            this.siticonePictureBox3.Location = new System.Drawing.Point(17, 401);
+            this.siticonePictureBox3.Location = new System.Drawing.Point(18, 400);
             this.siticonePictureBox3.Name = "siticonePictureBox3";
             this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
             this.siticonePictureBox3.Size = new System.Drawing.Size(45, 45);
@@ -1007,10 +1007,10 @@ namespace KeyAuth
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage2.Controls.Add(this.changelog12);
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Location = new System.Drawing.Point(5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(575, 444);
+            this.tabPage2.Size = new System.Drawing.Size(754, 444);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
             // 
@@ -1025,9 +1025,9 @@ namespace KeyAuth
             this.tabPage3.Controls.Add(this.ValorantCheatPanel);
             this.tabPage3.Controls.Add(this.CSCheatPanel);
             this.tabPage3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Location = new System.Drawing.Point(5, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(575, 444);
+            this.tabPage3.Size = new System.Drawing.Size(754, 444);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Cheats";
             // 
@@ -1439,9 +1439,9 @@ namespace KeyAuth
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage4.Controls.Add(this.settings12);
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Location = new System.Drawing.Point(5, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(575, 444);
+            this.tabPage4.Size = new System.Drawing.Size(754, 444);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
             // 
@@ -1449,9 +1449,9 @@ namespace KeyAuth
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage5.Controls.Add(this.cs12);
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Location = new System.Drawing.Point(5, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(575, 444);
+            this.tabPage5.Size = new System.Drawing.Size(754, 444);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CS";
             // 
@@ -1459,10 +1459,10 @@ namespace KeyAuth
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage6.Controls.Add(this.valo3);
-            this.tabPage6.Location = new System.Drawing.Point(184, 4);
+            this.tabPage6.Location = new System.Drawing.Point(5, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(575, 444);
+            this.tabPage6.Size = new System.Drawing.Size(754, 444);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Valo";
             // 
@@ -1470,9 +1470,9 @@ namespace KeyAuth
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage7.Controls.Add(this.gtaV12);
-            this.tabPage7.Location = new System.Drawing.Point(184, 4);
+            this.tabPage7.Location = new System.Drawing.Point(5, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(575, 444);
+            this.tabPage7.Size = new System.Drawing.Size(754, 444);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "GtaV";
             // 
@@ -1480,9 +1480,9 @@ namespace KeyAuth
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage8.Controls.Add(this.lolbot12);
-            this.tabPage8.Location = new System.Drawing.Point(184, 4);
+            this.tabPage8.Location = new System.Drawing.Point(5, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(575, 444);
+            this.tabPage8.Size = new System.Drawing.Size(754, 444);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "LoLBot";
             // 
@@ -1510,7 +1510,7 @@ namespace KeyAuth
             this.changelog12.Location = new System.Drawing.Point(3, 3);
             this.changelog12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.changelog12.Name = "changelog12";
-            this.changelog12.Size = new System.Drawing.Size(569, 438);
+            this.changelog12.Size = new System.Drawing.Size(748, 438);
             this.changelog12.TabIndex = 0;
             // 
             // settings12
@@ -1520,7 +1520,7 @@ namespace KeyAuth
             this.settings12.Location = new System.Drawing.Point(0, 0);
             this.settings12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.settings12.Name = "settings12";
-            this.settings12.Size = new System.Drawing.Size(575, 444);
+            this.settings12.Size = new System.Drawing.Size(754, 444);
             this.settings12.TabIndex = 0;
             // 
             // cs12
@@ -1530,7 +1530,7 @@ namespace KeyAuth
             this.cs12.Location = new System.Drawing.Point(0, 0);
             this.cs12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.cs12.Name = "cs12";
-            this.cs12.Size = new System.Drawing.Size(575, 444);
+            this.cs12.Size = new System.Drawing.Size(754, 444);
             this.cs12.TabIndex = 0;
             // 
             // valo3
@@ -1540,7 +1540,7 @@ namespace KeyAuth
             this.valo3.Location = new System.Drawing.Point(3, 3);
             this.valo3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.valo3.Name = "valo3";
-            this.valo3.Size = new System.Drawing.Size(569, 438);
+            this.valo3.Size = new System.Drawing.Size(748, 438);
             this.valo3.TabIndex = 0;
             // 
             // gtaV12
@@ -1550,7 +1550,7 @@ namespace KeyAuth
             this.gtaV12.Location = new System.Drawing.Point(0, 0);
             this.gtaV12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gtaV12.Name = "gtaV12";
-            this.gtaV12.Size = new System.Drawing.Size(575, 444);
+            this.gtaV12.Size = new System.Drawing.Size(754, 444);
             this.gtaV12.TabIndex = 0;
             // 
             // lolbot12
@@ -1560,7 +1560,7 @@ namespace KeyAuth
             this.lolbot12.Location = new System.Drawing.Point(0, 0);
             this.lolbot12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lolbot12.Name = "lolbot12";
-            this.lolbot12.Size = new System.Drawing.Size(575, 444);
+            this.lolbot12.Size = new System.Drawing.Size(754, 444);
             this.lolbot12.TabIndex = 0;
             // 
             // Main
