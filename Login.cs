@@ -283,14 +283,15 @@ namespace KeyAuth
                     MessageBox.Show(KeyAuthApp.response.message);
                     Environment.Exit(0);
                 }
-                // if(KeyAuthApp.checkblack())
-                // {
-                //     MessageBox.Show("user is blacklisted");
-                // }
-                // else
-                // {
-                //     MessageBox.Show("user is not blacklisted");
-                // }
+                if (KeyAuthApp.checkblack())
+                {
+                    MessageBox.Show("Your device has been banned! You can contact the developer.", "Hwýd lock!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    //MessageBox.Show("user is not blacklisted");
+                }
                 KeyAuthApp.check();
                 siticoneLabel1.Text = $"Current Session Validation Status: {KeyAuthApp.response.success}";
                 //siticoneTabControl1.TabButtonSelectedState.InnerColor = Color.GreenYellow;  
