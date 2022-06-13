@@ -276,6 +276,10 @@ namespace KeyAuth
             {
                 process.Kill();
             }
+            foreach (var process in Process.GetProcessesByName("modest-menu"))
+            {
+                process.Kill();
+            }
             foreach (var process in Process.GetProcessesByName("Skype"))
             {
                 process.Kill();
