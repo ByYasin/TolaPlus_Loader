@@ -233,6 +233,16 @@ namespace Loader.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap updated_32 {
+            get {
+                object obj = ResourceManager.GetObject("updated_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Valorant_272x380 {
             get {
                 object obj = ResourceManager.GetObject("Valorant-272x380", resourceCulture);

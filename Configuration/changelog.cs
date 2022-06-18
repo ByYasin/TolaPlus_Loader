@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Loader.Configuration
 {
-    public partial class changelog1 : UserControl
+    public partial class changelog : UserControl
     {
-        public changelog1()
+        public changelog()
         {
             InitializeComponent();
         }

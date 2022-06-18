@@ -1,6 +1,6 @@
 ﻿namespace Loader.Configuration
 {
-    partial class changelog1
+    partial class changelog
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -456,7 +456,7 @@
             this.siticoneHtmlLabel1.TabIndex = 0;
             this.siticoneHtmlLabel1.Text = "Added CS 1.6 Cheat!";
             // 
-            // changelog1
+            // changelog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -469,8 +469,8 @@
             this.Controls.Add(this.siticonePanel10);
             this.Controls.Add(this.siticonePanel9);
             this.Controls.Add(this.siticoneHtmlLabel5);
-            this.Name = "changelog1";
-            this.Size = new System.Drawing.Size(564, 346);
+            this.Name = "changelog";
+            this.Size = new System.Drawing.Size(547, 329);
             this.siticonePanel7.ResumeLayout(false);
             this.siticonePanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox15)).EndInit();

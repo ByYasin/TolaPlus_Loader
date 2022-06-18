@@ -1,6 +1,6 @@
 ﻿namespace Loader.Products
 {
-    partial class lolbot1
+    partial class cs
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -28,40 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lolbot1));
-            this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cs));
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.siticonePictureBox4 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticonePanel5 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.statuscheatlabel = new Siticone.UI.WinForms.SiticoneLabel();
             this.statustitle = new Siticone.UI.WinForms.SiticoneLabel();
+            this.loadcheatbutton = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.autoinject = new Siticone.UI.WinForms.SiticoneCustomCheckBox();
             this.statuslabel = new Siticone.UI.WinForms.SiticoneLabel();
             this.label4 = new System.Windows.Forms.Label();
+            this.siticonePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticonePanel3 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.siticonePictureBox2 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticonePanel2 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.siticonePictureBox1 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.cheatupdatedatelabel = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.siticonePictureBox4 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.loadcheatbutton = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
-            this.siticonePictureBox3 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox2 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox1 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticonePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
             this.siticonePanel5.SuspendLayout();
             this.siticonePanel4.SuspendLayout();
-            this.siticonePanel3.SuspendLayout();
-            this.siticonePanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).BeginInit();
+            this.siticonePanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).BeginInit();
+            this.siticonePanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // siticonePanel1
+            // 
+            this.siticonePanel1.Controls.Add(this.siticonePictureBox4);
+            this.siticonePanel1.Controls.Add(this.siticonePanel5);
+            this.siticonePanel1.Controls.Add(this.siticonePanel4);
+            this.siticonePanel1.Controls.Add(this.siticonePanel3);
+            this.siticonePanel1.Controls.Add(this.siticonePanel2);
+            this.siticonePanel1.Location = new System.Drawing.Point(3, 3);
+            this.siticonePanel1.Name = "siticonePanel1";
+            this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
+            this.siticonePanel1.Size = new System.Drawing.Size(658, 387);
+            this.siticonePanel1.TabIndex = 0;
+            // 
+            // siticonePictureBox4
+            // 
+            this.siticonePictureBox4.FillColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
+            this.siticonePictureBox4.ImageRotate = 0F;
+            this.siticonePictureBox4.Location = new System.Drawing.Point(19, 9);
+            this.siticonePictureBox4.Name = "siticonePictureBox4";
+            this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
+            this.siticonePictureBox4.Size = new System.Drawing.Size(403, 304);
+            this.siticonePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.siticonePictureBox4.TabIndex = 8;
+            this.siticonePictureBox4.TabStop = false;
+            // 
+            // siticonePanel5
+            // 
+            this.siticonePanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.siticonePanel5.Controls.Add(this.siticoneHtmlLabel4);
+            this.siticonePanel5.Location = new System.Drawing.Point(19, 331);
+            this.siticonePanel5.Name = "siticonePanel5";
+            this.siticonePanel5.ShadowDecoration.Parent = this.siticonePanel5;
+            this.siticonePanel5.Size = new System.Drawing.Size(403, 43);
+            this.siticonePanel5.TabIndex = 7;
             // 
             // siticoneHtmlLabel4
             // 
@@ -73,29 +107,6 @@
             this.siticoneHtmlLabel4.Size = new System.Drawing.Size(306, 19);
             this.siticoneHtmlLabel4.TabIndex = 3;
             this.siticoneHtmlLabel4.Text = "Check out the platform for the features of the cheat.";
-            // 
-            // siticonePanel1
-            // 
-            this.siticonePanel1.Controls.Add(this.siticonePanel5);
-            this.siticonePanel1.Controls.Add(this.siticonePictureBox4);
-            this.siticonePanel1.Controls.Add(this.siticonePanel4);
-            this.siticonePanel1.Controls.Add(this.siticonePanel3);
-            this.siticonePanel1.Controls.Add(this.siticonePanel2);
-            this.siticonePanel1.Location = new System.Drawing.Point(4, 0);
-            this.siticonePanel1.Name = "siticonePanel1";
-            this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(650, 387);
-            this.siticonePanel1.TabIndex = 3;
-            // 
-            // siticonePanel5
-            // 
-            this.siticonePanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.siticonePanel5.Controls.Add(this.siticoneHtmlLabel4);
-            this.siticonePanel5.Location = new System.Drawing.Point(19, 331);
-            this.siticonePanel5.Name = "siticonePanel5";
-            this.siticonePanel5.ShadowDecoration.Parent = this.siticonePanel5;
-            this.siticonePanel5.Size = new System.Drawing.Size(403, 43);
-            this.siticonePanel5.TabIndex = 9;
             // 
             // siticonePanel4
             // 
@@ -138,6 +149,32 @@
             this.statustitle.TabIndex = 68;
             this.statustitle.Text = "Status :";
             this.statustitle.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // loadcheatbutton
+            // 
+            this.loadcheatbutton.BackColor = System.Drawing.Color.Transparent;
+            this.loadcheatbutton.BorderColor = System.Drawing.SystemColors.ButtonFace;
+            this.loadcheatbutton.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.loadcheatbutton.BorderThickness = 1;
+            this.loadcheatbutton.CheckedState.Parent = this.loadcheatbutton;
+            this.loadcheatbutton.CustomImages.Parent = this.loadcheatbutton;
+            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
+            this.loadcheatbutton.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.loadcheatbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.loadcheatbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.loadcheatbutton.HoveredState.Parent = this.loadcheatbutton;
+            this.loadcheatbutton.Image = ((System.Drawing.Image)(resources.GetObject("loadcheatbutton.Image")));
+            this.loadcheatbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.loadcheatbutton.ImageSize = new System.Drawing.Size(24, 24);
+            this.loadcheatbutton.Location = new System.Drawing.Point(21, 122);
+            this.loadcheatbutton.Name = "loadcheatbutton";
+            this.loadcheatbutton.PressedDepth = 36;
+            this.loadcheatbutton.ShadowDecoration.Parent = this.loadcheatbutton;
+            this.loadcheatbutton.Size = new System.Drawing.Size(141, 30);
+            this.loadcheatbutton.TabIndex = 66;
+            this.loadcheatbutton.Text = "Load and Inject";
+            this.loadcheatbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.loadcheatbutton.Click += new System.EventHandler(this.loadcheatbutton_Click);
             // 
             // autoinject
             // 
@@ -184,6 +221,20 @@
             this.label4.Text = "Auto İnject";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // siticonePictureBox3
+            // 
+            this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox3.Image = global::Loader.Properties.Resources.inject_48;
+            this.siticonePictureBox3.ImageRotate = 0F;
+            this.siticonePictureBox3.Location = new System.Drawing.Point(80, 5);
+            this.siticonePictureBox3.Name = "siticonePictureBox3";
+            this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
+            this.siticonePictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox3.TabIndex = 5;
+            this.siticonePictureBox3.TabStop = false;
+            // 
             // siticoneHtmlLabel5
             // 
             this.siticoneHtmlLabel5.BackColor = System.Drawing.Color.Transparent;
@@ -206,6 +257,20 @@
             this.siticonePanel3.ShadowDecoration.Parent = this.siticonePanel3;
             this.siticonePanel3.Size = new System.Drawing.Size(192, 74);
             this.siticonePanel3.TabIndex = 6;
+            // 
+            // siticonePictureBox2
+            // 
+            this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox2.Image = global::Loader.Properties.Resources.undetected;
+            this.siticonePictureBox2.ImageRotate = 0F;
+            this.siticonePictureBox2.Location = new System.Drawing.Point(80, 7);
+            this.siticonePictureBox2.Name = "siticonePictureBox2";
+            this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
+            this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox2.TabIndex = 5;
+            this.siticonePictureBox2.TabStop = false;
             // 
             // siticoneHtmlLabel2
             // 
@@ -241,6 +306,20 @@
             this.siticonePanel2.Size = new System.Drawing.Size(192, 85);
             this.siticonePanel2.TabIndex = 4;
             // 
+            // siticonePictureBox1
+            // 
+            this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox1.Image = global::Loader.Properties.Resources.calendar_48;
+            this.siticonePictureBox1.ImageRotate = 0F;
+            this.siticonePictureBox1.Location = new System.Drawing.Point(80, 2);
+            this.siticonePictureBox1.Name = "siticonePictureBox1";
+            this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
+            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox1.TabIndex = 5;
+            this.siticonePictureBox1.TabStop = false;
+            // 
             // cheatupdatedatelabel
             // 
             this.cheatupdatedatelabel.BackColor = System.Drawing.Color.Transparent;
@@ -263,107 +342,26 @@
             this.siticoneHtmlLabel1.TabIndex = 2;
             this.siticoneHtmlLabel1.Text = "Cheat updated date!";
             // 
-            // siticonePictureBox4
-            // 
-            this.siticonePictureBox4.FillColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox4.Image = global::Loader.Properties.Resources.lolback;
-            this.siticonePictureBox4.ImageRotate = 0F;
-            this.siticonePictureBox4.Location = new System.Drawing.Point(19, 9);
-            this.siticonePictureBox4.Name = "siticonePictureBox4";
-            this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
-            this.siticonePictureBox4.Size = new System.Drawing.Size(403, 304);
-            this.siticonePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.siticonePictureBox4.TabIndex = 8;
-            this.siticonePictureBox4.TabStop = false;
-            // 
-            // loadcheatbutton
-            // 
-            this.loadcheatbutton.BackColor = System.Drawing.Color.Transparent;
-            this.loadcheatbutton.BorderColor = System.Drawing.SystemColors.ButtonFace;
-            this.loadcheatbutton.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.loadcheatbutton.BorderThickness = 1;
-            this.loadcheatbutton.CheckedState.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.CustomImages.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.loadcheatbutton.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.loadcheatbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.loadcheatbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.loadcheatbutton.HoveredState.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.Image = ((System.Drawing.Image)(resources.GetObject("loadcheatbutton.Image")));
-            this.loadcheatbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.loadcheatbutton.ImageSize = new System.Drawing.Size(24, 24);
-            this.loadcheatbutton.Location = new System.Drawing.Point(21, 122);
-            this.loadcheatbutton.Name = "loadcheatbutton";
-            this.loadcheatbutton.PressedDepth = 36;
-            this.loadcheatbutton.ShadowDecoration.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.Size = new System.Drawing.Size(141, 30);
-            this.loadcheatbutton.TabIndex = 66;
-            this.loadcheatbutton.Text = "Load and Inject";
-            this.loadcheatbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.loadcheatbutton.Click += new System.EventHandler(this.loadcheatbutton_Click);
-            // 
-            // siticonePictureBox3
-            // 
-            this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox3.Image = global::Loader.Properties.Resources.inject_48;
-            this.siticonePictureBox3.ImageRotate = 0F;
-            this.siticonePictureBox3.Location = new System.Drawing.Point(80, 5);
-            this.siticonePictureBox3.Name = "siticonePictureBox3";
-            this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
-            this.siticonePictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox3.TabIndex = 5;
-            this.siticonePictureBox3.TabStop = false;
-            // 
-            // siticonePictureBox2
-            // 
-            this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox2.Image = global::Loader.Properties.Resources.undetected;
-            this.siticonePictureBox2.ImageRotate = 0F;
-            this.siticonePictureBox2.Location = new System.Drawing.Point(80, 7);
-            this.siticonePictureBox2.Name = "siticonePictureBox2";
-            this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
-            this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.siticonePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox2.TabIndex = 5;
-            this.siticonePictureBox2.TabStop = false;
-            // 
-            // siticonePictureBox1
-            // 
-            this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox1.Image = global::Loader.Properties.Resources.calendar_48;
-            this.siticonePictureBox1.ImageRotate = 0F;
-            this.siticonePictureBox1.Location = new System.Drawing.Point(80, 2);
-            this.siticonePictureBox1.Name = "siticonePictureBox1";
-            this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
-            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox1.TabIndex = 5;
-            this.siticonePictureBox1.TabStop = false;
-            // 
-            // lolbot
+            // cs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.Controls.Add(this.siticonePanel1);
-            this.Name = "lolbot";
-            this.Size = new System.Drawing.Size(658, 387);
+            this.Name = "cs";
+            this.Size = new System.Drawing.Size(666, 397);
             this.siticonePanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).EndInit();
             this.siticonePanel5.ResumeLayout(false);
             this.siticonePanel5.PerformLayout();
             this.siticonePanel4.ResumeLayout(false);
             this.siticonePanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
             this.siticonePanel3.ResumeLayout(false);
             this.siticonePanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).EndInit();
             this.siticonePanel2.ResumeLayout(false);
             this.siticonePanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -371,19 +369,7 @@
 
         #endregion
 
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel1;
-        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel5;
-        private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox4;
-        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel4;
-        private Siticone.UI.WinForms.SiticoneLabel statuscheatlabel;
-        private Siticone.UI.WinForms.SiticoneLabel statustitle;
-        private Siticone.UI.WinForms.SiticoneRoundedGradientButton loadcheatbutton;
-        private Siticone.UI.WinForms.SiticoneCustomCheckBox autoinject;
-        private Siticone.UI.WinForms.SiticoneLabel statuslabel;
-        private System.Windows.Forms.Label label4;
-        private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox3;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel5;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel3;
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox2;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
@@ -392,6 +378,17 @@
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox1;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel cheatupdatedatelabel;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
-        private System.Windows.Forms.Timer timer1;
+        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel4;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox3;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel5;
+        private Siticone.UI.WinForms.SiticoneLabel statuslabel;
+        private Siticone.UI.WinForms.SiticoneCustomCheckBox autoinject;
+        private System.Windows.Forms.Label label4;
+        private Siticone.UI.WinForms.SiticoneRoundedGradientButton loadcheatbutton;
+        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel5;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox siticonePictureBox4;
+        private Siticone.UI.WinForms.SiticoneLabel statuscheatlabel;
+        private Siticone.UI.WinForms.SiticoneLabel statustitle;
     }
 }

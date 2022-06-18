@@ -27,9 +27,9 @@ namespace KeyAuth
         //KeyAuthApp.login("username", "password"); 
 
         public static api KeyAuthApp = new api(
-            name: "tolaplus_loader",
-            ownerid: "AUfajvWDyF",
-            secret: "4d385417d4401998d6c1e82e32122f033ab14dbe3735435b45cba27324da9302",
+            name: "TolaPlus",
+            ownerid: "fuE7N6dyWl",
+            secret: "c179566b29ee7e9b75b606e4726b084b5ae95452ccf088e02a28e997ee162992",
             version: "0.1"
         );
 
@@ -228,6 +228,7 @@ namespace KeyAuth
 
         private void siticoneRoundedGradientButton4_Click(object sender, EventArgs e)
         {
+            Process.Start("https://www.tolaplus.com/");
             Process.Start("https://discord.gg/tolaplus");
         }
 

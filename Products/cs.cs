@@ -21,9 +21,9 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class cs1 : UserControl
+    public partial class cs : UserControl
     {
-        public cs1()
+        public cs()
         {
             InitializeComponent();
         }

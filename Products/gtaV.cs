@@ -19,9 +19,9 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class gtaV1 : UserControl
+    public partial class gtaV : UserControl
     {
-        public gtaV1()
+        public gtaV()
         {
             InitializeComponent();
         }

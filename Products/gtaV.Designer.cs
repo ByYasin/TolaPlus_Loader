@@ -1,6 +1,6 @@
 ﻿namespace Loader.Products
 {
-    partial class gtaV1
+    partial class gtaV
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gtaV1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gtaV));
             this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.statuscheatlabel = new Siticone.UI.WinForms.SiticoneLabel();
             this.statustitle = new Siticone.UI.WinForms.SiticoneLabel();
@@ -342,13 +342,13 @@
             this.siticonePictureBox4.TabIndex = 8;
             this.siticonePictureBox4.TabStop = false;
             // 
-            // gtaV1
+            // gtaV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.Controls.Add(this.siticonePanel1);
-            this.Name = "gtaV1";
+            this.Name = "gtaV";
             this.Size = new System.Drawing.Size(658, 387);
             this.siticonePanel4.ResumeLayout(false);
             this.siticonePanel4.PerformLayout();

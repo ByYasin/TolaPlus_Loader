@@ -19,9 +19,9 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class lolbot1 : UserControl
+    public partial class lolbot : UserControl
     {
-        public lolbot1()
+        public lolbot()
         {
             InitializeComponent();
         }

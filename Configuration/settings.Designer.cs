@@ -1,6 +1,6 @@
 ﻿namespace Loader.Configuration
 {
-    partial class settings1
+    partial class settings
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -311,13 +311,13 @@
             this.siticoneHtmlLabel5.TabIndex = 2;
             this.siticoneHtmlLabel5.Text = "Settings";
             // 
-            // Settings
+            // settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.Controls.Add(this.siticonePanel1);
-            this.Name = "Settings";
+            this.Name = "settings";
             this.Size = new System.Drawing.Size(666, 397);
             this.Load += new System.EventHandler(this.Settings_Load);
             this.siticonePanel1.ResumeLayout(false);
