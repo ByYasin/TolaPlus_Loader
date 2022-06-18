@@ -20,7 +20,7 @@ namespace KeyAuth
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Siticone.UI.AnimatorNS.Animation animation1 = new Siticone.UI.AnimatorNS.Animation();
+            Siticone.UI.AnimatorNS.Animation animation2 = new Siticone.UI.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.headerpanel = new Siticone.UI.WinForms.SiticoneCustomGradientPanel();
@@ -198,22 +198,22 @@ namespace KeyAuth
             // 
             this.siticoneTransition1.AnimationType = Siticone.UI.AnimatorNS.AnimationType.Rotate;
             this.siticoneTransition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(50);
-            animation1.RotateCoeff = 1F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.siticoneTransition1.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(50);
+            animation2.RotateCoeff = 1F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.siticoneTransition1.DefaultAnimation = animation2;
             // 
             // label1
             // 
@@ -781,7 +781,7 @@ namespace KeyAuth
             this.registerkey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerkey.FocusedState.Parent = this.registerkey;
             this.registerkey.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.registerkey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerkey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerkey.HoveredState.Parent = this.registerkey;
             this.registerkey.IconLeft = ((System.Drawing.Image)(resources.GetObject("registerkey.IconLeft")));
             this.registerkey.Location = new System.Drawing.Point(33, 190);
@@ -839,7 +839,7 @@ namespace KeyAuth
             this.registerusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerusername.FocusedState.Parent = this.registerusername;
             this.registerusername.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.registerusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerusername.HoveredState.Parent = this.registerusername;
             this.registerusername.IconLeft = ((System.Drawing.Image)(resources.GetObject("registerusername.IconLeft")));
             this.registerusername.Location = new System.Drawing.Point(91, 92);
@@ -872,7 +872,7 @@ namespace KeyAuth
             this.registerpassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerpassword.FocusedState.Parent = this.registerpassword;
             this.registerpassword.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.registerpassword.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerpassword.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerpassword.HoveredState.Parent = this.registerpassword;
             this.registerpassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("registerpassword.IconLeft")));
             this.registerpassword.Location = new System.Drawing.Point(91, 141);
@@ -991,7 +991,7 @@ namespace KeyAuth
             this.upgradekey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradekey.FocusedState.Parent = this.upgradekey;
             this.upgradekey.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.upgradekey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.upgradekey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradekey.HoveredState.Parent = this.upgradekey;
             this.upgradekey.IconLeft = ((System.Drawing.Image)(resources.GetObject("upgradekey.IconLeft")));
             this.upgradekey.Location = new System.Drawing.Point(33, 167);
@@ -1049,7 +1049,7 @@ namespace KeyAuth
             this.upgradeusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradeusername.FocusedState.Parent = this.upgradeusername;
             this.upgradeusername.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.upgradeusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.upgradeusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradeusername.HoveredState.Parent = this.upgradeusername;
             this.upgradeusername.IconLeft = ((System.Drawing.Image)(resources.GetObject("upgradeusername.IconLeft")));
             this.upgradeusername.Location = new System.Drawing.Point(91, 116);
@@ -1227,7 +1227,7 @@ namespace KeyAuth
             this.keylogin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.keylogin.FocusedState.Parent = this.keylogin;
             this.keylogin.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.keylogin.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.keylogin.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.keylogin.HoveredState.Parent = this.keylogin;
             this.keylogin.IconLeft = ((System.Drawing.Image)(resources.GetObject("keylogin.IconLeft")));
             this.keylogin.Location = new System.Drawing.Point(33, 122);
