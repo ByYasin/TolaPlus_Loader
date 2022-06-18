@@ -122,7 +122,7 @@
             this.siticoneHtmlLabel17.Name = "siticoneHtmlLabel17";
             this.siticoneHtmlLabel17.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel17.TabIndex = 2;
-            this.siticoneHtmlLabel17.Text = "13.06.2022 - 22:59 (GMT+03:00)";
+            this.siticoneHtmlLabel17.Text = "18.06.2022 - 22:47 (GMT+03:00)";
             // 
             // siticoneHtmlLabel18
             // 
@@ -134,7 +134,7 @@
             this.siticoneHtmlLabel18.Name = "siticoneHtmlLabel18";
             this.siticoneHtmlLabel18.Size = new System.Drawing.Size(387, 17);
             this.siticoneHtmlLabel18.TabIndex = 1;
-            this.siticoneHtmlLabel18.Text = "Added LoL Premium level bot!";
+            this.siticoneHtmlLabel18.Text = "Added LoL Premium level bot! But it is not activated yet, updating!";
             // 
             // siticoneHtmlLabel19
             // 
@@ -184,7 +184,7 @@
             this.siticoneHtmlLabel20.Name = "siticoneHtmlLabel20";
             this.siticoneHtmlLabel20.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel20.TabIndex = 2;
-            this.siticoneHtmlLabel20.Text = "12.06.2022 - 23:59 (GMT+03:00)";
+            this.siticoneHtmlLabel20.Text = "18.06.2022 - 16:59 (GMT+03:00)";
             // 
             // siticoneHtmlLabel21
             // 
@@ -194,9 +194,11 @@
             this.siticoneHtmlLabel21.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel21.Location = new System.Drawing.Point(33, 38);
             this.siticoneHtmlLabel21.Name = "siticoneHtmlLabel21";
-            this.siticoneHtmlLabel21.Size = new System.Drawing.Size(387, 17);
+            this.siticoneHtmlLabel21.Size = new System.Drawing.Size(540, 47);
             this.siticoneHtmlLabel21.TabIndex = 1;
-            this.siticoneHtmlLabel21.Text = "Gta V Online Premium is now added and available!";
+            this.siticoneHtmlLabel21.Text = "Gta V Online Premium is now installed and available! \r\nDepending on the way of us" +
+    "e, there may be a risk of ban, play legit on servers with crowded players, do no" +
+    "t exaggerate.";
             // 
             // siticoneHtmlLabel22
             // 
@@ -246,7 +248,7 @@
             this.siticoneHtmlLabel14.Name = "siticoneHtmlLabel14";
             this.siticoneHtmlLabel14.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel14.TabIndex = 2;
-            this.siticoneHtmlLabel14.Text = "08.06.2022 - 19:59 (GMT+03:00)";
+            this.siticoneHtmlLabel14.Text = "17.06.2022 - 19:59 (GMT+03:00)";
             // 
             // siticoneHtmlLabel15
             // 
@@ -308,7 +310,7 @@
             this.siticoneHtmlLabel11.Name = "siticoneHtmlLabel11";
             this.siticoneHtmlLabel11.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel11.TabIndex = 2;
-            this.siticoneHtmlLabel11.Text = "08.06.2022 - 17:02 (GMT+03:00)";
+            this.siticoneHtmlLabel11.Text = "10.06.2022 - 17:02 (GMT+03:00)";
             // 
             // siticoneHtmlLabel12
             // 
@@ -370,7 +372,7 @@
             this.siticoneHtmlLabel8.Name = "siticoneHtmlLabel8";
             this.siticoneHtmlLabel8.Size = new System.Drawing.Size(166, 17);
             this.siticoneHtmlLabel8.TabIndex = 2;
-            this.siticoneHtmlLabel8.Text = "08.06.2022 - 17:49 (GMT+03:00)";
+            this.siticoneHtmlLabel8.Text = "10.06.2022 - 17:49 (GMT+03:00)";
             // 
             // siticoneHtmlLabel9
             // 
@@ -470,7 +472,7 @@
             this.Controls.Add(this.siticonePanel9);
             this.Controls.Add(this.siticoneHtmlLabel5);
             this.Name = "changelog";
-            this.Size = new System.Drawing.Size(547, 329);
+            this.Size = new System.Drawing.Size(530, 312);
             this.siticonePanel7.ResumeLayout(false);
             this.siticonePanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox15)).EndInit();

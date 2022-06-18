@@ -84,7 +84,7 @@ namespace KeyAuth
             if (subscription.Text == "Active Subscription: CS 1.6" || subscription.Text == "Active Subscription: Premium")
             {
                 CScheatPictureBox.Image = Loader.Properties.Resources.cs16;
-                subscriptionPictureBox.Image = Loader.Properties.Resources.cs16;
+                subscriptionPictureBox1.Image = Loader.Properties.Resources.cs16;
                 CSCheatPanel.Visible = true;
 
             }
@@ -96,7 +96,7 @@ namespace KeyAuth
             if (subscription.Text == "Active Subscription: Valorant" || subscription.Text == "Active Subscription: Premium")
             {
                 ValocheatPictureBox.Image = Loader.Properties.Resources.Valorant_272x380;
-                subscriptionPictureBox.Image = Loader.Properties.Resources.Valorant_272x380;
+                subscriptionPictureBox2.Image = Loader.Properties.Resources.Valorant_272x380;
                 ValorantCheatPanel.Visible = true;
 
             }
@@ -108,7 +108,7 @@ namespace KeyAuth
             if (subscription.Text == "Active Subscription: Gta V" || subscription.Text == "Active Subscription: Premium")
             {
                 GtaVcheatPictureBox.Image = Loader.Properties.Resources.gta_5;
-                subscriptionPictureBox.Image = Loader.Properties.Resources.gta_5;
+                subscriptionPictureBox3.Image = Loader.Properties.Resources.gta_5;
                 GtaVCheatPanel.Visible = true;
             }
             else
@@ -119,7 +119,7 @@ namespace KeyAuth
             if (subscription.Text == "Active Subscription: League of Legends Bot" || subscription.Text == "Active Subscription: Premium")
             {
                 LolcheatPictureBox.Image = Loader.Properties.Resources.lol;
-                subscriptionPictureBox.Image = Loader.Properties.Resources.lol;
+                subscriptionPictureBox4.Image = Loader.Properties.Resources.lol;
                 LoLBotCheatPanel.Visible = true;
             }
             else
@@ -155,24 +155,32 @@ namespace KeyAuth
                 {
                     var point = new Point(15, 14);
                     CSCheatPanel.Location = point;
+                    var point2 = new Point(110, 30);
+                    subscriptionPictureBox1.Location = point;
                 }
 
                 if (subscription.Text == "Active Subscription: Valorant")
                 {
                     var point = new Point(15, 14);
                     ValorantCheatPanel.Location = point;
+                    var point2 = new Point(110, 30);
+                    subscriptionPictureBox2.Location = point;
                 }
 
                 if (subscription.Text == "Active Subscription: Gta V")
                 {
                     var point = new Point(15, 14);
                     GtaVCheatPanel.Location = point;
+                    var point2 = new Point(110, 30);
+                    subscriptionPictureBox3.Location = point;
                 }
 
                 if (subscription.Text == "Active Subscription: League of Legends Bot")
                 {
                     var point = new Point(15, 14);
                     LoLBotCheatPanel.Location = point;
+                    var point2 = new Point(110, 30);
+                    subscriptionPictureBox4.Location = point;
                 }
 
 
@@ -201,13 +209,13 @@ namespace KeyAuth
             newschangebutton.CustomBorderColor = Color.Transparent;
             cheatsbutton.CustomBorderColor = Color.Transparent;
             settingsbutton.CustomBorderColor = Color.Transparent;
-            licensedetailsbutton.CustomBorderColor = Color.DodgerBlue;
+            licensedetailsbutton.CustomBorderColor = Color.Olive;
             siticoneTabControl1.SelectedTab = tabPage1;
         }
 
         private void newschangebutton_Click(object sender, EventArgs e)
         {
-            newschangebutton.CustomBorderColor = Color.DodgerBlue;
+            newschangebutton.CustomBorderColor = Color.DarkOliveGreen;
             cheatsbutton.CustomBorderColor = Color.Transparent;
             settingsbutton.CustomBorderColor = Color.Transparent;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
@@ -217,7 +225,7 @@ namespace KeyAuth
         private void cheatsbutton_Click(object sender, EventArgs e)
         {
             newschangebutton.CustomBorderColor = Color.Transparent;
-            cheatsbutton.CustomBorderColor = Color.DodgerBlue;
+            cheatsbutton.CustomBorderColor = Color.Olive;
             settingsbutton.CustomBorderColor = Color.Transparent;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
             siticoneTabControl1.SelectedTab = tabPage3;
@@ -227,7 +235,7 @@ namespace KeyAuth
         {
             newschangebutton.CustomBorderColor = Color.Transparent;
             cheatsbutton.CustomBorderColor = Color.Transparent;
-            settingsbutton.CustomBorderColor = Color.DodgerBlue;
+            settingsbutton.CustomBorderColor = Color.Olive;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
             siticoneTabControl1.SelectedTab = tabPage4;
         }
@@ -240,7 +248,6 @@ namespace KeyAuth
         private void buyrenewbutton_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.tolaplus.com/");
-            Process.Start("https://discord.gg/tolaplus");
         }
 
 

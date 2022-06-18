@@ -229,7 +229,6 @@ namespace KeyAuth
         private void siticoneRoundedGradientButton4_Click(object sender, EventArgs e)
         {
             Process.Start("https://www.tolaplus.com/");
-            Process.Start("https://discord.gg/tolaplus");
         }
 
         private void siticoneCirclePictureBox1_Click(object sender, EventArgs e)

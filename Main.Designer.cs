@@ -18,11 +18,13 @@ namespace KeyAuth
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.headerpanel = new Siticone.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticoneVSeparator5 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
+            this.siticonePictureBox4 = new Siticone.UI.WinForms.SiticonePictureBox();
             this.siticoneControlBox2 = new Siticone.UI.WinForms.SiticoneControlBox();
             this.numOnlineUsers = new Siticone.UI.WinForms.SiticoneLabel();
             this.versiontitlelabel = new Siticone.UI.WinForms.SiticoneLabel();
             this.siticoneControlBox1 = new Siticone.UI.WinForms.SiticoneControlBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.siticonePictureBox1 = new Siticone.UI.WinForms.SiticonePictureBox();
             this.version = new Siticone.UI.WinForms.SiticoneLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.key = new Siticone.UI.WinForms.SiticoneLabel();
@@ -48,19 +50,28 @@ namespace KeyAuth
             this.siticoneGradientPanel2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
             this.siticoneSeparator1 = new Siticone.Desktop.UI.WinForms.SiticoneSeparator();
             this.welcomelabel = new Siticone.UI.WinForms.SiticoneLabel();
+            this.welcomepicturebox = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.settingsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.cheatsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.newschangebutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticoneVSeparator1 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.siticoneGradientPanel3 = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
             this.siticoneVSeparator4 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.siticoneVSeparator3 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.siticoneVSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
+            this.licensedetailsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.buyrenewbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.siticonePictureBox2 = new Siticone.UI.WinForms.SiticonePictureBox();
             this.siticoneSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneSeparator();
             this.siticoneGradientPanel4 = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
+            this.logopicturebox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.licensedetailspanel = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
             this.siticonePanel5 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel3 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel2 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.subscriptionPictureBox1 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticoneTabControl1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -68,19 +79,31 @@ namespace KeyAuth
             this.LoLBotCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel16 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticoneLabel5 = new Siticone.UI.WinForms.SiticoneLabel();
+            this.siticonePictureBox5 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.siticoneRoundedGradientButton3 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.LolcheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.GtaVCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel15 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticoneLabel4 = new Siticone.UI.WinForms.SiticoneLabel();
+            this.siticonePictureBox13 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.siticoneRoundedGradientButton2 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.GtaVcheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.ValorantCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.ValocheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.siticonePanel8 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticoneLabel3 = new Siticone.UI.WinForms.SiticoneLabel();
+            this.siticonePictureBox6 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.siticoneRoundedGradientButton1 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CSCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel13 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticoneLabel2 = new Siticone.UI.WinForms.SiticoneLabel();
+            this.siticonePictureBox12 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.loadcheatbutton = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.CScheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
@@ -88,29 +111,10 @@ namespace KeyAuth
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
-            this.subscriptionPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox5 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticoneRoundedGradientButton3 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
-            this.LolcheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox13 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticoneRoundedGradientButton2 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
-            this.GtaVcheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.ValocheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox6 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticoneRoundedGradientButton1 = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
-            this.siticonePictureBox12 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.loadcheatbutton = new Siticone.UI.WinForms.SiticoneRoundedGradientButton();
-            this.CScheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox3 = new Siticone.UI.WinForms.SiticonePictureBox();
-            this.settingsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.cheatsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.newschangebutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.licensedetailsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.buyrenewbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.siticonePictureBox2 = new Siticone.UI.WinForms.SiticonePictureBox();
-            this.logopicturebox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox4 = new Siticone.UI.WinForms.SiticonePictureBox();
-            this.siticonePictureBox1 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.siticonePictureBox7 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.subscriptionPictureBox2 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.subscriptionPictureBox3 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
+            this.subscriptionPictureBox4 = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.changelog1 = new Loader.Configuration.changelog();
             this.settings1 = new Loader.Configuration.settings();
             this.cs1 = new Loader.Products.cs();
@@ -118,47 +122,51 @@ namespace KeyAuth
             this.gtaV1 = new Loader.Products.gtaV();
             this.lolbot1 = new Loader.Products.lolbot();
             this.headerpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.siticoneGradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.welcomepicturebox)).BeginInit();
             this.siticoneGradientPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).BeginInit();
             this.siticoneGradientPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logopicturebox)).BeginInit();
             this.licensedetailspanel.SuspendLayout();
             this.siticonePanel5.SuspendLayout();
             this.siticonePanel4.SuspendLayout();
             this.siticonePanel3.SuspendLayout();
             this.siticonePanel2.SuspendLayout();
             this.siticonePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox1)).BeginInit();
             this.siticoneTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.LoLBotCheatPanel.SuspendLayout();
             this.siticonePanel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).BeginInit();
             this.GtaVCheatPanel.SuspendLayout();
             this.siticonePanel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GtaVcheatPictureBox)).BeginInit();
             this.ValorantCheatPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ValocheatPictureBox)).BeginInit();
             this.siticonePanel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox6)).BeginInit();
             this.CSCheatPanel.SuspendLayout();
             this.siticonePanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GtaVcheatPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ValocheatPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logopicturebox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneDragControl1
@@ -167,6 +175,7 @@ namespace KeyAuth
             // 
             // headerpanel
             // 
+            this.headerpanel.Controls.Add(this.siticonePictureBox7);
             this.headerpanel.Controls.Add(this.siticoneVSeparator5);
             this.headerpanel.Controls.Add(this.siticonePictureBox4);
             this.headerpanel.Controls.Add(this.siticoneControlBox2);
@@ -178,10 +187,10 @@ namespace KeyAuth
             this.headerpanel.Controls.Add(this.version);
             this.headerpanel.CustomBorderColor = System.Drawing.Color.Transparent;
             this.headerpanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerpanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.headerpanel.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.headerpanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.headerpanel.FillColor4 = System.Drawing.Color.DodgerBlue;
+            this.headerpanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.headerpanel.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.headerpanel.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.headerpanel.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.headerpanel.Location = new System.Drawing.Point(0, 0);
             this.headerpanel.Name = "headerpanel";
             this.headerpanel.ShadowDecoration.Parent = this.headerpanel;
@@ -191,11 +200,23 @@ namespace KeyAuth
             // siticoneVSeparator5
             // 
             this.siticoneVSeparator5.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneVSeparator5.FillColor = System.Drawing.Color.DodgerBlue;
+            this.siticoneVSeparator5.FillColor = System.Drawing.SystemColors.Control;
             this.siticoneVSeparator5.Location = new System.Drawing.Point(698, 0);
             this.siticoneVSeparator5.Name = "siticoneVSeparator5";
             this.siticoneVSeparator5.Size = new System.Drawing.Size(10, 32);
             this.siticoneVSeparator5.TabIndex = 64;
+            // 
+            // siticonePictureBox4
+            // 
+            this.siticonePictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
+            this.siticonePictureBox4.Location = new System.Drawing.Point(726, 4);
+            this.siticonePictureBox4.Name = "siticonePictureBox4";
+            this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
+            this.siticonePictureBox4.Size = new System.Drawing.Size(25, 25);
+            this.siticonePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox4.TabIndex = 62;
+            this.siticonePictureBox4.TabStop = false;
             // 
             // siticoneControlBox2
             // 
@@ -266,6 +287,18 @@ namespace KeyAuth
             this.label3.TabIndex = 4;
             this.label3.Text = "TOLA PLUS LOADER - BETA DASHBOARD";
             // 
+            // siticonePictureBox1
+            // 
+            this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox1.Image")));
+            this.siticonePictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.siticonePictureBox1.Name = "siticonePictureBox1";
+            this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
+            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox1.TabIndex = 43;
+            this.siticonePictureBox1.TabStop = false;
+            // 
             // version
             // 
             this.version.BackColor = System.Drawing.Color.Transparent;
@@ -292,7 +325,7 @@ namespace KeyAuth
             // 
             this.key.BackColor = System.Drawing.Color.Transparent;
             this.key.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.key.ForeColor = System.Drawing.SystemColors.Control;
+            this.key.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.key.Location = new System.Drawing.Point(68, 424);
             this.key.Margin = new System.Windows.Forms.Padding(2);
             this.key.Name = "key";
@@ -320,7 +353,7 @@ namespace KeyAuth
             this.subscription.BackColor = System.Drawing.Color.Transparent;
             this.subscription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.subscription.ForeColor = System.Drawing.SystemColors.Control;
-            this.subscription.Location = new System.Drawing.Point(128, 4);
+            this.subscription.Location = new System.Drawing.Point(128, 6);
             this.subscription.Margin = new System.Windows.Forms.Padding(2);
             this.subscription.Name = "subscription";
             this.subscription.Size = new System.Drawing.Size(428, 20);
@@ -540,7 +573,7 @@ namespace KeyAuth
             this.siticoneGradientPanel2.Controls.Add(this.siticoneSeparator1);
             this.siticoneGradientPanel2.Controls.Add(this.welcomelabel);
             this.siticoneGradientPanel2.Controls.Add(this.key);
-            this.siticoneGradientPanel2.Controls.Add(this.siticonePictureBox3);
+            this.siticoneGradientPanel2.Controls.Add(this.welcomepicturebox);
             this.siticoneGradientPanel2.Controls.Add(this.settingsbutton);
             this.siticoneGradientPanel2.Controls.Add(this.cheatsbutton);
             this.siticoneGradientPanel2.Controls.Add(this.newschangebutton);
@@ -571,6 +604,107 @@ namespace KeyAuth
             this.welcomelabel.Size = new System.Drawing.Size(56, 17);
             this.welcomelabel.TabIndex = 61;
             this.welcomelabel.Text = "Welcome!";
+            // 
+            // welcomepicturebox
+            // 
+            this.welcomepicturebox.BackColor = System.Drawing.Color.Transparent;
+            this.welcomepicturebox.Image = ((System.Drawing.Image)(resources.GetObject("welcomepicturebox.Image")));
+            this.welcomepicturebox.Location = new System.Drawing.Point(18, 400);
+            this.welcomepicturebox.Name = "welcomepicturebox";
+            this.welcomepicturebox.ShadowDecoration.Parent = this.welcomepicturebox;
+            this.welcomepicturebox.Size = new System.Drawing.Size(45, 45);
+            this.welcomepicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.welcomepicturebox.TabIndex = 46;
+            this.welcomepicturebox.TabStop = false;
+            // 
+            // settingsbutton
+            // 
+            this.settingsbutton.Animated = true;
+            this.settingsbutton.AnimatedGIF = true;
+            this.settingsbutton.BorderColor = System.Drawing.Color.Empty;
+            this.settingsbutton.CheckedState.Parent = this.settingsbutton;
+            this.settingsbutton.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.settingsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.settingsbutton.CustomImages.Parent = this.settingsbutton;
+            this.settingsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.settingsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.settingsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.settingsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.settingsbutton.DisabledState.Parent = this.settingsbutton;
+            this.settingsbutton.FillColor = System.Drawing.Color.Transparent;
+            this.settingsbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.settingsbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.settingsbutton.HoverState.Parent = this.settingsbutton;
+            this.settingsbutton.Image = global::Loader.Properties.Resources.settings_48;
+            this.settingsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.settingsbutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.settingsbutton.Location = new System.Drawing.Point(5, 182);
+            this.settingsbutton.Name = "settingsbutton";
+            this.settingsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.settingsbutton.ShadowDecoration.Parent = this.settingsbutton;
+            this.settingsbutton.Size = new System.Drawing.Size(162, 63);
+            this.settingsbutton.TabIndex = 59;
+            this.settingsbutton.Text = " Settings";
+            this.settingsbutton.Click += new System.EventHandler(this.settingsbutton_Click);
+            // 
+            // cheatsbutton
+            // 
+            this.cheatsbutton.Animated = true;
+            this.cheatsbutton.AnimatedGIF = true;
+            this.cheatsbutton.BorderColor = System.Drawing.Color.Empty;
+            this.cheatsbutton.CheckedState.Parent = this.cheatsbutton;
+            this.cheatsbutton.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.cheatsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.cheatsbutton.CustomImages.Parent = this.cheatsbutton;
+            this.cheatsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.cheatsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.cheatsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.cheatsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.cheatsbutton.DisabledState.Parent = this.cheatsbutton;
+            this.cheatsbutton.FillColor = System.Drawing.Color.Transparent;
+            this.cheatsbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.cheatsbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.cheatsbutton.HoverState.Parent = this.cheatsbutton;
+            this.cheatsbutton.Image = ((System.Drawing.Image)(resources.GetObject("cheatsbutton.Image")));
+            this.cheatsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.cheatsbutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.cheatsbutton.Location = new System.Drawing.Point(5, 97);
+            this.cheatsbutton.Name = "cheatsbutton";
+            this.cheatsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.cheatsbutton.ShadowDecoration.Parent = this.cheatsbutton;
+            this.cheatsbutton.Size = new System.Drawing.Size(162, 63);
+            this.cheatsbutton.TabIndex = 58;
+            this.cheatsbutton.Text = " Cheats";
+            this.cheatsbutton.Click += new System.EventHandler(this.cheatsbutton_Click);
+            // 
+            // newschangebutton
+            // 
+            this.newschangebutton.Animated = true;
+            this.newschangebutton.AnimatedGIF = true;
+            this.newschangebutton.BorderColor = System.Drawing.Color.Empty;
+            this.newschangebutton.CheckedState.Parent = this.newschangebutton;
+            this.newschangebutton.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.newschangebutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.newschangebutton.CustomImages.Parent = this.newschangebutton;
+            this.newschangebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.newschangebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.newschangebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.newschangebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.newschangebutton.DisabledState.Parent = this.newschangebutton;
+            this.newschangebutton.FillColor = System.Drawing.Color.Transparent;
+            this.newschangebutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.newschangebutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.newschangebutton.HoverState.Parent = this.newschangebutton;
+            this.newschangebutton.Image = global::Loader.Properties.Resources.news_48;
+            this.newschangebutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.newschangebutton.Location = new System.Drawing.Point(5, 12);
+            this.newschangebutton.Name = "newschangebutton";
+            this.newschangebutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.newschangebutton.ShadowDecoration.Parent = this.newschangebutton;
+            this.newschangebutton.Size = new System.Drawing.Size(162, 63);
+            this.newschangebutton.TabIndex = 57;
+            this.newschangebutton.Text = " News Changelog";
+            this.newschangebutton.Click += new System.EventHandler(this.newschangebutton_Click);
             // 
             // siticoneVSeparator1
             // 
@@ -629,6 +763,73 @@ namespace KeyAuth
             this.siticoneVSeparator2.Size = new System.Drawing.Size(10, 60);
             this.siticoneVSeparator2.TabIndex = 61;
             // 
+            // licensedetailsbutton
+            // 
+            this.licensedetailsbutton.Animated = true;
+            this.licensedetailsbutton.BorderColor = System.Drawing.Color.Empty;
+            this.licensedetailsbutton.CheckedState.Parent = this.licensedetailsbutton;
+            this.licensedetailsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
+            this.licensedetailsbutton.CustomImages.Parent = this.licensedetailsbutton;
+            this.licensedetailsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.licensedetailsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.licensedetailsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.licensedetailsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.licensedetailsbutton.DisabledState.Parent = this.licensedetailsbutton;
+            this.licensedetailsbutton.FillColor = System.Drawing.Color.Transparent;
+            this.licensedetailsbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.licensedetailsbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.licensedetailsbutton.HoverState.Parent = this.licensedetailsbutton;
+            this.licensedetailsbutton.Image = global::Loader.Properties.Resources.software_license_48;
+            this.licensedetailsbutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.licensedetailsbutton.Location = new System.Drawing.Point(383, 14);
+            this.licensedetailsbutton.Name = "licensedetailsbutton";
+            this.licensedetailsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
+            this.licensedetailsbutton.ShadowDecoration.Parent = this.licensedetailsbutton;
+            this.licensedetailsbutton.Size = new System.Drawing.Size(169, 45);
+            this.licensedetailsbutton.TabIndex = 61;
+            this.licensedetailsbutton.Text = " License Details";
+            this.licensedetailsbutton.Click += new System.EventHandler(this.licensedetailsbutton_Click);
+            // 
+            // buyrenewbutton
+            // 
+            this.buyrenewbutton.Animated = true;
+            this.buyrenewbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.buyrenewbutton.BorderColor = System.Drawing.Color.Empty;
+            this.buyrenewbutton.CheckedState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.buyrenewbutton.CustomImages.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.buyrenewbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.buyrenewbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.buyrenewbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.buyrenewbutton.DisabledState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.FillColor = System.Drawing.Color.Transparent;
+            this.buyrenewbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buyrenewbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.buyrenewbutton.HoverState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.Image = global::Loader.Properties.Resources.shopping_48;
+            this.buyrenewbutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.buyrenewbutton.Location = new System.Drawing.Point(183, 14);
+            this.buyrenewbutton.Name = "buyrenewbutton";
+            this.buyrenewbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
+            this.buyrenewbutton.ShadowDecoration.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.Size = new System.Drawing.Size(165, 45);
+            this.buyrenewbutton.TabIndex = 60;
+            this.buyrenewbutton.Text = "License Buy || Renew";
+            this.buyrenewbutton.Click += new System.EventHandler(this.buyrenewbutton_Click);
+            // 
+            // siticonePictureBox2
+            // 
+            this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox2.Image")));
+            this.siticonePictureBox2.Location = new System.Drawing.Point(584, 20);
+            this.siticonePictureBox2.Name = "siticonePictureBox2";
+            this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
+            this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox2.TabIndex = 46;
+            this.siticonePictureBox2.TabStop = false;
+            // 
             // siticoneSeparator2
             // 
             this.siticoneSeparator2.BackColor = System.Drawing.Color.Transparent;
@@ -649,6 +850,19 @@ namespace KeyAuth
             this.siticoneGradientPanel4.ShadowDecoration.Parent = this.siticoneGradientPanel4;
             this.siticoneGradientPanel4.Size = new System.Drawing.Size(172, 73);
             this.siticoneGradientPanel4.TabIndex = 55;
+            // 
+            // logopicturebox
+            // 
+            this.logopicturebox.FillColor = System.Drawing.Color.Transparent;
+            this.logopicturebox.Image = ((System.Drawing.Image)(resources.GetObject("logopicturebox.Image")));
+            this.logopicturebox.ImageRotate = 0F;
+            this.logopicturebox.Location = new System.Drawing.Point(7, 6);
+            this.logopicturebox.Name = "logopicturebox";
+            this.logopicturebox.ShadowDecoration.Parent = this.logopicturebox;
+            this.logopicturebox.Size = new System.Drawing.Size(158, 60);
+            this.logopicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logopicturebox.TabIndex = 62;
+            this.logopicturebox.TabStop = false;
             // 
             // licensedetailspanel
             // 
@@ -675,7 +889,7 @@ namespace KeyAuth
             this.siticonePanel5.Controls.Add(this.lastLogin);
             this.siticonePanel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel5.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel5.Location = new System.Drawing.Point(32, 321);
+            this.siticonePanel5.Location = new System.Drawing.Point(32, 323);
             this.siticonePanel5.Name = "siticonePanel5";
             this.siticonePanel5.ShadowDecoration.Parent = this.siticonePanel5;
             this.siticonePanel5.Size = new System.Drawing.Size(685, 46);
@@ -687,7 +901,7 @@ namespace KeyAuth
             this.siticonePanel4.Controls.Add(this.createDate);
             this.siticonePanel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel4.Location = new System.Drawing.Point(32, 263);
+            this.siticonePanel4.Location = new System.Drawing.Point(32, 267);
             this.siticonePanel4.Name = "siticonePanel4";
             this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
             this.siticonePanel4.Size = new System.Drawing.Size(685, 46);
@@ -699,7 +913,7 @@ namespace KeyAuth
             this.siticonePanel3.Controls.Add(this.expiry);
             this.siticonePanel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel3.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel3.Location = new System.Drawing.Point(32, 205);
+            this.siticonePanel3.Location = new System.Drawing.Point(32, 211);
             this.siticonePanel3.Name = "siticonePanel3";
             this.siticonePanel3.ShadowDecoration.Parent = this.siticonePanel3;
             this.siticonePanel3.Size = new System.Drawing.Size(685, 46);
@@ -721,15 +935,32 @@ namespace KeyAuth
             // 
             this.siticonePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.siticonePanel1.Controls.Add(this.subscriptionPictureBox);
+            this.siticonePanel1.Controls.Add(this.subscriptionPictureBox4);
+            this.siticonePanel1.Controls.Add(this.subscriptionPictureBox3);
+            this.siticonePanel1.Controls.Add(this.subscriptionPictureBox2);
+            this.siticonePanel1.Controls.Add(this.subscriptionPictureBox1);
             this.siticonePanel1.Controls.Add(this.subscription);
             this.siticonePanel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel1.Location = new System.Drawing.Point(32, 16);
+            this.siticonePanel1.Location = new System.Drawing.Point(32, 18);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(685, 171);
+            this.siticonePanel1.Size = new System.Drawing.Size(685, 183);
             this.siticonePanel1.TabIndex = 54;
+            // 
+            // subscriptionPictureBox1
+            // 
+            this.subscriptionPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.subscriptionPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subscriptionPictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.subscriptionPictureBox1.ImageRotate = 0F;
+            this.subscriptionPictureBox1.Location = new System.Drawing.Point(109, 31);
+            this.subscriptionPictureBox1.Name = "subscriptionPictureBox1";
+            this.subscriptionPictureBox1.ShadowDecoration.Parent = this.subscriptionPictureBox1;
+            this.subscriptionPictureBox1.Size = new System.Drawing.Size(100, 145);
+            this.subscriptionPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.subscriptionPictureBox1.TabIndex = 59;
+            this.subscriptionPictureBox1.TabStop = false;
             // 
             // siticoneTabControl1
             // 
@@ -788,10 +1019,10 @@ namespace KeyAuth
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage2.Controls.Add(this.changelog1);
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Location = new System.Drawing.Point(5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(575, 444);
+            this.tabPage2.Size = new System.Drawing.Size(754, 444);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
             // 
@@ -806,9 +1037,9 @@ namespace KeyAuth
             this.tabPage3.Controls.Add(this.ValorantCheatPanel);
             this.tabPage3.Controls.Add(this.CSCheatPanel);
             this.tabPage3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Location = new System.Drawing.Point(5, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(575, 444);
+            this.tabPage3.Size = new System.Drawing.Size(754, 444);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Cheats";
             // 
@@ -849,6 +1080,46 @@ namespace KeyAuth
             this.siticoneLabel5.TabIndex = 68;
             this.siticoneLabel5.Text = "Updating.";
             // 
+            // siticonePictureBox5
+            // 
+            this.siticonePictureBox5.FillColor = System.Drawing.Color.Empty;
+            this.siticonePictureBox5.Image = global::Loader.Properties.Resources.updated_32;
+            this.siticonePictureBox5.ImageRotate = 0F;
+            this.siticonePictureBox5.Location = new System.Drawing.Point(38, 1);
+            this.siticonePictureBox5.Name = "siticonePictureBox5";
+            this.siticonePictureBox5.ShadowDecoration.Parent = this.siticonePictureBox5;
+            this.siticonePictureBox5.Size = new System.Drawing.Size(32, 28);
+            this.siticonePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox5.TabIndex = 0;
+            this.siticonePictureBox5.TabStop = false;
+            // 
+            // siticoneRoundedGradientButton3
+            // 
+            this.siticoneRoundedGradientButton3.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneRoundedGradientButton3.BorderColor = System.Drawing.SystemColors.ButtonFace;
+            this.siticoneRoundedGradientButton3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.siticoneRoundedGradientButton3.BorderThickness = 1;
+            this.siticoneRoundedGradientButton3.CheckedState.Parent = this.siticoneRoundedGradientButton3;
+            this.siticoneRoundedGradientButton3.CustomImages.Parent = this.siticoneRoundedGradientButton3;
+            this.siticoneRoundedGradientButton3.Enabled = false;
+            this.siticoneRoundedGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
+            this.siticoneRoundedGradientButton3.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siticoneRoundedGradientButton3.ForeColor = System.Drawing.SystemColors.Control;
+            this.siticoneRoundedGradientButton3.HoveredState.Parent = this.siticoneRoundedGradientButton3;
+            this.siticoneRoundedGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton3.Image")));
+            this.siticoneRoundedGradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton3.ImageSize = new System.Drawing.Size(24, 24);
+            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton3.Name = "siticoneRoundedGradientButton3";
+            this.siticoneRoundedGradientButton3.PressedDepth = 36;
+            this.siticoneRoundedGradientButton3.ShadowDecoration.Parent = this.siticoneRoundedGradientButton3;
+            this.siticoneRoundedGradientButton3.Size = new System.Drawing.Size(120, 30);
+            this.siticoneRoundedGradientButton3.TabIndex = 65;
+            this.siticoneRoundedGradientButton3.Text = " View cheat";
+            this.siticoneRoundedGradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton3.Click += new System.EventHandler(this.siticoneRoundedGradientButton3_Click);
+            // 
             // siticoneHtmlLabel1
             // 
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
@@ -859,6 +1130,20 @@ namespace KeyAuth
             this.siticoneHtmlLabel1.Size = new System.Drawing.Size(86, 19);
             this.siticoneHtmlLabel1.TabIndex = 64;
             this.siticoneHtmlLabel1.Text = "LoL Level Bot";
+            // 
+            // LolcheatPictureBox
+            // 
+            this.LolcheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.LolcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LolcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
+            this.LolcheatPictureBox.ImageRotate = 0F;
+            this.LolcheatPictureBox.Location = new System.Drawing.Point(2, 29);
+            this.LolcheatPictureBox.Name = "LolcheatPictureBox";
+            this.LolcheatPictureBox.ShadowDecoration.Parent = this.LolcheatPictureBox;
+            this.LolcheatPictureBox.Size = new System.Drawing.Size(165, 239);
+            this.LolcheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.LolcheatPictureBox.TabIndex = 58;
+            this.LolcheatPictureBox.TabStop = false;
             // 
             // GtaVCheatPanel
             // 
@@ -897,6 +1182,45 @@ namespace KeyAuth
             this.siticoneLabel4.TabIndex = 68;
             this.siticoneLabel4.Text = "Undetected.";
             // 
+            // siticonePictureBox13
+            // 
+            this.siticonePictureBox13.FillColor = System.Drawing.Color.Empty;
+            this.siticonePictureBox13.Image = global::Loader.Properties.Resources.undetected;
+            this.siticonePictureBox13.ImageRotate = 0F;
+            this.siticonePictureBox13.Location = new System.Drawing.Point(32, 1);
+            this.siticonePictureBox13.Name = "siticonePictureBox13";
+            this.siticonePictureBox13.ShadowDecoration.Parent = this.siticonePictureBox13;
+            this.siticonePictureBox13.Size = new System.Drawing.Size(32, 28);
+            this.siticonePictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox13.TabIndex = 0;
+            this.siticonePictureBox13.TabStop = false;
+            // 
+            // siticoneRoundedGradientButton2
+            // 
+            this.siticoneRoundedGradientButton2.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneRoundedGradientButton2.BorderColor = System.Drawing.SystemColors.ButtonFace;
+            this.siticoneRoundedGradientButton2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.siticoneRoundedGradientButton2.BorderThickness = 1;
+            this.siticoneRoundedGradientButton2.CheckedState.Parent = this.siticoneRoundedGradientButton2;
+            this.siticoneRoundedGradientButton2.CustomImages.Parent = this.siticoneRoundedGradientButton2;
+            this.siticoneRoundedGradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
+            this.siticoneRoundedGradientButton2.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siticoneRoundedGradientButton2.ForeColor = System.Drawing.SystemColors.Control;
+            this.siticoneRoundedGradientButton2.HoveredState.Parent = this.siticoneRoundedGradientButton2;
+            this.siticoneRoundedGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton2.Image")));
+            this.siticoneRoundedGradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton2.ImageSize = new System.Drawing.Size(24, 24);
+            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton2.Name = "siticoneRoundedGradientButton2";
+            this.siticoneRoundedGradientButton2.PressedDepth = 36;
+            this.siticoneRoundedGradientButton2.ShadowDecoration.Parent = this.siticoneRoundedGradientButton2;
+            this.siticoneRoundedGradientButton2.Size = new System.Drawing.Size(120, 30);
+            this.siticoneRoundedGradientButton2.TabIndex = 65;
+            this.siticoneRoundedGradientButton2.Text = " View cheat";
+            this.siticoneRoundedGradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton2.Click += new System.EventHandler(this.siticoneRoundedGradientButton2_Click);
+            // 
             // siticoneHtmlLabel4
             // 
             this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
@@ -907,6 +1231,20 @@ namespace KeyAuth
             this.siticoneHtmlLabel4.Size = new System.Drawing.Size(126, 19);
             this.siticoneHtmlLabel4.TabIndex = 64;
             this.siticoneHtmlLabel4.Text = "Gta V Modest Cheat";
+            // 
+            // GtaVcheatPictureBox
+            // 
+            this.GtaVcheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.GtaVcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.GtaVcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
+            this.GtaVcheatPictureBox.ImageRotate = 0F;
+            this.GtaVcheatPictureBox.Location = new System.Drawing.Point(2, 29);
+            this.GtaVcheatPictureBox.Name = "GtaVcheatPictureBox";
+            this.GtaVcheatPictureBox.ShadowDecoration.Parent = this.GtaVcheatPictureBox;
+            this.GtaVcheatPictureBox.Size = new System.Drawing.Size(165, 239);
+            this.GtaVcheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GtaVcheatPictureBox.TabIndex = 58;
+            this.GtaVcheatPictureBox.TabStop = false;
             // 
             // ValorantCheatPanel
             // 
@@ -921,6 +1259,20 @@ namespace KeyAuth
             this.ValorantCheatPanel.Size = new System.Drawing.Size(168, 338);
             this.ValorantCheatPanel.TabIndex = 68;
             this.ValorantCheatPanel.Visible = false;
+            // 
+            // ValocheatPictureBox
+            // 
+            this.ValocheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.ValocheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ValocheatPictureBox.FillColor = System.Drawing.Color.Transparent;
+            this.ValocheatPictureBox.ImageRotate = 0F;
+            this.ValocheatPictureBox.Location = new System.Drawing.Point(2, 30);
+            this.ValocheatPictureBox.Name = "ValocheatPictureBox";
+            this.ValocheatPictureBox.ShadowDecoration.Parent = this.ValocheatPictureBox;
+            this.ValocheatPictureBox.Size = new System.Drawing.Size(165, 239);
+            this.ValocheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ValocheatPictureBox.TabIndex = 68;
+            this.ValocheatPictureBox.TabStop = false;
             // 
             // siticonePanel8
             // 
@@ -944,6 +1296,45 @@ namespace KeyAuth
             this.siticoneLabel3.Size = new System.Drawing.Size(67, 17);
             this.siticoneLabel3.TabIndex = 68;
             this.siticoneLabel3.Text = "Undetected.";
+            // 
+            // siticonePictureBox6
+            // 
+            this.siticonePictureBox6.FillColor = System.Drawing.Color.Empty;
+            this.siticonePictureBox6.Image = global::Loader.Properties.Resources.undetected;
+            this.siticonePictureBox6.ImageRotate = 0F;
+            this.siticonePictureBox6.Location = new System.Drawing.Point(32, 1);
+            this.siticonePictureBox6.Name = "siticonePictureBox6";
+            this.siticonePictureBox6.ShadowDecoration.Parent = this.siticonePictureBox6;
+            this.siticonePictureBox6.Size = new System.Drawing.Size(32, 28);
+            this.siticonePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox6.TabIndex = 0;
+            this.siticonePictureBox6.TabStop = false;
+            // 
+            // siticoneRoundedGradientButton1
+            // 
+            this.siticoneRoundedGradientButton1.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneRoundedGradientButton1.BorderColor = System.Drawing.SystemColors.ButtonFace;
+            this.siticoneRoundedGradientButton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.siticoneRoundedGradientButton1.BorderThickness = 1;
+            this.siticoneRoundedGradientButton1.CheckedState.Parent = this.siticoneRoundedGradientButton1;
+            this.siticoneRoundedGradientButton1.CustomImages.Parent = this.siticoneRoundedGradientButton1;
+            this.siticoneRoundedGradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
+            this.siticoneRoundedGradientButton1.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siticoneRoundedGradientButton1.ForeColor = System.Drawing.SystemColors.Control;
+            this.siticoneRoundedGradientButton1.HoveredState.Parent = this.siticoneRoundedGradientButton1;
+            this.siticoneRoundedGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton1.Image")));
+            this.siticoneRoundedGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton1.ImageSize = new System.Drawing.Size(24, 24);
+            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton1.Name = "siticoneRoundedGradientButton1";
+            this.siticoneRoundedGradientButton1.PressedDepth = 36;
+            this.siticoneRoundedGradientButton1.ShadowDecoration.Parent = this.siticoneRoundedGradientButton1;
+            this.siticoneRoundedGradientButton1.Size = new System.Drawing.Size(120, 30);
+            this.siticoneRoundedGradientButton1.TabIndex = 65;
+            this.siticoneRoundedGradientButton1.Text = " View cheat";
+            this.siticoneRoundedGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.siticoneRoundedGradientButton1.Click += new System.EventHandler(this.siticoneRoundedGradientButton1_Click);
             // 
             // siticoneHtmlLabel3
             // 
@@ -993,258 +1384,6 @@ namespace KeyAuth
             this.siticoneLabel2.TabIndex = 68;
             this.siticoneLabel2.Text = "Undetected.";
             // 
-            // siticoneHtmlLabel2
-            // 
-            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siticoneHtmlLabel2.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(45, 274);
-            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(79, 19);
-            this.siticoneHtmlLabel2.TabIndex = 64;
-            this.siticoneHtmlLabel2.Text = "CS 1.6 Cheat";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage4.Controls.Add(this.settings1);
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(575, 444);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Settings";
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage5.Controls.Add(this.cs1);
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(575, 444);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "CS";
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage6.Controls.Add(this.valo1);
-            this.tabPage6.Location = new System.Drawing.Point(184, 4);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(575, 444);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Valo";
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage7.Controls.Add(this.gtaV1);
-            this.tabPage7.Location = new System.Drawing.Point(184, 4);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(575, 444);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "GtaV";
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage8.Controls.Add(this.lolbot1);
-            this.tabPage8.Location = new System.Drawing.Point(184, 4);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(575, 444);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "LoLBot";
-            // 
-            // siticoneBorderlessForm1
-            // 
-            this.siticoneBorderlessForm1.AnimateWindow = true;
-            this.siticoneBorderlessForm1.AnimationInterval = 1111;
-            this.siticoneBorderlessForm1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm.AnimateWindowType.AW_CENTER;
-            this.siticoneBorderlessForm1.BorderRadius = 15;
-            this.siticoneBorderlessForm1.ContainerControl = this;
-            this.siticoneBorderlessForm1.ResizeForm = false;
-            this.siticoneBorderlessForm1.ShadowColor = System.Drawing.Color.DodgerBlue;
-            this.siticoneBorderlessForm1.TransparentWhileDrag = true;
-            // 
-            // siticoneAnimateWindow1
-            // 
-            this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
-            this.siticoneAnimateWindow1.TargetForm = this;
-            // 
-            // subscriptionPictureBox
-            // 
-            this.subscriptionPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.subscriptionPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.subscriptionPictureBox.FillColor = System.Drawing.Color.Transparent;
-            this.subscriptionPictureBox.ImageRotate = 0F;
-            this.subscriptionPictureBox.Location = new System.Drawing.Point(293, 29);
-            this.subscriptionPictureBox.Name = "subscriptionPictureBox";
-            this.subscriptionPictureBox.ShadowDecoration.Parent = this.subscriptionPictureBox;
-            this.subscriptionPictureBox.Size = new System.Drawing.Size(99, 136);
-            this.subscriptionPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.subscriptionPictureBox.TabIndex = 59;
-            this.subscriptionPictureBox.TabStop = false;
-            // 
-            // siticonePictureBox5
-            // 
-            this.siticonePictureBox5.FillColor = System.Drawing.Color.Empty;
-            this.siticonePictureBox5.Image = global::Loader.Properties.Resources.updated_32;
-            this.siticonePictureBox5.ImageRotate = 0F;
-            this.siticonePictureBox5.Location = new System.Drawing.Point(38, 1);
-            this.siticonePictureBox5.Name = "siticonePictureBox5";
-            this.siticonePictureBox5.ShadowDecoration.Parent = this.siticonePictureBox5;
-            this.siticonePictureBox5.Size = new System.Drawing.Size(32, 28);
-            this.siticonePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox5.TabIndex = 0;
-            this.siticonePictureBox5.TabStop = false;
-            // 
-            // siticoneRoundedGradientButton3
-            // 
-            this.siticoneRoundedGradientButton3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneRoundedGradientButton3.BorderColor = System.Drawing.SystemColors.ButtonFace;
-            this.siticoneRoundedGradientButton3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneRoundedGradientButton3.BorderThickness = 1;
-            this.siticoneRoundedGradientButton3.CheckedState.Parent = this.siticoneRoundedGradientButton3;
-            this.siticoneRoundedGradientButton3.CustomImages.Parent = this.siticoneRoundedGradientButton3;
-            this.siticoneRoundedGradientButton3.Enabled = false;
-            this.siticoneRoundedGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton3.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.siticoneRoundedGradientButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siticoneRoundedGradientButton3.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneRoundedGradientButton3.HoveredState.Parent = this.siticoneRoundedGradientButton3;
-            this.siticoneRoundedGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton3.Image")));
-            this.siticoneRoundedGradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton3.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(24, 299);
-            this.siticoneRoundedGradientButton3.Name = "siticoneRoundedGradientButton3";
-            this.siticoneRoundedGradientButton3.PressedDepth = 36;
-            this.siticoneRoundedGradientButton3.ShadowDecoration.Parent = this.siticoneRoundedGradientButton3;
-            this.siticoneRoundedGradientButton3.Size = new System.Drawing.Size(120, 30);
-            this.siticoneRoundedGradientButton3.TabIndex = 65;
-            this.siticoneRoundedGradientButton3.Text = " View cheat";
-            this.siticoneRoundedGradientButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton3.Click += new System.EventHandler(this.siticoneRoundedGradientButton3_Click);
-            // 
-            // LolcheatPictureBox
-            // 
-            this.LolcheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.LolcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LolcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
-            this.LolcheatPictureBox.ImageRotate = 0F;
-            this.LolcheatPictureBox.Location = new System.Drawing.Point(2, 29);
-            this.LolcheatPictureBox.Name = "LolcheatPictureBox";
-            this.LolcheatPictureBox.ShadowDecoration.Parent = this.LolcheatPictureBox;
-            this.LolcheatPictureBox.Size = new System.Drawing.Size(165, 239);
-            this.LolcheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.LolcheatPictureBox.TabIndex = 58;
-            this.LolcheatPictureBox.TabStop = false;
-            // 
-            // siticonePictureBox13
-            // 
-            this.siticonePictureBox13.FillColor = System.Drawing.Color.Empty;
-            this.siticonePictureBox13.Image = global::Loader.Properties.Resources.undetected;
-            this.siticonePictureBox13.ImageRotate = 0F;
-            this.siticonePictureBox13.Location = new System.Drawing.Point(32, 1);
-            this.siticonePictureBox13.Name = "siticonePictureBox13";
-            this.siticonePictureBox13.ShadowDecoration.Parent = this.siticonePictureBox13;
-            this.siticonePictureBox13.Size = new System.Drawing.Size(32, 28);
-            this.siticonePictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox13.TabIndex = 0;
-            this.siticonePictureBox13.TabStop = false;
-            // 
-            // siticoneRoundedGradientButton2
-            // 
-            this.siticoneRoundedGradientButton2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneRoundedGradientButton2.BorderColor = System.Drawing.SystemColors.ButtonFace;
-            this.siticoneRoundedGradientButton2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneRoundedGradientButton2.BorderThickness = 1;
-            this.siticoneRoundedGradientButton2.CheckedState.Parent = this.siticoneRoundedGradientButton2;
-            this.siticoneRoundedGradientButton2.CustomImages.Parent = this.siticoneRoundedGradientButton2;
-            this.siticoneRoundedGradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton2.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.siticoneRoundedGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siticoneRoundedGradientButton2.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneRoundedGradientButton2.HoveredState.Parent = this.siticoneRoundedGradientButton2;
-            this.siticoneRoundedGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton2.Image")));
-            this.siticoneRoundedGradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton2.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(24, 299);
-            this.siticoneRoundedGradientButton2.Name = "siticoneRoundedGradientButton2";
-            this.siticoneRoundedGradientButton2.PressedDepth = 36;
-            this.siticoneRoundedGradientButton2.ShadowDecoration.Parent = this.siticoneRoundedGradientButton2;
-            this.siticoneRoundedGradientButton2.Size = new System.Drawing.Size(120, 30);
-            this.siticoneRoundedGradientButton2.TabIndex = 65;
-            this.siticoneRoundedGradientButton2.Text = " View cheat";
-            this.siticoneRoundedGradientButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton2.Click += new System.EventHandler(this.siticoneRoundedGradientButton2_Click);
-            // 
-            // GtaVcheatPictureBox
-            // 
-            this.GtaVcheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.GtaVcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.GtaVcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
-            this.GtaVcheatPictureBox.ImageRotate = 0F;
-            this.GtaVcheatPictureBox.Location = new System.Drawing.Point(2, 29);
-            this.GtaVcheatPictureBox.Name = "GtaVcheatPictureBox";
-            this.GtaVcheatPictureBox.ShadowDecoration.Parent = this.GtaVcheatPictureBox;
-            this.GtaVcheatPictureBox.Size = new System.Drawing.Size(165, 239);
-            this.GtaVcheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GtaVcheatPictureBox.TabIndex = 58;
-            this.GtaVcheatPictureBox.TabStop = false;
-            // 
-            // ValocheatPictureBox
-            // 
-            this.ValocheatPictureBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.ValocheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ValocheatPictureBox.FillColor = System.Drawing.Color.Transparent;
-            this.ValocheatPictureBox.ImageRotate = 0F;
-            this.ValocheatPictureBox.Location = new System.Drawing.Point(2, 30);
-            this.ValocheatPictureBox.Name = "ValocheatPictureBox";
-            this.ValocheatPictureBox.ShadowDecoration.Parent = this.ValocheatPictureBox;
-            this.ValocheatPictureBox.Size = new System.Drawing.Size(165, 239);
-            this.ValocheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ValocheatPictureBox.TabIndex = 68;
-            this.ValocheatPictureBox.TabStop = false;
-            // 
-            // siticonePictureBox6
-            // 
-            this.siticonePictureBox6.FillColor = System.Drawing.Color.Empty;
-            this.siticonePictureBox6.Image = global::Loader.Properties.Resources.undetected;
-            this.siticonePictureBox6.ImageRotate = 0F;
-            this.siticonePictureBox6.Location = new System.Drawing.Point(32, 1);
-            this.siticonePictureBox6.Name = "siticonePictureBox6";
-            this.siticonePictureBox6.ShadowDecoration.Parent = this.siticonePictureBox6;
-            this.siticonePictureBox6.Size = new System.Drawing.Size(32, 28);
-            this.siticonePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox6.TabIndex = 0;
-            this.siticonePictureBox6.TabStop = false;
-            // 
-            // siticoneRoundedGradientButton1
-            // 
-            this.siticoneRoundedGradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneRoundedGradientButton1.BorderColor = System.Drawing.SystemColors.ButtonFace;
-            this.siticoneRoundedGradientButton1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
-            this.siticoneRoundedGradientButton1.BorderThickness = 1;
-            this.siticoneRoundedGradientButton1.CheckedState.Parent = this.siticoneRoundedGradientButton1;
-            this.siticoneRoundedGradientButton1.CustomImages.Parent = this.siticoneRoundedGradientButton1;
-            this.siticoneRoundedGradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton1.FillColor2 = System.Drawing.Color.DodgerBlue;
-            this.siticoneRoundedGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siticoneRoundedGradientButton1.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneRoundedGradientButton1.HoveredState.Parent = this.siticoneRoundedGradientButton1;
-            this.siticoneRoundedGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton1.Image")));
-            this.siticoneRoundedGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton1.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(24, 299);
-            this.siticoneRoundedGradientButton1.Name = "siticoneRoundedGradientButton1";
-            this.siticoneRoundedGradientButton1.PressedDepth = 36;
-            this.siticoneRoundedGradientButton1.ShadowDecoration.Parent = this.siticoneRoundedGradientButton1;
-            this.siticoneRoundedGradientButton1.Size = new System.Drawing.Size(120, 30);
-            this.siticoneRoundedGradientButton1.TabIndex = 65;
-            this.siticoneRoundedGradientButton1.Text = " View cheat";
-            this.siticoneRoundedGradientButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.siticoneRoundedGradientButton1.Click += new System.EventHandler(this.siticoneRoundedGradientButton1_Click);
-            // 
             // siticonePictureBox12
             // 
             this.siticonePictureBox12.FillColor = System.Drawing.Color.Empty;
@@ -1284,6 +1423,17 @@ namespace KeyAuth
             this.loadcheatbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.loadcheatbutton.Click += new System.EventHandler(this.loadcheatbutton_Click);
             // 
+            // siticoneHtmlLabel2
+            // 
+            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.siticoneHtmlLabel2.ForeColor = System.Drawing.SystemColors.Control;
+            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(45, 274);
+            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
+            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(79, 19);
+            this.siticoneHtmlLabel2.TabIndex = 64;
+            this.siticoneHtmlLabel2.Text = "CS 1.6 Cheat";
+            // 
             // CScheatPictureBox
             // 
             this.CScheatPictureBox.BackColor = System.Drawing.Color.Transparent;
@@ -1298,210 +1448,125 @@ namespace KeyAuth
             this.CScheatPictureBox.TabIndex = 58;
             this.CScheatPictureBox.TabStop = false;
             // 
-            // siticonePictureBox3
+            // tabPage4
             // 
-            this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox3.Image")));
-            this.siticonePictureBox3.Location = new System.Drawing.Point(18, 400);
-            this.siticonePictureBox3.Name = "siticonePictureBox3";
-            this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
-            this.siticonePictureBox3.Size = new System.Drawing.Size(45, 45);
-            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox3.TabIndex = 46;
-            this.siticonePictureBox3.TabStop = false;
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage4.Controls.Add(this.settings1);
+            this.tabPage4.Location = new System.Drawing.Point(5, 4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(754, 444);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Settings";
             // 
-            // settingsbutton
+            // tabPage5
             // 
-            this.settingsbutton.Animated = true;
-            this.settingsbutton.AnimatedGIF = true;
-            this.settingsbutton.BorderColor = System.Drawing.Color.Empty;
-            this.settingsbutton.CheckedState.Parent = this.settingsbutton;
-            this.settingsbutton.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.settingsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.settingsbutton.CustomImages.Parent = this.settingsbutton;
-            this.settingsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.settingsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.settingsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.settingsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.settingsbutton.DisabledState.Parent = this.settingsbutton;
-            this.settingsbutton.FillColor = System.Drawing.Color.Transparent;
-            this.settingsbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.settingsbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.settingsbutton.HoverState.Parent = this.settingsbutton;
-            this.settingsbutton.Image = global::Loader.Properties.Resources.settings_48;
-            this.settingsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.settingsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.settingsbutton.Location = new System.Drawing.Point(5, 182);
-            this.settingsbutton.Name = "settingsbutton";
-            this.settingsbutton.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.settingsbutton.ShadowDecoration.Parent = this.settingsbutton;
-            this.settingsbutton.Size = new System.Drawing.Size(162, 63);
-            this.settingsbutton.TabIndex = 59;
-            this.settingsbutton.Text = " Settings";
-            this.settingsbutton.Click += new System.EventHandler(this.settingsbutton_Click);
+            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage5.Controls.Add(this.cs1);
+            this.tabPage5.Location = new System.Drawing.Point(5, 4);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(754, 444);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "CS";
             // 
-            // cheatsbutton
+            // tabPage6
             // 
-            this.cheatsbutton.Animated = true;
-            this.cheatsbutton.AnimatedGIF = true;
-            this.cheatsbutton.BorderColor = System.Drawing.Color.Empty;
-            this.cheatsbutton.CheckedState.Parent = this.cheatsbutton;
-            this.cheatsbutton.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.cheatsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.cheatsbutton.CustomImages.Parent = this.cheatsbutton;
-            this.cheatsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.cheatsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.cheatsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.cheatsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.cheatsbutton.DisabledState.Parent = this.cheatsbutton;
-            this.cheatsbutton.FillColor = System.Drawing.Color.Transparent;
-            this.cheatsbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.cheatsbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.cheatsbutton.HoverState.Parent = this.cheatsbutton;
-            this.cheatsbutton.Image = ((System.Drawing.Image)(resources.GetObject("cheatsbutton.Image")));
-            this.cheatsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.cheatsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.cheatsbutton.Location = new System.Drawing.Point(5, 97);
-            this.cheatsbutton.Name = "cheatsbutton";
-            this.cheatsbutton.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.cheatsbutton.ShadowDecoration.Parent = this.cheatsbutton;
-            this.cheatsbutton.Size = new System.Drawing.Size(162, 63);
-            this.cheatsbutton.TabIndex = 58;
-            this.cheatsbutton.Text = " Cheats";
-            this.cheatsbutton.Click += new System.EventHandler(this.cheatsbutton_Click);
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage6.Controls.Add(this.valo1);
+            this.tabPage6.Location = new System.Drawing.Point(5, 4);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(754, 444);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Valo";
             // 
-            // newschangebutton
+            // tabPage7
             // 
-            this.newschangebutton.Animated = true;
-            this.newschangebutton.AnimatedGIF = true;
-            this.newschangebutton.BorderColor = System.Drawing.Color.Empty;
-            this.newschangebutton.CheckedState.Parent = this.newschangebutton;
-            this.newschangebutton.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.newschangebutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.newschangebutton.CustomImages.Parent = this.newschangebutton;
-            this.newschangebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.newschangebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.newschangebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.newschangebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.newschangebutton.DisabledState.Parent = this.newschangebutton;
-            this.newschangebutton.FillColor = System.Drawing.Color.Transparent;
-            this.newschangebutton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.newschangebutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.newschangebutton.HoverState.Parent = this.newschangebutton;
-            this.newschangebutton.Image = global::Loader.Properties.Resources.news_48;
-            this.newschangebutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.newschangebutton.Location = new System.Drawing.Point(5, 12);
-            this.newschangebutton.Name = "newschangebutton";
-            this.newschangebutton.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.newschangebutton.ShadowDecoration.Parent = this.newschangebutton;
-            this.newschangebutton.Size = new System.Drawing.Size(162, 63);
-            this.newschangebutton.TabIndex = 57;
-            this.newschangebutton.Text = " News Changelog";
-            this.newschangebutton.Click += new System.EventHandler(this.newschangebutton_Click);
+            this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage7.Controls.Add(this.gtaV1);
+            this.tabPage7.Location = new System.Drawing.Point(5, 4);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(754, 444);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "GtaV";
             // 
-            // licensedetailsbutton
+            // tabPage8
             // 
-            this.licensedetailsbutton.Animated = true;
-            this.licensedetailsbutton.BorderColor = System.Drawing.Color.Empty;
-            this.licensedetailsbutton.CheckedState.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
-            this.licensedetailsbutton.CustomImages.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.licensedetailsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.licensedetailsbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.licensedetailsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.licensedetailsbutton.DisabledState.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.FillColor = System.Drawing.Color.Transparent;
-            this.licensedetailsbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.licensedetailsbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.licensedetailsbutton.HoverState.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.Image = global::Loader.Properties.Resources.software_license_48;
-            this.licensedetailsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.licensedetailsbutton.Location = new System.Drawing.Point(383, 14);
-            this.licensedetailsbutton.Name = "licensedetailsbutton";
-            this.licensedetailsbutton.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.licensedetailsbutton.ShadowDecoration.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.Size = new System.Drawing.Size(169, 45);
-            this.licensedetailsbutton.TabIndex = 61;
-            this.licensedetailsbutton.Text = " License Details";
-            this.licensedetailsbutton.Click += new System.EventHandler(this.licensedetailsbutton_Click);
+            this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage8.Controls.Add(this.lolbot1);
+            this.tabPage8.Location = new System.Drawing.Point(5, 4);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Size = new System.Drawing.Size(754, 444);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "LoLBot";
             // 
-            // buyrenewbutton
+            // siticoneBorderlessForm1
             // 
-            this.buyrenewbutton.Animated = true;
-            this.buyrenewbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.buyrenewbutton.BorderColor = System.Drawing.Color.Empty;
-            this.buyrenewbutton.CheckedState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.CustomBorderColor = System.Drawing.Color.DodgerBlue;
-            this.buyrenewbutton.CustomImages.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.buyrenewbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.buyrenewbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.buyrenewbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.buyrenewbutton.DisabledState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.FillColor = System.Drawing.Color.Transparent;
-            this.buyrenewbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buyrenewbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.buyrenewbutton.HoverState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.Image = global::Loader.Properties.Resources.shopping_48;
-            this.buyrenewbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.buyrenewbutton.Location = new System.Drawing.Point(183, 14);
-            this.buyrenewbutton.Name = "buyrenewbutton";
-            this.buyrenewbutton.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.buyrenewbutton.ShadowDecoration.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.Size = new System.Drawing.Size(165, 45);
-            this.buyrenewbutton.TabIndex = 60;
-            this.buyrenewbutton.Text = "License Buy || Renew";
-            this.buyrenewbutton.Click += new System.EventHandler(this.buyrenewbutton_Click);
+            this.siticoneBorderlessForm1.AnimateWindow = true;
+            this.siticoneBorderlessForm1.AnimationInterval = 1111;
+            this.siticoneBorderlessForm1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm.AnimateWindowType.AW_CENTER;
+            this.siticoneBorderlessForm1.BorderRadius = 15;
+            this.siticoneBorderlessForm1.ContainerControl = this;
+            this.siticoneBorderlessForm1.ResizeForm = false;
+            this.siticoneBorderlessForm1.ShadowColor = System.Drawing.Color.DodgerBlue;
+            this.siticoneBorderlessForm1.TransparentWhileDrag = true;
             // 
-            // siticonePictureBox2
+            // siticoneAnimateWindow1
             // 
-            this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox2.Image")));
-            this.siticonePictureBox2.Location = new System.Drawing.Point(584, 20);
-            this.siticonePictureBox2.Name = "siticonePictureBox2";
-            this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
-            this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.siticonePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox2.TabIndex = 46;
-            this.siticonePictureBox2.TabStop = false;
+            this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
             // 
-            // logopicturebox
+            // siticonePictureBox7
             // 
-            this.logopicturebox.FillColor = System.Drawing.Color.Transparent;
-            this.logopicturebox.Image = ((System.Drawing.Image)(resources.GetObject("logopicturebox.Image")));
-            this.logopicturebox.ImageRotate = 0F;
-            this.logopicturebox.Location = new System.Drawing.Point(7, 6);
-            this.logopicturebox.Name = "logopicturebox";
-            this.logopicturebox.ShadowDecoration.Parent = this.logopicturebox;
-            this.logopicturebox.Size = new System.Drawing.Size(158, 60);
-            this.logopicturebox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logopicturebox.TabIndex = 62;
-            this.logopicturebox.TabStop = false;
+            this.siticonePictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox7.Image")));
+            this.siticonePictureBox7.Location = new System.Drawing.Point(510, 4);
+            this.siticonePictureBox7.Name = "siticonePictureBox7";
+            this.siticonePictureBox7.ShadowDecoration.Parent = this.siticonePictureBox7;
+            this.siticonePictureBox7.Size = new System.Drawing.Size(25, 25);
+            this.siticonePictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox7.TabIndex = 65;
+            this.siticonePictureBox7.TabStop = false;
             // 
-            // siticonePictureBox4
+            // subscriptionPictureBox2
             // 
-            this.siticonePictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
-            this.siticonePictureBox4.Location = new System.Drawing.Point(726, 4);
-            this.siticonePictureBox4.Name = "siticonePictureBox4";
-            this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
-            this.siticonePictureBox4.Size = new System.Drawing.Size(25, 25);
-            this.siticonePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox4.TabIndex = 62;
-            this.siticonePictureBox4.TabStop = false;
+            this.subscriptionPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.subscriptionPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subscriptionPictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.subscriptionPictureBox2.ImageRotate = 0F;
+            this.subscriptionPictureBox2.Location = new System.Drawing.Point(231, 31);
+            this.subscriptionPictureBox2.Name = "subscriptionPictureBox2";
+            this.subscriptionPictureBox2.ShadowDecoration.Parent = this.subscriptionPictureBox2;
+            this.subscriptionPictureBox2.Size = new System.Drawing.Size(100, 145);
+            this.subscriptionPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.subscriptionPictureBox2.TabIndex = 60;
+            this.subscriptionPictureBox2.TabStop = false;
             // 
-            // siticonePictureBox1
+            // subscriptionPictureBox3
             // 
-            this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox1.Image")));
-            this.siticonePictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.siticonePictureBox1.Name = "siticonePictureBox1";
-            this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
-            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.siticonePictureBox1.TabIndex = 43;
-            this.siticonePictureBox1.TabStop = false;
+            this.subscriptionPictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.subscriptionPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subscriptionPictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.subscriptionPictureBox3.ImageRotate = 0F;
+            this.subscriptionPictureBox3.Location = new System.Drawing.Point(353, 31);
+            this.subscriptionPictureBox3.Name = "subscriptionPictureBox3";
+            this.subscriptionPictureBox3.ShadowDecoration.Parent = this.subscriptionPictureBox3;
+            this.subscriptionPictureBox3.Size = new System.Drawing.Size(100, 145);
+            this.subscriptionPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.subscriptionPictureBox3.TabIndex = 61;
+            this.subscriptionPictureBox3.TabStop = false;
+            // 
+            // subscriptionPictureBox4
+            // 
+            this.subscriptionPictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.subscriptionPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.subscriptionPictureBox4.FillColor = System.Drawing.Color.Transparent;
+            this.subscriptionPictureBox4.ImageRotate = 0F;
+            this.subscriptionPictureBox4.Location = new System.Drawing.Point(475, 31);
+            this.subscriptionPictureBox4.Name = "subscriptionPictureBox4";
+            this.subscriptionPictureBox4.ShadowDecoration.Parent = this.subscriptionPictureBox4;
+            this.subscriptionPictureBox4.Size = new System.Drawing.Size(100, 145);
+            this.subscriptionPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.subscriptionPictureBox4.TabIndex = 62;
+            this.subscriptionPictureBox4.TabStop = false;
             // 
             // changelog1
             // 
@@ -1511,7 +1576,7 @@ namespace KeyAuth
             this.changelog1.Location = new System.Drawing.Point(3, 3);
             this.changelog1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.changelog1.Name = "changelog1";
-            this.changelog1.Size = new System.Drawing.Size(569, 438);
+            this.changelog1.Size = new System.Drawing.Size(748, 438);
             this.changelog1.TabIndex = 0;
             // 
             // settings1
@@ -1590,12 +1655,17 @@ namespace KeyAuth
             this.Load += new System.EventHandler(this.Main_Load);
             this.headerpanel.ResumeLayout(false);
             this.headerpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.siticoneGradientPanel2.ResumeLayout(false);
             this.siticoneGradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.welcomepicturebox)).EndInit();
             this.siticoneGradientPanel3.ResumeLayout(false);
             this.siticoneGradientPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).EndInit();
             this.siticoneGradientPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logopicturebox)).EndInit();
             this.licensedetailspanel.ResumeLayout(false);
             this.licensedetailspanel.PerformLayout();
             this.siticonePanel5.ResumeLayout(false);
@@ -1603,6 +1673,7 @@ namespace KeyAuth
             this.siticonePanel3.ResumeLayout(false);
             this.siticonePanel2.ResumeLayout(false);
             this.siticonePanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox1)).EndInit();
             this.siticoneTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
@@ -1611,37 +1682,35 @@ namespace KeyAuth
             this.LoLBotCheatPanel.PerformLayout();
             this.siticonePanel16.ResumeLayout(false);
             this.siticonePanel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).EndInit();
             this.GtaVCheatPanel.ResumeLayout(false);
             this.GtaVCheatPanel.PerformLayout();
             this.siticonePanel15.ResumeLayout(false);
             this.siticonePanel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GtaVcheatPictureBox)).EndInit();
             this.ValorantCheatPanel.ResumeLayout(false);
             this.ValorantCheatPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ValocheatPictureBox)).EndInit();
             this.siticonePanel8.ResumeLayout(false);
             this.siticonePanel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox6)).EndInit();
             this.CSCheatPanel.ResumeLayout(false);
             this.CSCheatPanel.PerformLayout();
             this.siticonePanel13.ResumeLayout(false);
             this.siticonePanel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GtaVcheatPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ValocheatPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logopicturebox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1690,7 +1759,7 @@ namespace KeyAuth
         private Siticone.Desktop.UI.WinForms.SiticoneButton settingsbutton;
         private Siticone.Desktop.UI.WinForms.SiticoneButton cheatsbutton;
         private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox2;
-        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox3;
+        private Siticone.UI.WinForms.SiticonePictureBox welcomepicturebox;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientPanel licensedetailspanel;
         private Siticone.Desktop.UI.WinForms.SiticoneButton buyrenewbutton;
         private Siticone.UI.WinForms.SiticoneLabel versiontitlelabel;
@@ -1718,7 +1787,7 @@ namespace KeyAuth
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox CScheatPictureBox;
         private Siticone.Desktop.UI.WinForms.SiticonePanel CSCheatPanel;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
-        private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox1;
         private Siticone.Desktop.UI.WinForms.SiticoneVSeparator siticoneVSeparator5;
         private Siticone.UI.WinForms.SiticoneRoundedGradientButton loadcheatbutton;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel13;
@@ -1749,6 +1818,10 @@ namespace KeyAuth
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox ValocheatPictureBox;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox7;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox2;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox4;
+        private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox3;
         private Loader.Configuration.changelog changelog1;
         private Loader.Configuration.settings settings1;
         private Loader.Products.cs cs1;

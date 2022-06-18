@@ -269,6 +269,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\gta-5.jpg" />
+    <None Include="Resources\header_bg.jpg" />
     <None Include="Resources\updated_32.png" />
     <None Include="Resources\lol.png" />
     <None Include="Resources\gtaback1.jpg" />
