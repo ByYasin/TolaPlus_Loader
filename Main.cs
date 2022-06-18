@@ -209,13 +209,13 @@ namespace KeyAuth
             newschangebutton.CustomBorderColor = Color.Transparent;
             cheatsbutton.CustomBorderColor = Color.Transparent;
             settingsbutton.CustomBorderColor = Color.Transparent;
-            licensedetailsbutton.CustomBorderColor = Color.Olive;
+            licensedetailsbutton.CustomBorderColor = Color.Orange;
             siticoneTabControl1.SelectedTab = tabPage1;
         }
 
         private void newschangebutton_Click(object sender, EventArgs e)
         {
-            newschangebutton.CustomBorderColor = Color.DarkOliveGreen;
+            newschangebutton.CustomBorderColor = Color.Orange;
             cheatsbutton.CustomBorderColor = Color.Transparent;
             settingsbutton.CustomBorderColor = Color.Transparent;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
@@ -225,7 +225,7 @@ namespace KeyAuth
         private void cheatsbutton_Click(object sender, EventArgs e)
         {
             newschangebutton.CustomBorderColor = Color.Transparent;
-            cheatsbutton.CustomBorderColor = Color.Olive;
+            cheatsbutton.CustomBorderColor = Color.Orange;
             settingsbutton.CustomBorderColor = Color.Transparent;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
             siticoneTabControl1.SelectedTab = tabPage3;
@@ -235,7 +235,7 @@ namespace KeyAuth
         {
             newschangebutton.CustomBorderColor = Color.Transparent;
             cheatsbutton.CustomBorderColor = Color.Transparent;
-            settingsbutton.CustomBorderColor = Color.Olive;
+            settingsbutton.CustomBorderColor = Color.Orange;
             licensedetailsbutton.CustomBorderColor = Color.Transparent;
             siticoneTabControl1.SelectedTab = tabPage4;
         }

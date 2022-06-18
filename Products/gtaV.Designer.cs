@@ -256,7 +256,7 @@
             this.cheatupdatedatelabel.Name = "cheatupdatedatelabel";
             this.cheatupdatedatelabel.Size = new System.Drawing.Size(65, 19);
             this.cheatupdatedatelabel.TabIndex = 3;
-            this.cheatupdatedatelabel.Text = "12.06.2022";
+            this.cheatupdatedatelabel.Text = "18.06.2022";
             // 
             // siticonePanel2
             // 
