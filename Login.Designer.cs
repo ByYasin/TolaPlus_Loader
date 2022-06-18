@@ -683,10 +683,10 @@ namespace KeyAuth
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage2.Controls.Add(this.siticoneGradientPanel3);
             this.siticoneTransition1.SetDecoration(this.tabPage2, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage2.Location = new System.Drawing.Point(5, 4);
+            this.tabPage2.Location = new System.Drawing.Point(184, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(408, 367);
+            this.tabPage2.Size = new System.Drawing.Size(229, 367);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "registerPage2";
             // 
@@ -706,7 +706,7 @@ namespace KeyAuth
             this.siticoneGradientPanel3.Location = new System.Drawing.Point(3, 3);
             this.siticoneGradientPanel3.Name = "siticoneGradientPanel3";
             this.siticoneGradientPanel3.ShadowDecoration.Parent = this.siticoneGradientPanel3;
-            this.siticoneGradientPanel3.Size = new System.Drawing.Size(402, 361);
+            this.siticoneGradientPanel3.Size = new System.Drawing.Size(223, 361);
             this.siticoneGradientPanel3.TabIndex = 59;
             // 
             // siticoneLabel5
@@ -747,8 +747,8 @@ namespace KeyAuth
             this.RgstrBtn.CheckedState.Parent = this.RgstrBtn;
             this.RgstrBtn.CustomImages.Parent = this.RgstrBtn;
             this.siticoneTransition1.SetDecoration(this.RgstrBtn, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.RgstrBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.RgstrBtn.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.RgstrBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.RgstrBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.RgstrBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.RgstrBtn.ForeColor = System.Drawing.Color.White;
             this.RgstrBtn.HoveredState.Parent = this.RgstrBtn;
@@ -768,7 +768,7 @@ namespace KeyAuth
             // 
             this.registerkey.AllowDrop = true;
             this.registerkey.BackColor = System.Drawing.Color.Transparent;
-            this.registerkey.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.registerkey.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerkey.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.registerkey, Siticone.UI.AnimatorNS.DecorationType.None);
             this.registerkey.DefaultText = "";
@@ -778,7 +778,7 @@ namespace KeyAuth
             this.registerkey.DisabledState.Parent = this.registerkey;
             this.registerkey.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.registerkey.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.registerkey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerkey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerkey.FocusedState.Parent = this.registerkey;
             this.registerkey.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.registerkey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -826,7 +826,7 @@ namespace KeyAuth
             // 
             this.registerusername.AllowDrop = true;
             this.registerusername.BackColor = System.Drawing.Color.Transparent;
-            this.registerusername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.registerusername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerusername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.registerusername, Siticone.UI.AnimatorNS.DecorationType.None);
             this.registerusername.DefaultText = "";
@@ -836,7 +836,7 @@ namespace KeyAuth
             this.registerusername.DisabledState.Parent = this.registerusername;
             this.registerusername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.registerusername.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.registerusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerusername.FocusedState.Parent = this.registerusername;
             this.registerusername.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.registerusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -859,7 +859,7 @@ namespace KeyAuth
             // 
             this.registerpassword.AllowDrop = true;
             this.registerpassword.BackColor = System.Drawing.Color.Transparent;
-            this.registerpassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.registerpassword.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerpassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.registerpassword, Siticone.UI.AnimatorNS.DecorationType.None);
             this.registerpassword.DefaultText = "";
@@ -869,7 +869,7 @@ namespace KeyAuth
             this.registerpassword.DisabledState.Parent = this.registerpassword;
             this.registerpassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.registerpassword.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.registerpassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.registerpassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.registerpassword.FocusedState.Parent = this.registerpassword;
             this.registerpassword.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.registerpassword.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -894,9 +894,9 @@ namespace KeyAuth
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage3.Controls.Add(this.siticoneGradientPanel4);
             this.siticoneTransition1.SetDecoration(this.tabPage3, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage3.Location = new System.Drawing.Point(5, 4);
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(408, 367);
+            this.tabPage3.Size = new System.Drawing.Size(229, 367);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "upgradePage3";
             // 
@@ -915,7 +915,7 @@ namespace KeyAuth
             this.siticoneGradientPanel4.Location = new System.Drawing.Point(0, 0);
             this.siticoneGradientPanel4.Name = "siticoneGradientPanel4";
             this.siticoneGradientPanel4.ShadowDecoration.Parent = this.siticoneGradientPanel4;
-            this.siticoneGradientPanel4.Size = new System.Drawing.Size(408, 367);
+            this.siticoneGradientPanel4.Size = new System.Drawing.Size(229, 367);
             this.siticoneGradientPanel4.TabIndex = 1;
             // 
             // siticoneLabel7
@@ -943,8 +943,8 @@ namespace KeyAuth
             this.UpgradeBtn.CheckedState.Parent = this.UpgradeBtn;
             this.UpgradeBtn.CustomImages.Parent = this.UpgradeBtn;
             this.siticoneTransition1.SetDecoration(this.UpgradeBtn, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.UpgradeBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.UpgradeBtn.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.UpgradeBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.UpgradeBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.UpgradeBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.UpgradeBtn.ForeColor = System.Drawing.Color.White;
             this.UpgradeBtn.HoveredState.Parent = this.UpgradeBtn;
@@ -978,7 +978,7 @@ namespace KeyAuth
             // 
             this.upgradekey.AllowDrop = true;
             this.upgradekey.BackColor = System.Drawing.Color.Transparent;
-            this.upgradekey.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.upgradekey.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradekey.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.upgradekey, Siticone.UI.AnimatorNS.DecorationType.None);
             this.upgradekey.DefaultText = "";
@@ -988,7 +988,7 @@ namespace KeyAuth
             this.upgradekey.DisabledState.Parent = this.upgradekey;
             this.upgradekey.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.upgradekey.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.upgradekey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.upgradekey.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradekey.FocusedState.Parent = this.upgradekey;
             this.upgradekey.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.upgradekey.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -1036,7 +1036,7 @@ namespace KeyAuth
             // 
             this.upgradeusername.AllowDrop = true;
             this.upgradeusername.BackColor = System.Drawing.Color.Transparent;
-            this.upgradeusername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.upgradeusername.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradeusername.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.upgradeusername, Siticone.UI.AnimatorNS.DecorationType.None);
             this.upgradeusername.DefaultText = "";
@@ -1046,7 +1046,7 @@ namespace KeyAuth
             this.upgradeusername.DisabledState.Parent = this.upgradeusername;
             this.upgradeusername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.upgradeusername.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.upgradeusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.upgradeusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.upgradeusername.FocusedState.Parent = this.upgradeusername;
             this.upgradeusername.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.upgradeusername.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
@@ -1070,9 +1070,9 @@ namespace KeyAuth
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage4.Controls.Add(this.siticoneGradientPanel5);
             this.siticoneTransition1.SetDecoration(this.tabPage4, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage4.Location = new System.Drawing.Point(5, 4);
+            this.tabPage4.Location = new System.Drawing.Point(184, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(408, 367);
+            this.tabPage4.Size = new System.Drawing.Size(229, 367);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "keyLogin4";
             // 
@@ -1092,7 +1092,7 @@ namespace KeyAuth
             this.siticoneGradientPanel5.Location = new System.Drawing.Point(0, 0);
             this.siticoneGradientPanel5.Name = "siticoneGradientPanel5";
             this.siticoneGradientPanel5.ShadowDecoration.Parent = this.siticoneGradientPanel5;
-            this.siticoneGradientPanel5.Size = new System.Drawing.Size(408, 367);
+            this.siticoneGradientPanel5.Size = new System.Drawing.Size(229, 367);
             this.siticoneGradientPanel5.TabIndex = 1;
             // 
             // siticoneLabel9
@@ -1194,8 +1194,8 @@ namespace KeyAuth
             this.KeyBtn.CustomBorderColor = System.Drawing.Color.Transparent;
             this.KeyBtn.CustomImages.Parent = this.KeyBtn;
             this.siticoneTransition1.SetDecoration(this.KeyBtn, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.KeyBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.KeyBtn.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.KeyBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.KeyBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.KeyBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.KeyBtn.ForeColor = System.Drawing.Color.White;
             this.KeyBtn.HoveredState.Parent = this.KeyBtn;
@@ -1214,7 +1214,7 @@ namespace KeyAuth
             // 
             this.keylogin.AllowDrop = true;
             this.keylogin.BackColor = System.Drawing.Color.Transparent;
-            this.keylogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(127)))), ((int)(((byte)(243)))));
+            this.keylogin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.keylogin.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.siticoneTransition1.SetDecoration(this.keylogin, Siticone.UI.AnimatorNS.DecorationType.None);
             this.keylogin.DefaultText = "";
@@ -1224,7 +1224,7 @@ namespace KeyAuth
             this.keylogin.DisabledState.Parent = this.keylogin;
             this.keylogin.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.keylogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
-            this.keylogin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.keylogin.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.keylogin.FocusedState.Parent = this.keylogin;
             this.keylogin.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.keylogin.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
