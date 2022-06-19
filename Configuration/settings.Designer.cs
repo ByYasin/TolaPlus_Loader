@@ -96,10 +96,10 @@
             // loadertopcheckbox
             // 
             this.loadertopcheckbox.BackColor = System.Drawing.Color.Transparent;
-            this.loadertopcheckbox.CheckedState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.loadertopcheckbox.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.loadertopcheckbox.CheckedState.BorderRadius = 3;
             this.loadertopcheckbox.CheckedState.BorderThickness = 0;
-            this.loadertopcheckbox.CheckedState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.loadertopcheckbox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.loadertopcheckbox.CheckedState.Parent = this.loadertopcheckbox;
             this.loadertopcheckbox.CheckMarkColor = System.Drawing.SystemColors.Control;
             this.loadertopcheckbox.Location = new System.Drawing.Point(310, 87);
@@ -154,10 +154,10 @@
             // logintopcheckbox
             // 
             this.logintopcheckbox.BackColor = System.Drawing.Color.Transparent;
-            this.logintopcheckbox.CheckedState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.logintopcheckbox.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.logintopcheckbox.CheckedState.BorderRadius = 3;
             this.logintopcheckbox.CheckedState.BorderThickness = 0;
-            this.logintopcheckbox.CheckedState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.logintopcheckbox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.logintopcheckbox.CheckedState.Parent = this.logintopcheckbox;
             this.logintopcheckbox.CheckMarkColor = System.Drawing.SystemColors.Control;
             this.logintopcheckbox.Location = new System.Drawing.Point(310, 53);
@@ -223,10 +223,10 @@
             // autologin
             // 
             this.autologin.BackColor = System.Drawing.Color.Transparent;
-            this.autologin.CheckedState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.autologin.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.autologin.CheckedState.BorderRadius = 3;
             this.autologin.CheckedState.BorderThickness = 0;
-            this.autologin.CheckedState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.autologin.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.autologin.CheckedState.Parent = this.autologin;
             this.autologin.CheckMarkColor = System.Drawing.SystemColors.Control;
             this.autologin.Location = new System.Drawing.Point(290, 87);
@@ -281,10 +281,10 @@
             // rememberme
             // 
             this.rememberme.BackColor = System.Drawing.Color.Transparent;
-            this.rememberme.CheckedState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.rememberme.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.rememberme.CheckedState.BorderRadius = 3;
             this.rememberme.CheckedState.BorderThickness = 0;
-            this.rememberme.CheckedState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.rememberme.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.rememberme.CheckedState.Parent = this.rememberme;
             this.rememberme.CheckMarkColor = System.Drawing.SystemColors.Control;
             this.rememberme.Location = new System.Drawing.Point(290, 54);

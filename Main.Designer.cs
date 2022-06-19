@@ -79,6 +79,7 @@ namespace KeyAuth
             this.siticoneTabControl1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.changelog1 = new Loader.Configuration.changelog();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.LoLBotCheatPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.siticonePanel16 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
@@ -109,18 +110,17 @@ namespace KeyAuth
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CScheatPictureBox = new Siticone.Desktop.UI.WinForms.SiticonePictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.settings1 = new Loader.Configuration.settings();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.cs1 = new Loader.Products.cs();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.valo1 = new Loader.Products.valo();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.gtaV1 = new Loader.Products.gtaV();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.lolbot1 = new Loader.Products.lolbot();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
-            this.changelog1 = new Loader.Configuration.changelog();
-            this.settings1 = new Loader.Configuration.settings();
-            this.cs1 = new Loader.Products.cs();
-            this.valo1 = new Loader.Products.valo();
-            this.gtaV1 = new Loader.Products.gtaV();
-            this.lolbot1 = new Loader.Products.lolbot();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
@@ -1073,12 +1073,23 @@ namespace KeyAuth
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage2.Controls.Add(this.changelog1);
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Location = new System.Drawing.Point(5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(575, 444);
+            this.tabPage2.Size = new System.Drawing.Size(754, 444);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
+            // 
+            // changelog1
+            // 
+            this.changelog1.AutoScroll = true;
+            this.changelog1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.changelog1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changelog1.Location = new System.Drawing.Point(3, 3);
+            this.changelog1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.changelog1.Name = "changelog1";
+            this.changelog1.Size = new System.Drawing.Size(748, 438);
+            this.changelog1.TabIndex = 0;
             // 
             // tabPage3
             // 
@@ -1116,10 +1127,11 @@ namespace KeyAuth
             this.siticonePanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel16.Controls.Add(this.siticoneLabel5);
             this.siticonePanel16.Controls.Add(this.siticonePictureBox5);
-            this.siticonePanel16.Location = new System.Drawing.Point(0, 0);
+            this.siticonePanel16.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.siticonePanel16.Location = new System.Drawing.Point(0, 308);
             this.siticonePanel16.Name = "siticonePanel16";
             this.siticonePanel16.ShadowDecoration.Parent = this.siticonePanel16;
-            this.siticonePanel16.Size = new System.Drawing.Size(165, 30);
+            this.siticonePanel16.Size = new System.Drawing.Size(168, 30);
             this.siticonePanel16.TabIndex = 67;
             // 
             // siticoneLabel5
@@ -1156,15 +1168,15 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton3.CheckedState.Parent = this.siticoneRoundedGradientButton3;
             this.siticoneRoundedGradientButton3.CustomImages.Parent = this.siticoneRoundedGradientButton3;
             this.siticoneRoundedGradientButton3.Enabled = false;
-            this.siticoneRoundedGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton3.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.siticoneRoundedGradientButton3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.siticoneRoundedGradientButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneRoundedGradientButton3.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneRoundedGradientButton3.HoveredState.Parent = this.siticoneRoundedGradientButton3;
             this.siticoneRoundedGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton3.Image")));
             this.siticoneRoundedGradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton3.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(24, 270);
             this.siticoneRoundedGradientButton3.Name = "siticoneRoundedGradientButton3";
             this.siticoneRoundedGradientButton3.PressedDepth = 36;
             this.siticoneRoundedGradientButton3.ShadowDecoration.Parent = this.siticoneRoundedGradientButton3;
@@ -1179,7 +1191,7 @@ namespace KeyAuth
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(41, 274);
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(41, 245);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
             this.siticoneHtmlLabel1.Size = new System.Drawing.Size(86, 19);
             this.siticoneHtmlLabel1.TabIndex = 64;
@@ -1191,7 +1203,7 @@ namespace KeyAuth
             this.LolcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.LolcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
             this.LolcheatPictureBox.ImageRotate = 0F;
-            this.LolcheatPictureBox.Location = new System.Drawing.Point(2, 29);
+            this.LolcheatPictureBox.Location = new System.Drawing.Point(2, 0);
             this.LolcheatPictureBox.Name = "LolcheatPictureBox";
             this.LolcheatPictureBox.ShadowDecoration.Parent = this.LolcheatPictureBox;
             this.LolcheatPictureBox.Size = new System.Drawing.Size(165, 239);
@@ -1218,10 +1230,11 @@ namespace KeyAuth
             this.siticonePanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel15.Controls.Add(this.siticoneLabel4);
             this.siticonePanel15.Controls.Add(this.siticonePictureBox13);
-            this.siticonePanel15.Location = new System.Drawing.Point(0, 0);
+            this.siticonePanel15.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.siticonePanel15.Location = new System.Drawing.Point(0, 308);
             this.siticonePanel15.Name = "siticonePanel15";
             this.siticonePanel15.ShadowDecoration.Parent = this.siticonePanel15;
-            this.siticonePanel15.Size = new System.Drawing.Size(165, 30);
+            this.siticonePanel15.Size = new System.Drawing.Size(168, 30);
             this.siticonePanel15.TabIndex = 67;
             // 
             // siticoneLabel4
@@ -1257,15 +1270,15 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton2.BorderThickness = 1;
             this.siticoneRoundedGradientButton2.CheckedState.Parent = this.siticoneRoundedGradientButton2;
             this.siticoneRoundedGradientButton2.CustomImages.Parent = this.siticoneRoundedGradientButton2;
-            this.siticoneRoundedGradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton2.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.siticoneRoundedGradientButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.siticoneRoundedGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneRoundedGradientButton2.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneRoundedGradientButton2.HoveredState.Parent = this.siticoneRoundedGradientButton2;
             this.siticoneRoundedGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton2.Image")));
             this.siticoneRoundedGradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton2.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(24, 270);
             this.siticoneRoundedGradientButton2.Name = "siticoneRoundedGradientButton2";
             this.siticoneRoundedGradientButton2.PressedDepth = 36;
             this.siticoneRoundedGradientButton2.ShadowDecoration.Parent = this.siticoneRoundedGradientButton2;
@@ -1280,11 +1293,11 @@ namespace KeyAuth
             this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(21, 274);
+            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(16, 245);
             this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
-            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(126, 19);
+            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(136, 19);
             this.siticoneHtmlLabel4.TabIndex = 64;
-            this.siticoneHtmlLabel4.Text = "Gta V Modest Cheat";
+            this.siticoneHtmlLabel4.Text = "Gta V Premium Cheat";
             // 
             // GtaVcheatPictureBox
             // 
@@ -1292,7 +1305,7 @@ namespace KeyAuth
             this.GtaVcheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.GtaVcheatPictureBox.FillColor = System.Drawing.Color.Transparent;
             this.GtaVcheatPictureBox.ImageRotate = 0F;
-            this.GtaVcheatPictureBox.Location = new System.Drawing.Point(2, 29);
+            this.GtaVcheatPictureBox.Location = new System.Drawing.Point(2, 0);
             this.GtaVcheatPictureBox.Name = "GtaVcheatPictureBox";
             this.GtaVcheatPictureBox.ShadowDecoration.Parent = this.GtaVcheatPictureBox;
             this.GtaVcheatPictureBox.Size = new System.Drawing.Size(165, 239);
@@ -1320,7 +1333,7 @@ namespace KeyAuth
             this.ValocheatPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ValocheatPictureBox.FillColor = System.Drawing.Color.Transparent;
             this.ValocheatPictureBox.ImageRotate = 0F;
-            this.ValocheatPictureBox.Location = new System.Drawing.Point(2, 30);
+            this.ValocheatPictureBox.Location = new System.Drawing.Point(2, 0);
             this.ValocheatPictureBox.Name = "ValocheatPictureBox";
             this.ValocheatPictureBox.ShadowDecoration.Parent = this.ValocheatPictureBox;
             this.ValocheatPictureBox.Size = new System.Drawing.Size(165, 239);
@@ -1333,10 +1346,11 @@ namespace KeyAuth
             this.siticonePanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel8.Controls.Add(this.siticoneLabel3);
             this.siticonePanel8.Controls.Add(this.siticonePictureBox6);
-            this.siticonePanel8.Location = new System.Drawing.Point(0, 0);
+            this.siticonePanel8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.siticonePanel8.Location = new System.Drawing.Point(0, 308);
             this.siticonePanel8.Name = "siticonePanel8";
             this.siticonePanel8.ShadowDecoration.Parent = this.siticonePanel8;
-            this.siticonePanel8.Size = new System.Drawing.Size(165, 30);
+            this.siticonePanel8.Size = new System.Drawing.Size(168, 30);
             this.siticonePanel8.TabIndex = 67;
             // 
             // siticoneLabel3
@@ -1372,15 +1386,15 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton1.BorderThickness = 1;
             this.siticoneRoundedGradientButton1.CheckedState.Parent = this.siticoneRoundedGradientButton1;
             this.siticoneRoundedGradientButton1.CustomImages.Parent = this.siticoneRoundedGradientButton1;
-            this.siticoneRoundedGradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.siticoneRoundedGradientButton1.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.siticoneRoundedGradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.siticoneRoundedGradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.siticoneRoundedGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneRoundedGradientButton1.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneRoundedGradientButton1.HoveredState.Parent = this.siticoneRoundedGradientButton1;
             this.siticoneRoundedGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton1.Image")));
             this.siticoneRoundedGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton1.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(24, 299);
+            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(24, 270);
             this.siticoneRoundedGradientButton1.Name = "siticoneRoundedGradientButton1";
             this.siticoneRoundedGradientButton1.PressedDepth = 36;
             this.siticoneRoundedGradientButton1.ShadowDecoration.Parent = this.siticoneRoundedGradientButton1;
@@ -1395,7 +1409,7 @@ namespace KeyAuth
             this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel3.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(31, 274);
+            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(31, 245);
             this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
             this.siticoneHtmlLabel3.Size = new System.Drawing.Size(106, 19);
             this.siticoneHtmlLabel3.TabIndex = 64;
@@ -1417,13 +1431,14 @@ namespace KeyAuth
             // 
             // siticonePanel13
             // 
-            this.siticonePanel13.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePanel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel13.Controls.Add(this.siticoneLabel2);
             this.siticonePanel13.Controls.Add(this.siticonePictureBox12);
-            this.siticonePanel13.Location = new System.Drawing.Point(2, 0);
+            this.siticonePanel13.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.siticonePanel13.Location = new System.Drawing.Point(0, 308);
             this.siticonePanel13.Name = "siticonePanel13";
             this.siticonePanel13.ShadowDecoration.Parent = this.siticonePanel13;
-            this.siticonePanel13.Size = new System.Drawing.Size(165, 30);
+            this.siticonePanel13.Size = new System.Drawing.Size(169, 30);
             this.siticonePanel13.TabIndex = 67;
             // 
             // siticoneLabel2
@@ -1459,15 +1474,15 @@ namespace KeyAuth
             this.loadcheatbutton.BorderThickness = 1;
             this.loadcheatbutton.CheckedState.Parent = this.loadcheatbutton;
             this.loadcheatbutton.CustomImages.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.loadcheatbutton.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.loadcheatbutton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.loadcheatbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.loadcheatbutton.ForeColor = System.Drawing.SystemColors.Control;
             this.loadcheatbutton.HoveredState.Parent = this.loadcheatbutton;
             this.loadcheatbutton.Image = ((System.Drawing.Image)(resources.GetObject("loadcheatbutton.Image")));
             this.loadcheatbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.loadcheatbutton.ImageSize = new System.Drawing.Size(24, 24);
-            this.loadcheatbutton.Location = new System.Drawing.Point(24, 299);
+            this.loadcheatbutton.Location = new System.Drawing.Point(24, 270);
             this.loadcheatbutton.Name = "loadcheatbutton";
             this.loadcheatbutton.PressedDepth = 36;
             this.loadcheatbutton.ShadowDecoration.Parent = this.loadcheatbutton;
@@ -1482,7 +1497,7 @@ namespace KeyAuth
             this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel2.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(45, 274);
+            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(45, 245);
             this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
             this.siticoneHtmlLabel2.Size = new System.Drawing.Size(79, 19);
             this.siticoneHtmlLabel2.TabIndex = 64;
@@ -1497,7 +1512,7 @@ namespace KeyAuth
             this.CScheatPictureBox.Location = new System.Drawing.Point(2, 0);
             this.CScheatPictureBox.Name = "CScheatPictureBox";
             this.CScheatPictureBox.ShadowDecoration.Parent = this.CScheatPictureBox;
-            this.CScheatPictureBox.Size = new System.Drawing.Size(165, 268);
+            this.CScheatPictureBox.Size = new System.Drawing.Size(165, 239);
             this.CScheatPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.CScheatPictureBox.TabIndex = 58;
             this.CScheatPictureBox.TabStop = false;
@@ -1506,52 +1521,102 @@ namespace KeyAuth
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage4.Controls.Add(this.settings1);
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Location = new System.Drawing.Point(5, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(575, 444);
+            this.tabPage4.Size = new System.Drawing.Size(754, 444);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
+            // 
+            // settings1
+            // 
+            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settings1.Location = new System.Drawing.Point(0, 0);
+            this.settings1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.settings1.Name = "settings1";
+            this.settings1.Size = new System.Drawing.Size(754, 444);
+            this.settings1.TabIndex = 0;
             // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage5.Controls.Add(this.cs1);
-            this.tabPage5.Location = new System.Drawing.Point(184, 4);
+            this.tabPage5.Location = new System.Drawing.Point(5, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(575, 444);
+            this.tabPage5.Size = new System.Drawing.Size(754, 444);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CS";
+            // 
+            // cs1
+            // 
+            this.cs1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.cs1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cs1.Location = new System.Drawing.Point(0, 0);
+            this.cs1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cs1.Name = "cs1";
+            this.cs1.Size = new System.Drawing.Size(754, 444);
+            this.cs1.TabIndex = 0;
             // 
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage6.Controls.Add(this.valo1);
-            this.tabPage6.Location = new System.Drawing.Point(184, 4);
+            this.tabPage6.Location = new System.Drawing.Point(5, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(575, 444);
+            this.tabPage6.Size = new System.Drawing.Size(754, 444);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Valo";
+            // 
+            // valo1
+            // 
+            this.valo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.valo1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.valo1.Location = new System.Drawing.Point(3, 3);
+            this.valo1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.valo1.Name = "valo1";
+            this.valo1.Size = new System.Drawing.Size(748, 438);
+            this.valo1.TabIndex = 0;
             // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage7.Controls.Add(this.gtaV1);
-            this.tabPage7.Location = new System.Drawing.Point(184, 4);
+            this.tabPage7.Location = new System.Drawing.Point(5, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(575, 444);
+            this.tabPage7.Size = new System.Drawing.Size(754, 444);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "GtaV";
+            // 
+            // gtaV1
+            // 
+            this.gtaV1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.gtaV1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gtaV1.Location = new System.Drawing.Point(0, 0);
+            this.gtaV1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gtaV1.Name = "gtaV1";
+            this.gtaV1.Size = new System.Drawing.Size(754, 444);
+            this.gtaV1.TabIndex = 0;
             // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage8.Controls.Add(this.lolbot1);
-            this.tabPage8.Location = new System.Drawing.Point(184, 4);
+            this.tabPage8.Location = new System.Drawing.Point(5, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(575, 444);
+            this.tabPage8.Size = new System.Drawing.Size(754, 444);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "LoLBot";
+            // 
+            // lolbot1
+            // 
+            this.lolbot1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.lolbot1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lolbot1.Location = new System.Drawing.Point(0, 0);
+            this.lolbot1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.lolbot1.Name = "lolbot1";
+            this.lolbot1.Size = new System.Drawing.Size(754, 444);
+            this.lolbot1.TabIndex = 0;
             // 
             // siticoneBorderlessForm1
             // 
@@ -1567,67 +1632,6 @@ namespace KeyAuth
             // siticoneAnimateWindow1
             // 
             this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
-            // 
-            // changelog1
-            // 
-            this.changelog1.AutoScroll = true;
-            this.changelog1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.changelog1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.changelog1.Location = new System.Drawing.Point(3, 3);
-            this.changelog1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.changelog1.Name = "changelog1";
-            this.changelog1.Size = new System.Drawing.Size(569, 438);
-            this.changelog1.TabIndex = 0;
-            // 
-            // settings1
-            // 
-            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.settings1.Location = new System.Drawing.Point(0, 0);
-            this.settings1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.settings1.Name = "settings1";
-            this.settings1.Size = new System.Drawing.Size(575, 444);
-            this.settings1.TabIndex = 0;
-            // 
-            // cs1
-            // 
-            this.cs1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.cs1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cs1.Location = new System.Drawing.Point(0, 0);
-            this.cs1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.cs1.Name = "cs1";
-            this.cs1.Size = new System.Drawing.Size(575, 444);
-            this.cs1.TabIndex = 0;
-            // 
-            // valo1
-            // 
-            this.valo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.valo1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.valo1.Location = new System.Drawing.Point(3, 3);
-            this.valo1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.valo1.Name = "valo1";
-            this.valo1.Size = new System.Drawing.Size(569, 438);
-            this.valo1.TabIndex = 0;
-            // 
-            // gtaV1
-            // 
-            this.gtaV1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.gtaV1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gtaV1.Location = new System.Drawing.Point(0, 0);
-            this.gtaV1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.gtaV1.Name = "gtaV1";
-            this.gtaV1.Size = new System.Drawing.Size(575, 444);
-            this.gtaV1.TabIndex = 0;
-            // 
-            // lolbot1
-            // 
-            this.lolbot1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.lolbot1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lolbot1.Location = new System.Drawing.Point(0, 0);
-            this.lolbot1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.lolbot1.Name = "lolbot1";
-            this.lolbot1.Size = new System.Drawing.Size(575, 444);
-            this.lolbot1.TabIndex = 0;
             // 
             // Main
             // 

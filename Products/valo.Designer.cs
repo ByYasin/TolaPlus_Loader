@@ -161,10 +161,10 @@
             // autoinject
             // 
             this.autoinject.BackColor = System.Drawing.Color.Transparent;
-            this.autoinject.CheckedState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.autoinject.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.autoinject.CheckedState.BorderRadius = 3;
             this.autoinject.CheckedState.BorderThickness = 0;
-            this.autoinject.CheckedState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.autoinject.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.autoinject.CheckedState.Parent = this.autoinject;
             this.autoinject.CheckMarkColor = System.Drawing.SystemColors.Control;
             this.autoinject.Location = new System.Drawing.Point(129, 90);
@@ -254,8 +254,8 @@
             this.loadcheatbutton.BorderThickness = 1;
             this.loadcheatbutton.CheckedState.Parent = this.loadcheatbutton;
             this.loadcheatbutton.CustomImages.Parent = this.loadcheatbutton;
-            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(38)))), ((int)(((byte)(255)))));
-            this.loadcheatbutton.FillColor2 = System.Drawing.Color.DodgerBlue;
+            this.loadcheatbutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
+            this.loadcheatbutton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.loadcheatbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.loadcheatbutton.ForeColor = System.Drawing.SystemColors.Control;
             this.loadcheatbutton.HoveredState.Parent = this.loadcheatbutton;
@@ -302,7 +302,7 @@
             this.siticoneHtmlLabel4.AutoSize = false;
             this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.siticoneHtmlLabel4.ForeColor = System.Drawing.Color.Salmon;
+            this.siticoneHtmlLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.siticoneHtmlLabel4.Location = new System.Drawing.Point(20, 4);
             this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
             this.siticoneHtmlLabel4.Size = new System.Drawing.Size(362, 46);
