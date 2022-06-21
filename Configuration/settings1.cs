@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Loader.Configuration
 {
-    public partial class settings : UserControl
+    public partial class settings1 : UserControl
     {
-        public settings()
+        public settings1()
         {
             InitializeComponent();
             Rememberme_Init_Data();

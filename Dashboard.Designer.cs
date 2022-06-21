@@ -891,7 +891,7 @@ namespace KeyAuth
             this.licensedetailspanel.Location = new System.Drawing.Point(3, 3);
             this.licensedetailspanel.Name = "licensedetailspanel";
             this.licensedetailspanel.ShadowDecoration.Parent = this.licensedetailspanel;
-            this.licensedetailspanel.Size = new System.Drawing.Size(830, 471);
+            this.licensedetailspanel.Size = new System.Drawing.Size(651, 471);
             this.licensedetailspanel.TabIndex = 56;
             // 
             // siticonePanel5
@@ -1056,7 +1056,6 @@ namespace KeyAuth
             this.siticoneTabControl1.TabButtonSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl1.TabIndex = 57;
             this.siticoneTabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.siticoneTabControl1.TabMenuVisible = false;
             // 
             // tabPage1
             // 
@@ -1064,10 +1063,10 @@ namespace KeyAuth
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage1.Controls.Add(this.licensedetailspanel);
             this.tabPage1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage1.Location = new System.Drawing.Point(5, 4);
+            this.tabPage1.Location = new System.Drawing.Point(184, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(836, 477);
+            this.tabPage1.Size = new System.Drawing.Size(657, 477);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "License Details";
             // 
@@ -1076,10 +1075,10 @@ namespace KeyAuth
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage2.Location = new System.Drawing.Point(5, 4);
+            this.tabPage2.Location = new System.Drawing.Point(184, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(836, 477);
+            this.tabPage2.Size = new System.Drawing.Size(657, 477);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
             // 

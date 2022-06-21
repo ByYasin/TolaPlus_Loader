@@ -99,17 +99,17 @@
   <ItemGroup>
     <Compile Include="AntiDump.cs" />
     <Compile Include="AntiDump2.cs" />
-    <Compile Include="Configuration\changelog.cs">
+    <Compile Include="Configuration\changelog1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Configuration\changelog.Designer.cs">
-      <DependentUpon>changelog.cs</DependentUpon>
+    <Compile Include="Configuration\changelog1.Designer.cs">
+      <DependentUpon>changelog1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Configuration\settings.cs">
+    <Compile Include="Configuration\settings1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Configuration\settings.Designer.cs">
-      <DependentUpon>settings.cs</DependentUpon>
+    <Compile Include="Configuration\settings1.Designer.cs">
+      <DependentUpon>settings1.cs</DependentUpon>
     </Compile>
     <Compile Include="HashChecks.cs" />
     <Compile Include="KeyAuth.cs" />
@@ -125,40 +125,40 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products\cs.cs">
+    <Compile Include="Products\cs1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Products\cs.Designer.cs">
-      <DependentUpon>cs.cs</DependentUpon>
+    <Compile Include="Products\cs1.Designer.cs">
+      <DependentUpon>cs1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products\gtaV.cs">
+    <Compile Include="Products\gtaV1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Products\gtaV.Designer.cs">
-      <DependentUpon>gtaV.cs</DependentUpon>
+    <Compile Include="Products\gtaV1.Designer.cs">
+      <DependentUpon>gtaV1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products\lolbot.cs">
+    <Compile Include="Products\lolbot1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Products\lolbot.Designer.cs">
-      <DependentUpon>lolbot.cs</DependentUpon>
+    <Compile Include="Products\lolbot1.Designer.cs">
+      <DependentUpon>lolbot1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products\valo.cs">
+    <Compile Include="Products\valo1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Products\valo.Designer.cs">
-      <DependentUpon>valo.cs</DependentUpon>
+    <Compile Include="Products\valo1.Designer.cs">
+      <DependentUpon>valo1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Protection.cs" />
     <Compile Include="Theme\ThemeHelper.cs" />
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="Configuration\changelog.resx">
-      <DependentUpon>changelog.cs</DependentUpon>
+    <EmbeddedResource Include="Configuration\changelog1.resx">
+      <DependentUpon>changelog1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Configuration\settings.resx">
-      <DependentUpon>settings.cs</DependentUpon>
+    <EmbeddedResource Include="Configuration\settings1.resx">
+      <DependentUpon>settings1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -166,17 +166,17 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products\cs.resx">
-      <DependentUpon>cs.cs</DependentUpon>
+    <EmbeddedResource Include="Products\cs1.resx">
+      <DependentUpon>cs1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products\gtaV.resx">
-      <DependentUpon>gtaV.cs</DependentUpon>
+    <EmbeddedResource Include="Products\gtaV1.resx">
+      <DependentUpon>gtaV1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products\lolbot.resx">
-      <DependentUpon>lolbot.cs</DependentUpon>
+    <EmbeddedResource Include="Products\lolbot1.resx">
+      <DependentUpon>lolbot1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products\valo.resx">
-      <DependentUpon>valo.cs</DependentUpon>
+    <EmbeddedResource Include="Products\valo1.resx">
+      <DependentUpon>valo1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

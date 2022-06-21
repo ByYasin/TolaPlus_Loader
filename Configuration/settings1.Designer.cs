@@ -1,6 +1,6 @@
 ﻿namespace Loader.Configuration
 {
-    partial class settings
+    partial class settings1
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.

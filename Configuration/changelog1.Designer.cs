@@ -1,6 +1,6 @@
 ﻿namespace Loader.Configuration
 {
-    partial class changelog
+    partial class changelog1
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.

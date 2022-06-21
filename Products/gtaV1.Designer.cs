@@ -1,6 +1,6 @@
 ﻿namespace Loader.Products
 {
-    partial class gtaV
+    partial class gtaV1
     {
         /// <summary> 
         ///Gerekli tasarımcı değişkeni.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gtaV));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(gtaV1));
             this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.statuscheatlabel = new Siticone.UI.WinForms.SiticoneLabel();
             this.statustitle = new Siticone.UI.WinForms.SiticoneLabel();
