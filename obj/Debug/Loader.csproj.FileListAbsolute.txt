@@ -47,7 +47,6 @@ C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.Assembly
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.SuggestedBindingRedirects.cache
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.changelog.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Configuration.settings.resources
-C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\KeyAuth.Main.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\KeyAuth.Login.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.cs.resources
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.Products.gtaV.resources
@@ -59,3 +58,4 @@ C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.CoreComp
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.csproj.CopyComplete
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.exe
 C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\Loader.pdb
+C:\Users\proya\Documents\GitHub\TolaPlus_Loader\obj\Debug\KeyAuth.Dashboard.resources

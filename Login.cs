@@ -142,7 +142,7 @@ namespace KeyAuth
                 {
                     //siticoneMessageDialog1.Show();
                     Hide();
-                    Main mainloader = new Main();
+                    Dashboard mainloader = new Dashboard();
                     mainloader.Show();
                 }
                 else
@@ -199,7 +199,7 @@ namespace KeyAuth
             KeyAuthApp.license(keylogin.Text);
             if (KeyAuthApp.response.success)
             {
-                Main main = new Main();
+                Dashboard main = new Dashboard();
                 main.Show();
                 this.Hide();
             }

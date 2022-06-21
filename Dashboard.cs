@@ -17,11 +17,12 @@ using KeyAuth;
 
 namespace KeyAuth
 {
-    public partial class Main : Form
+    public partial class Dashboard : Form
     {
-        public Main()
+        public Dashboard()
         {
             InitializeComponent();
+            //siticonePanel6.BackColor = Color.FromArgb(22, Color.Red);
         }
 
         private void siticoneControlBox1_Click_1(object sender, EventArgs e)

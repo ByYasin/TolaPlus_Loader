@@ -1,6 +1,6 @@
 namespace KeyAuth
 {
-    public partial class Main : global::System.Windows.Forms.Form
+    public partial class Dashboard : global::System.Windows.Forms.Form
     {
         protected override void Dispose(bool disposing)
         {
@@ -14,7 +14,7 @@ namespace KeyAuth
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.headerpanel = new Siticone.UI.WinForms.SiticoneCustomGradientPanel();
             this.siticonePictureBox7 = new Siticone.UI.WinForms.SiticonePictureBox();
@@ -115,6 +115,11 @@ namespace KeyAuth
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
+            this.siticonePictureBox3 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.siticonePictureBox8 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.siticonePictureBox9 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.siticonePictureBox10 = new Siticone.UI.WinForms.SiticonePictureBox();
+            this.siticonePictureBox11 = new Siticone.UI.WinForms.SiticonePictureBox();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
@@ -155,6 +160,11 @@ namespace KeyAuth
             this.siticonePanel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // siticoneDragControl1
@@ -182,14 +192,14 @@ namespace KeyAuth
             this.headerpanel.Location = new System.Drawing.Point(0, 0);
             this.headerpanel.Name = "headerpanel";
             this.headerpanel.ShadowDecoration.Parent = this.headerpanel;
-            this.headerpanel.Size = new System.Drawing.Size(935, 33);
+            this.headerpanel.Size = new System.Drawing.Size(1017, 33);
             this.headerpanel.TabIndex = 54;
             // 
             // siticonePictureBox7
             // 
             this.siticonePictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox7.Image")));
-            this.siticonePictureBox7.Location = new System.Drawing.Point(510, 4);
+            this.siticonePictureBox7.Location = new System.Drawing.Point(576, 4);
             this.siticonePictureBox7.Name = "siticonePictureBox7";
             this.siticonePictureBox7.ShadowDecoration.Parent = this.siticonePictureBox7;
             this.siticonePictureBox7.Size = new System.Drawing.Size(25, 25);
@@ -200,8 +210,8 @@ namespace KeyAuth
             // siticoneVSeparator5
             // 
             this.siticoneVSeparator5.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneVSeparator5.FillColor = System.Drawing.SystemColors.ControlDark;
-            this.siticoneVSeparator5.Location = new System.Drawing.Point(698, 0);
+            this.siticoneVSeparator5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(154)))), ((int)(((byte)(154)))));
+            this.siticoneVSeparator5.Location = new System.Drawing.Point(766, 0);
             this.siticoneVSeparator5.Name = "siticoneVSeparator5";
             this.siticoneVSeparator5.Size = new System.Drawing.Size(10, 32);
             this.siticoneVSeparator5.TabIndex = 64;
@@ -210,7 +220,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
-            this.siticonePictureBox4.Location = new System.Drawing.Point(726, 4);
+            this.siticonePictureBox4.Location = new System.Drawing.Point(792, 4);
             this.siticonePictureBox4.Name = "siticonePictureBox4";
             this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
             this.siticonePictureBox4.Size = new System.Drawing.Size(25, 25);
@@ -228,7 +238,7 @@ namespace KeyAuth
             this.siticoneControlBox2.HoveredState.IconColor = System.Drawing.Color.White;
             this.siticoneControlBox2.HoveredState.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.IconColor = System.Drawing.Color.White;
-            this.siticoneControlBox2.Location = new System.Drawing.Point(890, 0);
+            this.siticoneControlBox2.Location = new System.Drawing.Point(972, 0);
             this.siticoneControlBox2.Name = "siticoneControlBox2";
             this.siticoneControlBox2.ShadowDecoration.Parent = this.siticoneControlBox2;
             this.siticoneControlBox2.Size = new System.Drawing.Size(45, 33);
@@ -240,7 +250,7 @@ namespace KeyAuth
             this.numOnlineUsers.BackColor = System.Drawing.Color.Transparent;
             this.numOnlineUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numOnlineUsers.ForeColor = System.Drawing.SystemColors.Control;
-            this.numOnlineUsers.Location = new System.Drawing.Point(540, 8);
+            this.numOnlineUsers.Location = new System.Drawing.Point(606, 8);
             this.numOnlineUsers.Margin = new System.Windows.Forms.Padding(2);
             this.numOnlineUsers.Name = "numOnlineUsers";
             this.numOnlineUsers.Size = new System.Drawing.Size(124, 17);
@@ -252,7 +262,7 @@ namespace KeyAuth
             this.versiontitlelabel.BackColor = System.Drawing.Color.Transparent;
             this.versiontitlelabel.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.versiontitlelabel.ForeColor = System.Drawing.Color.White;
-            this.versiontitlelabel.Location = new System.Drawing.Point(754, 8);
+            this.versiontitlelabel.Location = new System.Drawing.Point(820, 8);
             this.versiontitlelabel.Margin = new System.Windows.Forms.Padding(2);
             this.versiontitlelabel.Name = "versiontitlelabel";
             this.versiontitlelabel.Size = new System.Drawing.Size(29, 17);
@@ -268,7 +278,7 @@ namespace KeyAuth
             this.siticoneControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.siticoneControlBox1.HoveredState.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.IconColor = System.Drawing.Color.White;
-            this.siticoneControlBox1.Location = new System.Drawing.Point(953, 0);
+            this.siticoneControlBox1.Location = new System.Drawing.Point(1035, 0);
             this.siticoneControlBox1.Name = "siticoneControlBox1";
             this.siticoneControlBox1.ShadowDecoration.Parent = this.siticoneControlBox1;
             this.siticoneControlBox1.Size = new System.Drawing.Size(45, 33);
@@ -290,11 +300,12 @@ namespace KeyAuth
             // siticonePictureBox1
             // 
             this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.siticonePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox1.Image")));
             this.siticonePictureBox1.Location = new System.Drawing.Point(0, 0);
             this.siticonePictureBox1.Name = "siticonePictureBox1";
             this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
-            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 33);
             this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.siticonePictureBox1.TabIndex = 43;
             this.siticonePictureBox1.TabStop = false;
@@ -304,7 +315,7 @@ namespace KeyAuth
             this.version.BackColor = System.Drawing.Color.Transparent;
             this.version.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.version.ForeColor = System.Drawing.Color.White;
-            this.version.Location = new System.Drawing.Point(783, 8);
+            this.version.Location = new System.Drawing.Point(852, 8);
             this.version.Margin = new System.Windows.Forms.Padding(2);
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(73, 17);
@@ -326,7 +337,7 @@ namespace KeyAuth
             this.key.BackColor = System.Drawing.Color.Transparent;
             this.key.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.key.ForeColor = System.Drawing.Color.White;
-            this.key.Location = new System.Drawing.Point(68, 424);
+            this.key.Location = new System.Drawing.Point(67, 447);
             this.key.Margin = new System.Windows.Forms.Padding(2);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(87, 17);
@@ -339,7 +350,7 @@ namespace KeyAuth
             this.expiry.BackColor = System.Drawing.Color.Transparent;
             this.expiry.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.expiry.ForeColor = System.Drawing.SystemColors.Control;
-            this.expiry.Location = new System.Drawing.Point(119, 11);
+            this.expiry.Location = new System.Drawing.Point(174, 11);
             this.expiry.Margin = new System.Windows.Forms.Padding(2);
             this.expiry.Name = "expiry";
             this.expiry.Size = new System.Drawing.Size(447, 25);
@@ -353,7 +364,7 @@ namespace KeyAuth
             this.subscription.BackColor = System.Drawing.Color.Transparent;
             this.subscription.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.subscription.ForeColor = System.Drawing.SystemColors.Control;
-            this.subscription.Location = new System.Drawing.Point(128, 6);
+            this.subscription.Location = new System.Drawing.Point(183, 6);
             this.subscription.Margin = new System.Windows.Forms.Padding(2);
             this.subscription.Name = "subscription";
             this.subscription.Size = new System.Drawing.Size(428, 20);
@@ -446,7 +457,7 @@ namespace KeyAuth
             this.ip.BackColor = System.Drawing.Color.Transparent;
             this.ip.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ip.ForeColor = System.Drawing.SystemColors.Control;
-            this.ip.Location = new System.Drawing.Point(484, 329);
+            this.ip.Location = new System.Drawing.Point(745, 529);
             this.ip.Margin = new System.Windows.Forms.Padding(2);
             this.ip.Name = "ip";
             this.ip.Size = new System.Drawing.Size(41, 15);
@@ -460,7 +471,7 @@ namespace KeyAuth
             this.hwid.BackColor = System.Drawing.Color.Transparent;
             this.hwid.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hwid.ForeColor = System.Drawing.SystemColors.Control;
-            this.hwid.Location = new System.Drawing.Point(101, 14);
+            this.hwid.Location = new System.Drawing.Point(156, 14);
             this.hwid.Margin = new System.Windows.Forms.Padding(2);
             this.hwid.Name = "hwid";
             this.hwid.Size = new System.Drawing.Size(482, 15);
@@ -475,7 +486,7 @@ namespace KeyAuth
             this.createDate.BackColor = System.Drawing.Color.Transparent;
             this.createDate.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createDate.ForeColor = System.Drawing.SystemColors.Control;
-            this.createDate.Location = new System.Drawing.Point(119, 16);
+            this.createDate.Location = new System.Drawing.Point(174, 16);
             this.createDate.Margin = new System.Windows.Forms.Padding(2);
             this.createDate.Name = "createDate";
             this.createDate.Size = new System.Drawing.Size(447, 15);
@@ -489,7 +500,7 @@ namespace KeyAuth
             this.lastLogin.BackColor = System.Drawing.Color.Transparent;
             this.lastLogin.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastLogin.ForeColor = System.Drawing.SystemColors.Control;
-            this.lastLogin.Location = new System.Drawing.Point(121, 16);
+            this.lastLogin.Location = new System.Drawing.Point(176, 16);
             this.lastLogin.Margin = new System.Windows.Forms.Padding(2);
             this.lastLogin.Name = "lastLogin";
             this.lastLogin.Size = new System.Drawing.Size(443, 15);
@@ -502,7 +513,7 @@ namespace KeyAuth
             this.numUsers.BackColor = System.Drawing.Color.Transparent;
             this.numUsers.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numUsers.ForeColor = System.Drawing.SystemColors.Control;
-            this.numUsers.Location = new System.Drawing.Point(661, 424);
+            this.numUsers.Location = new System.Drawing.Point(745, 454);
             this.numUsers.Margin = new System.Windows.Forms.Padding(2);
             this.numUsers.Name = "numUsers";
             this.numUsers.Size = new System.Drawing.Size(83, 15);
@@ -515,7 +526,7 @@ namespace KeyAuth
             this.numKeys.BackColor = System.Drawing.Color.Transparent;
             this.numKeys.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numKeys.ForeColor = System.Drawing.SystemColors.Control;
-            this.numKeys.Location = new System.Drawing.Point(661, 442);
+            this.numKeys.Location = new System.Drawing.Point(745, 472);
             this.numKeys.Margin = new System.Windows.Forms.Padding(2);
             this.numKeys.Name = "numKeys";
             this.numKeys.Size = new System.Drawing.Size(79, 15);
@@ -528,7 +539,7 @@ namespace KeyAuth
             this.customerPanelLink.BackColor = System.Drawing.Color.Transparent;
             this.customerPanelLink.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.customerPanelLink.ForeColor = System.Drawing.SystemColors.Control;
-            this.customerPanelLink.Location = new System.Drawing.Point(661, 462);
+            this.customerPanelLink.Location = new System.Drawing.Point(745, 492);
             this.customerPanelLink.Margin = new System.Windows.Forms.Padding(2);
             this.customerPanelLink.Name = "customerPanelLink";
             this.customerPanelLink.Size = new System.Drawing.Size(130, 15);
@@ -541,7 +552,7 @@ namespace KeyAuth
             this.subscriptionDaysLabel.BackColor = System.Drawing.Color.Transparent;
             this.subscriptionDaysLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.subscriptionDaysLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.subscriptionDaysLabel.Location = new System.Drawing.Point(618, 28);
+            this.subscriptionDaysLabel.Location = new System.Drawing.Point(685, 28);
             this.subscriptionDaysLabel.Margin = new System.Windows.Forms.Padding(2);
             this.subscriptionDaysLabel.Name = "subscriptionDaysLabel";
             this.subscriptionDaysLabel.Size = new System.Drawing.Size(125, 17);
@@ -553,7 +564,7 @@ namespace KeyAuth
             this.siticoneLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneLabel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneLabel1.Location = new System.Drawing.Point(661, 480);
+            this.siticoneLabel1.Location = new System.Drawing.Point(745, 510);
             this.siticoneLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.siticoneLabel1.Name = "siticoneLabel1";
             this.siticoneLabel1.Size = new System.Drawing.Size(178, 15);
@@ -582,15 +593,15 @@ namespace KeyAuth
             this.siticoneGradientPanel2.Location = new System.Drawing.Point(0, 106);
             this.siticoneGradientPanel2.Name = "siticoneGradientPanel2";
             this.siticoneGradientPanel2.ShadowDecoration.Parent = this.siticoneGradientPanel2;
-            this.siticoneGradientPanel2.Size = new System.Drawing.Size(172, 452);
+            this.siticoneGradientPanel2.Size = new System.Drawing.Size(172, 485);
             this.siticoneGradientPanel2.TabIndex = 54;
             // 
             // siticoneSeparator1
             // 
             this.siticoneSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.siticoneSeparator1.Location = new System.Drawing.Point(4, 386);
+            this.siticoneSeparator1.Location = new System.Drawing.Point(3, 395);
             this.siticoneSeparator1.Name = "siticoneSeparator1";
-            this.siticoneSeparator1.Size = new System.Drawing.Size(160, 10);
+            this.siticoneSeparator1.Size = new System.Drawing.Size(166, 10);
             this.siticoneSeparator1.TabIndex = 57;
             // 
             // welcomelabel
@@ -598,7 +609,7 @@ namespace KeyAuth
             this.welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.welcomelabel.ForeColor = System.Drawing.Color.White;
-            this.welcomelabel.Location = new System.Drawing.Point(68, 403);
+            this.welcomelabel.Location = new System.Drawing.Point(67, 426);
             this.welcomelabel.Margin = new System.Windows.Forms.Padding(2);
             this.welcomelabel.Name = "welcomelabel";
             this.welcomelabel.Size = new System.Drawing.Size(56, 17);
@@ -609,7 +620,7 @@ namespace KeyAuth
             // 
             this.welcomepicturebox.BackColor = System.Drawing.Color.Transparent;
             this.welcomepicturebox.Image = ((System.Drawing.Image)(resources.GetObject("welcomepicturebox.Image")));
-            this.welcomepicturebox.Location = new System.Drawing.Point(18, 400);
+            this.welcomepicturebox.Location = new System.Drawing.Point(16, 423);
             this.welcomepicturebox.Name = "welcomepicturebox";
             this.welcomepicturebox.ShadowDecoration.Parent = this.welcomepicturebox;
             this.welcomepicturebox.Size = new System.Drawing.Size(45, 45);
@@ -713,7 +724,7 @@ namespace KeyAuth
             this.siticoneVSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.siticoneVSeparator1.Location = new System.Drawing.Point(162, 0);
             this.siticoneVSeparator1.Name = "siticoneVSeparator1";
-            this.siticoneVSeparator1.Size = new System.Drawing.Size(10, 452);
+            this.siticoneVSeparator1.Size = new System.Drawing.Size(10, 485);
             this.siticoneVSeparator1.TabIndex = 57;
             // 
             // siticoneGradientPanel3
@@ -733,7 +744,7 @@ namespace KeyAuth
             this.siticoneGradientPanel3.Location = new System.Drawing.Point(0, 33);
             this.siticoneGradientPanel3.Name = "siticoneGradientPanel3";
             this.siticoneGradientPanel3.ShadowDecoration.Parent = this.siticoneGradientPanel3;
-            this.siticoneGradientPanel3.Size = new System.Drawing.Size(935, 73);
+            this.siticoneGradientPanel3.Size = new System.Drawing.Size(1017, 73);
             this.siticoneGradientPanel3.TabIndex = 0;
             // 
             // siticoneVSeparator4
@@ -749,7 +760,7 @@ namespace KeyAuth
             // 
             this.siticoneVSeparator3.BackColor = System.Drawing.Color.Transparent;
             this.siticoneVSeparator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.siticoneVSeparator3.Location = new System.Drawing.Point(560, 6);
+            this.siticoneVSeparator3.Location = new System.Drawing.Point(608, 6);
             this.siticoneVSeparator3.Name = "siticoneVSeparator3";
             this.siticoneVSeparator3.Size = new System.Drawing.Size(10, 60);
             this.siticoneVSeparator3.TabIndex = 62;
@@ -758,7 +769,7 @@ namespace KeyAuth
             // 
             this.siticoneVSeparator2.BackColor = System.Drawing.Color.Transparent;
             this.siticoneVSeparator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.siticoneVSeparator2.Location = new System.Drawing.Point(360, 6);
+            this.siticoneVSeparator2.Location = new System.Drawing.Point(376, 6);
             this.siticoneVSeparator2.Name = "siticoneVSeparator2";
             this.siticoneVSeparator2.Size = new System.Drawing.Size(10, 60);
             this.siticoneVSeparator2.TabIndex = 61;
@@ -781,7 +792,7 @@ namespace KeyAuth
             this.licensedetailsbutton.HoverState.Parent = this.licensedetailsbutton;
             this.licensedetailsbutton.Image = global::Loader.Properties.Resources.software_license_48;
             this.licensedetailsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.licensedetailsbutton.Location = new System.Drawing.Point(383, 14);
+            this.licensedetailsbutton.Location = new System.Drawing.Point(415, 14);
             this.licensedetailsbutton.Name = "licensedetailsbutton";
             this.licensedetailsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
             this.licensedetailsbutton.ShadowDecoration.Parent = this.licensedetailsbutton;
@@ -822,7 +833,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox2.Image")));
-            this.siticonePictureBox2.Location = new System.Drawing.Point(584, 20);
+            this.siticonePictureBox2.Location = new System.Drawing.Point(648, 20);
             this.siticonePictureBox2.Name = "siticonePictureBox2";
             this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
             this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
@@ -837,7 +848,7 @@ namespace KeyAuth
             this.siticoneSeparator2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.siticoneSeparator2.Location = new System.Drawing.Point(0, 63);
             this.siticoneSeparator2.Name = "siticoneSeparator2";
-            this.siticoneSeparator2.Size = new System.Drawing.Size(935, 10);
+            this.siticoneSeparator2.Size = new System.Drawing.Size(1017, 10);
             this.siticoneSeparator2.TabIndex = 57;
             // 
             // siticoneGradientPanel4
@@ -871,70 +882,75 @@ namespace KeyAuth
             this.licensedetailspanel.Controls.Add(this.siticoneLabel1);
             this.licensedetailspanel.Controls.Add(this.siticonePanel4);
             this.licensedetailspanel.Controls.Add(this.siticonePanel3);
-            this.licensedetailspanel.Controls.Add(this.numKeys);
             this.licensedetailspanel.Controls.Add(this.siticonePanel2);
-            this.licensedetailspanel.Controls.Add(this.customerPanelLink);
-            this.licensedetailspanel.Controls.Add(this.siticonePanel1);
             this.licensedetailspanel.Controls.Add(this.ip);
+            this.licensedetailspanel.Controls.Add(this.siticonePanel1);
+            this.licensedetailspanel.Controls.Add(this.numKeys);
+            this.licensedetailspanel.Controls.Add(this.customerPanelLink);
             this.licensedetailspanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.licensedetailspanel.Location = new System.Drawing.Point(3, 3);
             this.licensedetailspanel.Name = "licensedetailspanel";
             this.licensedetailspanel.ShadowDecoration.Parent = this.licensedetailspanel;
-            this.licensedetailspanel.Size = new System.Drawing.Size(748, 438);
+            this.licensedetailspanel.Size = new System.Drawing.Size(830, 471);
             this.licensedetailspanel.TabIndex = 56;
             // 
             // siticonePanel5
             // 
             this.siticonePanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.siticonePanel5.Controls.Add(this.siticonePictureBox9);
             this.siticonePanel5.Controls.Add(this.lastLogin);
             this.siticonePanel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel5.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel5.Location = new System.Drawing.Point(32, 323);
+            this.siticonePanel5.Location = new System.Drawing.Point(18, 351);
             this.siticonePanel5.Name = "siticonePanel5";
             this.siticonePanel5.ShadowDecoration.Parent = this.siticonePanel5;
-            this.siticonePanel5.Size = new System.Drawing.Size(685, 46);
+            this.siticonePanel5.Size = new System.Drawing.Size(795, 46);
             this.siticonePanel5.TabIndex = 57;
             // 
             // siticonePanel4
             // 
             this.siticonePanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.siticonePanel4.Controls.Add(this.siticonePictureBox8);
             this.siticonePanel4.Controls.Add(this.createDate);
             this.siticonePanel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel4.Location = new System.Drawing.Point(32, 267);
+            this.siticonePanel4.Location = new System.Drawing.Point(18, 287);
             this.siticonePanel4.Name = "siticonePanel4";
             this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
-            this.siticonePanel4.Size = new System.Drawing.Size(685, 46);
+            this.siticonePanel4.Size = new System.Drawing.Size(795, 46);
             this.siticonePanel4.TabIndex = 56;
             // 
             // siticonePanel3
             // 
             this.siticonePanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.siticonePanel3.Controls.Add(this.siticonePictureBox3);
             this.siticonePanel3.Controls.Add(this.expiry);
             this.siticonePanel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel3.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel3.Location = new System.Drawing.Point(32, 211);
+            this.siticonePanel3.Location = new System.Drawing.Point(18, 223);
             this.siticonePanel3.Name = "siticonePanel3";
             this.siticonePanel3.ShadowDecoration.Parent = this.siticonePanel3;
-            this.siticonePanel3.Size = new System.Drawing.Size(685, 46);
+            this.siticonePanel3.Size = new System.Drawing.Size(795, 46);
             this.siticonePanel3.TabIndex = 56;
             // 
             // siticonePanel2
             // 
             this.siticonePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.siticonePanel2.Controls.Add(this.siticonePictureBox10);
             this.siticonePanel2.Controls.Add(this.hwid);
             this.siticonePanel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel2.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel2.Location = new System.Drawing.Point(32, 379);
+            this.siticonePanel2.Location = new System.Drawing.Point(18, 415);
             this.siticonePanel2.Name = "siticonePanel2";
             this.siticonePanel2.ShadowDecoration.Parent = this.siticonePanel2;
-            this.siticonePanel2.Size = new System.Drawing.Size(685, 42);
+            this.siticonePanel2.Size = new System.Drawing.Size(795, 42);
             this.siticonePanel2.TabIndex = 55;
             // 
             // siticonePanel1
             // 
             this.siticonePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.siticonePanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.siticonePanel1.Controls.Add(this.siticonePictureBox11);
             this.siticonePanel1.Controls.Add(this.subscriptionPictureBox4);
             this.siticonePanel1.Controls.Add(this.subscriptionPictureBox3);
             this.siticonePanel1.Controls.Add(this.subscriptionPictureBox2);
@@ -942,10 +958,10 @@ namespace KeyAuth
             this.siticonePanel1.Controls.Add(this.subscription);
             this.siticonePanel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel1.Location = new System.Drawing.Point(32, 18);
+            this.siticonePanel1.Location = new System.Drawing.Point(18, 13);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(685, 183);
+            this.siticonePanel1.Size = new System.Drawing.Size(795, 192);
             this.siticonePanel1.TabIndex = 54;
             // 
             // subscriptionPictureBox4
@@ -954,7 +970,7 @@ namespace KeyAuth
             this.subscriptionPictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subscriptionPictureBox4.FillColor = System.Drawing.Color.Transparent;
             this.subscriptionPictureBox4.ImageRotate = 0F;
-            this.subscriptionPictureBox4.Location = new System.Drawing.Point(475, 31);
+            this.subscriptionPictureBox4.Location = new System.Drawing.Point(530, 39);
             this.subscriptionPictureBox4.Name = "subscriptionPictureBox4";
             this.subscriptionPictureBox4.ShadowDecoration.Parent = this.subscriptionPictureBox4;
             this.subscriptionPictureBox4.Size = new System.Drawing.Size(100, 145);
@@ -968,7 +984,7 @@ namespace KeyAuth
             this.subscriptionPictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subscriptionPictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.subscriptionPictureBox3.ImageRotate = 0F;
-            this.subscriptionPictureBox3.Location = new System.Drawing.Point(353, 31);
+            this.subscriptionPictureBox3.Location = new System.Drawing.Point(408, 39);
             this.subscriptionPictureBox3.Name = "subscriptionPictureBox3";
             this.subscriptionPictureBox3.ShadowDecoration.Parent = this.subscriptionPictureBox3;
             this.subscriptionPictureBox3.Size = new System.Drawing.Size(100, 145);
@@ -982,7 +998,7 @@ namespace KeyAuth
             this.subscriptionPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subscriptionPictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.subscriptionPictureBox2.ImageRotate = 0F;
-            this.subscriptionPictureBox2.Location = new System.Drawing.Point(231, 31);
+            this.subscriptionPictureBox2.Location = new System.Drawing.Point(286, 39);
             this.subscriptionPictureBox2.Name = "subscriptionPictureBox2";
             this.subscriptionPictureBox2.ShadowDecoration.Parent = this.subscriptionPictureBox2;
             this.subscriptionPictureBox2.Size = new System.Drawing.Size(100, 145);
@@ -996,7 +1012,7 @@ namespace KeyAuth
             this.subscriptionPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.subscriptionPictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.subscriptionPictureBox1.ImageRotate = 0F;
-            this.subscriptionPictureBox1.Location = new System.Drawing.Point(109, 31);
+            this.subscriptionPictureBox1.Location = new System.Drawing.Point(164, 39);
             this.subscriptionPictureBox1.Name = "subscriptionPictureBox1";
             this.subscriptionPictureBox1.ShadowDecoration.Parent = this.subscriptionPictureBox1;
             this.subscriptionPictureBox1.Size = new System.Drawing.Size(100, 145);
@@ -1021,7 +1037,7 @@ namespace KeyAuth
             this.siticoneTabControl1.Location = new System.Drawing.Point(172, 106);
             this.siticoneTabControl1.Name = "siticoneTabControl1";
             this.siticoneTabControl1.SelectedIndex = 0;
-            this.siticoneTabControl1.Size = new System.Drawing.Size(763, 452);
+            this.siticoneTabControl1.Size = new System.Drawing.Size(845, 485);
             this.siticoneTabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.siticoneTabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
             this.siticoneTabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -1051,7 +1067,7 @@ namespace KeyAuth
             this.tabPage1.Location = new System.Drawing.Point(5, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(754, 444);
+            this.tabPage1.Size = new System.Drawing.Size(836, 477);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "License Details";
             // 
@@ -1063,7 +1079,7 @@ namespace KeyAuth
             this.tabPage2.Location = new System.Drawing.Point(5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(754, 444);
+            this.tabPage2.Size = new System.Drawing.Size(836, 477);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "New Changelog";
             // 
@@ -1080,7 +1096,7 @@ namespace KeyAuth
             this.tabPage3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tabPage3.Location = new System.Drawing.Point(5, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(754, 444);
+            this.tabPage3.Size = new System.Drawing.Size(836, 477);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Cheats";
             // 
@@ -1091,7 +1107,7 @@ namespace KeyAuth
             this.LoLBotCheatPanel.Controls.Add(this.siticoneRoundedGradientButton3);
             this.LoLBotCheatPanel.Controls.Add(this.siticoneHtmlLabel1);
             this.LoLBotCheatPanel.Controls.Add(this.LolcheatPictureBox);
-            this.LoLBotCheatPanel.Location = new System.Drawing.Point(572, 14);
+            this.LoLBotCheatPanel.Location = new System.Drawing.Point(637, 14);
             this.LoLBotCheatPanel.Name = "LoLBotCheatPanel";
             this.LoLBotCheatPanel.ShadowDecoration.Parent = this.LoLBotCheatPanel;
             this.LoLBotCheatPanel.Size = new System.Drawing.Size(168, 338);
@@ -1194,7 +1210,7 @@ namespace KeyAuth
             this.GtaVCheatPanel.Controls.Add(this.siticoneRoundedGradientButton2);
             this.GtaVCheatPanel.Controls.Add(this.siticoneHtmlLabel4);
             this.GtaVCheatPanel.Controls.Add(this.GtaVcheatPictureBox);
-            this.GtaVCheatPanel.Location = new System.Drawing.Point(386, 14);
+            this.GtaVCheatPanel.Location = new System.Drawing.Point(435, 14);
             this.GtaVCheatPanel.Name = "GtaVCheatPanel";
             this.GtaVCheatPanel.ShadowDecoration.Parent = this.GtaVCheatPanel;
             this.GtaVCheatPanel.Size = new System.Drawing.Size(168, 338);
@@ -1296,7 +1312,7 @@ namespace KeyAuth
             this.ValorantCheatPanel.Controls.Add(this.siticonePanel8);
             this.ValorantCheatPanel.Controls.Add(this.siticoneRoundedGradientButton1);
             this.ValorantCheatPanel.Controls.Add(this.siticoneHtmlLabel3);
-            this.ValorantCheatPanel.Location = new System.Drawing.Point(201, 14);
+            this.ValorantCheatPanel.Location = new System.Drawing.Point(234, 14);
             this.ValorantCheatPanel.Name = "ValorantCheatPanel";
             this.ValorantCheatPanel.ShadowDecoration.Parent = this.ValorantCheatPanel;
             this.ValorantCheatPanel.Size = new System.Drawing.Size(168, 338);
@@ -1398,7 +1414,7 @@ namespace KeyAuth
             this.CSCheatPanel.Controls.Add(this.loadcheatbutton);
             this.CSCheatPanel.Controls.Add(this.siticoneHtmlLabel2);
             this.CSCheatPanel.Controls.Add(this.CScheatPictureBox);
-            this.CSCheatPanel.Location = new System.Drawing.Point(15, 14);
+            this.CSCheatPanel.Location = new System.Drawing.Point(32, 14);
             this.CSCheatPanel.Name = "CSCheatPanel";
             this.CSCheatPanel.ShadowDecoration.Parent = this.CSCheatPanel;
             this.CSCheatPanel.Size = new System.Drawing.Size(169, 338);
@@ -1498,7 +1514,7 @@ namespace KeyAuth
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage4.Location = new System.Drawing.Point(5, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(754, 444);
+            this.tabPage4.Size = new System.Drawing.Size(836, 477);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
             // 
@@ -1507,7 +1523,7 @@ namespace KeyAuth
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage5.Location = new System.Drawing.Point(5, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(754, 444);
+            this.tabPage5.Size = new System.Drawing.Size(836, 477);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CS";
             // 
@@ -1517,7 +1533,7 @@ namespace KeyAuth
             this.tabPage6.Location = new System.Drawing.Point(5, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(754, 444);
+            this.tabPage6.Size = new System.Drawing.Size(836, 477);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Valo";
             // 
@@ -1526,7 +1542,7 @@ namespace KeyAuth
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage7.Location = new System.Drawing.Point(5, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(754, 444);
+            this.tabPage7.Size = new System.Drawing.Size(836, 477);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "GtaV";
             // 
@@ -1535,7 +1551,7 @@ namespace KeyAuth
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage8.Location = new System.Drawing.Point(5, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(754, 444);
+            this.tabPage8.Size = new System.Drawing.Size(836, 477);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "LoLBot";
             // 
@@ -1544,22 +1560,82 @@ namespace KeyAuth
             this.siticoneBorderlessForm1.AnimateWindow = true;
             this.siticoneBorderlessForm1.AnimationInterval = 1111;
             this.siticoneBorderlessForm1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm.AnimateWindowType.AW_CENTER;
-            this.siticoneBorderlessForm1.BorderRadius = 15;
+            this.siticoneBorderlessForm1.BorderRadius = 20;
             this.siticoneBorderlessForm1.ContainerControl = this;
             this.siticoneBorderlessForm1.ResizeForm = false;
-            this.siticoneBorderlessForm1.ShadowColor = System.Drawing.Color.DodgerBlue;
+            this.siticoneBorderlessForm1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.siticoneBorderlessForm1.TransparentWhileDrag = true;
             // 
             // siticoneAnimateWindow1
             // 
             this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
             // 
-            // Main
+            // siticonePictureBox3
+            // 
+            this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox3.Image")));
+            this.siticonePictureBox3.Location = new System.Drawing.Point(3, 7);
+            this.siticonePictureBox3.Name = "siticonePictureBox3";
+            this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
+            this.siticonePictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox3.TabIndex = 64;
+            this.siticonePictureBox3.TabStop = false;
+            // 
+            // siticonePictureBox8
+            // 
+            this.siticonePictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox8.Image")));
+            this.siticonePictureBox8.Location = new System.Drawing.Point(0, 7);
+            this.siticonePictureBox8.Name = "siticonePictureBox8";
+            this.siticonePictureBox8.ShadowDecoration.Parent = this.siticonePictureBox8;
+            this.siticonePictureBox8.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox8.TabIndex = 65;
+            this.siticonePictureBox8.TabStop = false;
+            // 
+            // siticonePictureBox9
+            // 
+            this.siticonePictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox9.Image")));
+            this.siticonePictureBox9.Location = new System.Drawing.Point(3, 7);
+            this.siticonePictureBox9.Name = "siticonePictureBox9";
+            this.siticonePictureBox9.ShadowDecoration.Parent = this.siticonePictureBox9;
+            this.siticonePictureBox9.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox9.TabIndex = 66;
+            this.siticonePictureBox9.TabStop = false;
+            // 
+            // siticonePictureBox10
+            // 
+            this.siticonePictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox10.Image")));
+            this.siticonePictureBox10.Location = new System.Drawing.Point(3, 5);
+            this.siticonePictureBox10.Name = "siticonePictureBox10";
+            this.siticonePictureBox10.ShadowDecoration.Parent = this.siticonePictureBox10;
+            this.siticonePictureBox10.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox10.TabIndex = 67;
+            this.siticonePictureBox10.TabStop = false;
+            // 
+            // siticonePictureBox11
+            // 
+            this.siticonePictureBox11.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox11.Image")));
+            this.siticonePictureBox11.Location = new System.Drawing.Point(3, 6);
+            this.siticonePictureBox11.Name = "siticonePictureBox11";
+            this.siticonePictureBox11.ShadowDecoration.Parent = this.siticonePictureBox11;
+            this.siticonePictureBox11.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.siticonePictureBox11.TabIndex = 68;
+            this.siticonePictureBox11.TabStop = false;
+            // 
+            // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(935, 558);
+            this.ClientSize = new System.Drawing.Size(1017, 591);
             this.Controls.Add(this.siticoneTabControl1);
             this.Controls.Add(this.siticoneGradientPanel2);
             this.Controls.Add(this.siticoneGradientPanel3);
@@ -1570,7 +1646,7 @@ namespace KeyAuth
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.Name = "Main";
+            this.Name = "Dashboard";
             this.Opacity = 0.98D;
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1630,6 +1706,11 @@ namespace KeyAuth
             this.siticonePanel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1741,7 +1822,10 @@ namespace KeyAuth
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox2;
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox4;
         private Siticone.Desktop.UI.WinForms.SiticonePictureBox subscriptionPictureBox3;
-
-
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox9;
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox8;
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox3;
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox10;
+        private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox11;
     }
 }

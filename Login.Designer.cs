@@ -152,11 +152,12 @@ namespace KeyAuth
             // 
             this.siticonePictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneTransition1.SetDecoration(this.siticonePictureBox1, Siticone.UI.AnimatorNS.DecorationType.None);
+            this.siticonePictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.siticonePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox1.Image")));
             this.siticonePictureBox1.Location = new System.Drawing.Point(0, 0);
             this.siticonePictureBox1.Name = "siticonePictureBox1";
             this.siticonePictureBox1.ShadowDecoration.Parent = this.siticonePictureBox1;
-            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 32);
+            this.siticonePictureBox1.Size = new System.Drawing.Size(32, 33);
             this.siticonePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.siticonePictureBox1.TabIndex = 43;
             this.siticonePictureBox1.TabStop = false;
@@ -683,10 +684,10 @@ namespace KeyAuth
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage2.Controls.Add(this.siticoneGradientPanel3);
             this.siticoneTransition1.SetDecoration(this.tabPage2, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage2.Location = new System.Drawing.Point(184, 4);
+            this.tabPage2.Location = new System.Drawing.Point(5, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(229, 367);
+            this.tabPage2.Size = new System.Drawing.Size(408, 367);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "registerPage2";
             // 
@@ -706,7 +707,7 @@ namespace KeyAuth
             this.siticoneGradientPanel3.Location = new System.Drawing.Point(3, 3);
             this.siticoneGradientPanel3.Name = "siticoneGradientPanel3";
             this.siticoneGradientPanel3.ShadowDecoration.Parent = this.siticoneGradientPanel3;
-            this.siticoneGradientPanel3.Size = new System.Drawing.Size(223, 361);
+            this.siticoneGradientPanel3.Size = new System.Drawing.Size(402, 361);
             this.siticoneGradientPanel3.TabIndex = 59;
             // 
             // siticoneLabel5
@@ -894,9 +895,9 @@ namespace KeyAuth
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage3.Controls.Add(this.siticoneGradientPanel4);
             this.siticoneTransition1.SetDecoration(this.tabPage3, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage3.Location = new System.Drawing.Point(184, 4);
+            this.tabPage3.Location = new System.Drawing.Point(5, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(229, 367);
+            this.tabPage3.Size = new System.Drawing.Size(408, 367);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "upgradePage3";
             // 
@@ -915,7 +916,7 @@ namespace KeyAuth
             this.siticoneGradientPanel4.Location = new System.Drawing.Point(0, 0);
             this.siticoneGradientPanel4.Name = "siticoneGradientPanel4";
             this.siticoneGradientPanel4.ShadowDecoration.Parent = this.siticoneGradientPanel4;
-            this.siticoneGradientPanel4.Size = new System.Drawing.Size(229, 367);
+            this.siticoneGradientPanel4.Size = new System.Drawing.Size(408, 367);
             this.siticoneGradientPanel4.TabIndex = 1;
             // 
             // siticoneLabel7
@@ -1070,9 +1071,9 @@ namespace KeyAuth
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(39)))), ((int)(((byte)(42)))));
             this.tabPage4.Controls.Add(this.siticoneGradientPanel5);
             this.siticoneTransition1.SetDecoration(this.tabPage4, Siticone.UI.AnimatorNS.DecorationType.None);
-            this.tabPage4.Location = new System.Drawing.Point(184, 4);
+            this.tabPage4.Location = new System.Drawing.Point(5, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(229, 367);
+            this.tabPage4.Size = new System.Drawing.Size(408, 367);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "keyLogin4";
             // 
@@ -1092,7 +1093,7 @@ namespace KeyAuth
             this.siticoneGradientPanel5.Location = new System.Drawing.Point(0, 0);
             this.siticoneGradientPanel5.Name = "siticoneGradientPanel5";
             this.siticoneGradientPanel5.ShadowDecoration.Parent = this.siticoneGradientPanel5;
-            this.siticoneGradientPanel5.Size = new System.Drawing.Size(229, 367);
+            this.siticoneGradientPanel5.Size = new System.Drawing.Size(408, 367);
             this.siticoneGradientPanel5.TabIndex = 1;
             // 
             // siticoneLabel9
