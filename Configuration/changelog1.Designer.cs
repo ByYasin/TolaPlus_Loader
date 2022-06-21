@@ -93,10 +93,10 @@
             this.siticonePanel7.Controls.Add(this.siticoneHtmlLabel19);
             this.siticonePanel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel7.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel7.Location = new System.Drawing.Point(42, 50);
+            this.siticonePanel7.Location = new System.Drawing.Point(23, 50);
             this.siticonePanel7.Name = "siticonePanel7";
             this.siticonePanel7.ShadowDecoration.Parent = this.siticonePanel7;
-            this.siticonePanel7.Size = new System.Drawing.Size(739, 111);
+            this.siticonePanel7.Size = new System.Drawing.Size(645, 111);
             this.siticonePanel7.TabIndex = 68;
             // 
             // siticonePictureBox15
@@ -132,7 +132,7 @@
             this.siticoneHtmlLabel18.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel18.Location = new System.Drawing.Point(19, 47);
             this.siticoneHtmlLabel18.Name = "siticoneHtmlLabel18";
-            this.siticoneHtmlLabel18.Size = new System.Drawing.Size(700, 17);
+            this.siticoneHtmlLabel18.Size = new System.Drawing.Size(558, 17);
             this.siticoneHtmlLabel18.TabIndex = 1;
             this.siticoneHtmlLabel18.Text = "Added LoL Premium level bot! But it is not activated yet, updating!";
             // 
@@ -141,7 +141,7 @@
             this.siticoneHtmlLabel19.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel19.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel19.Location = new System.Drawing.Point(232, 3);
+            this.siticoneHtmlLabel19.Location = new System.Drawing.Point(185, 3);
             this.siticoneHtmlLabel19.Name = "siticoneHtmlLabel19";
             this.siticoneHtmlLabel19.Size = new System.Drawing.Size(275, 23);
             this.siticoneHtmlLabel19.TabIndex = 0;
@@ -156,10 +156,10 @@
             this.siticonePanel17.Controls.Add(this.siticoneHtmlLabel22);
             this.siticonePanel17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel17.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel17.Location = new System.Drawing.Point(42, 182);
+            this.siticonePanel17.Location = new System.Drawing.Point(23, 182);
             this.siticonePanel17.Name = "siticonePanel17";
             this.siticonePanel17.ShadowDecoration.Parent = this.siticonePanel17;
-            this.siticonePanel17.Size = new System.Drawing.Size(739, 111);
+            this.siticonePanel17.Size = new System.Drawing.Size(645, 111);
             this.siticonePanel17.TabIndex = 67;
             // 
             // siticonePictureBox16
@@ -195,7 +195,7 @@
             this.siticoneHtmlLabel21.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel21.Location = new System.Drawing.Point(21, 34);
             this.siticoneHtmlLabel21.Name = "siticoneHtmlLabel21";
-            this.siticoneHtmlLabel21.Size = new System.Drawing.Size(696, 42);
+            this.siticoneHtmlLabel21.Size = new System.Drawing.Size(581, 42);
             this.siticoneHtmlLabel21.TabIndex = 1;
             this.siticoneHtmlLabel21.Text = "Gta V Online Premium is now installed and available! \r\nDepending on the way of us" +
     "e, there may be a risk of ban, play legit on servers with crowded players, do no" +
@@ -206,7 +206,7 @@
             this.siticoneHtmlLabel22.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel22.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel22.Location = new System.Drawing.Point(264, 3);
+            this.siticoneHtmlLabel22.Location = new System.Drawing.Point(217, 3);
             this.siticoneHtmlLabel22.Name = "siticoneHtmlLabel22";
             this.siticoneHtmlLabel22.Size = new System.Drawing.Size(211, 23);
             this.siticoneHtmlLabel22.TabIndex = 0;
@@ -221,10 +221,10 @@
             this.siticonePanel6.Controls.Add(this.siticoneHtmlLabel16);
             this.siticonePanel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel6.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel6.Location = new System.Drawing.Point(42, 310);
+            this.siticonePanel6.Location = new System.Drawing.Point(23, 310);
             this.siticonePanel6.Name = "siticonePanel6";
             this.siticonePanel6.ShadowDecoration.Parent = this.siticonePanel6;
-            this.siticonePanel6.Size = new System.Drawing.Size(741, 111);
+            this.siticonePanel6.Size = new System.Drawing.Size(645, 111);
             this.siticonePanel6.TabIndex = 64;
             // 
             // siticonePictureBox11
@@ -260,7 +260,7 @@
             this.siticoneHtmlLabel15.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel15.Location = new System.Drawing.Point(20, 47);
             this.siticoneHtmlLabel15.Name = "siticoneHtmlLabel15";
-            this.siticoneHtmlLabel15.Size = new System.Drawing.Size(700, 17);
+            this.siticoneHtmlLabel15.Size = new System.Drawing.Size(571, 17);
             this.siticoneHtmlLabel15.TabIndex = 1;
             this.siticoneHtmlLabel15.Text = "Added Valorant Premium color aimbot cheat and works safe!";
             // 
@@ -269,7 +269,7 @@
             this.siticoneHtmlLabel16.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel16.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel16.Location = new System.Drawing.Point(277, 3);
+            this.siticoneHtmlLabel16.Location = new System.Drawing.Point(229, 3);
             this.siticoneHtmlLabel16.Name = "siticoneHtmlLabel16";
             this.siticoneHtmlLabel16.Size = new System.Drawing.Size(186, 23);
             this.siticoneHtmlLabel16.TabIndex = 0;
@@ -284,10 +284,10 @@
             this.siticonePanel11.Controls.Add(this.siticoneHtmlLabel13);
             this.siticonePanel11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel11.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel11.Location = new System.Drawing.Point(45, 706);
+            this.siticonePanel11.Location = new System.Drawing.Point(26, 706);
             this.siticonePanel11.Name = "siticonePanel11";
             this.siticonePanel11.ShadowDecoration.Parent = this.siticonePanel11;
-            this.siticonePanel11.Size = new System.Drawing.Size(738, 111);
+            this.siticonePanel11.Size = new System.Drawing.Size(642, 111);
             this.siticonePanel11.TabIndex = 66;
             // 
             // siticonePictureBox10
@@ -323,7 +323,7 @@
             this.siticoneHtmlLabel12.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel12.Location = new System.Drawing.Point(29, 47);
             this.siticoneHtmlLabel12.Name = "siticoneHtmlLabel12";
-            this.siticoneHtmlLabel12.Size = new System.Drawing.Size(681, 17);
+            this.siticoneHtmlLabel12.Size = new System.Drawing.Size(584, 17);
             this.siticoneHtmlLabel12.TabIndex = 1;
             this.siticoneHtmlLabel12.Text = "Released as beta!";
             // 
@@ -332,7 +332,7 @@
             this.siticoneHtmlLabel13.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel13.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel13.Location = new System.Drawing.Point(275, 3);
+            this.siticoneHtmlLabel13.Location = new System.Drawing.Point(227, 3);
             this.siticoneHtmlLabel13.Name = "siticoneHtmlLabel13";
             this.siticoneHtmlLabel13.Size = new System.Drawing.Size(188, 23);
             this.siticoneHtmlLabel13.TabIndex = 0;
@@ -347,10 +347,10 @@
             this.siticonePanel10.Controls.Add(this.siticoneHtmlLabel10);
             this.siticonePanel10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel10.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel10.Location = new System.Drawing.Point(47, 574);
+            this.siticonePanel10.Location = new System.Drawing.Point(28, 574);
             this.siticonePanel10.Name = "siticonePanel10";
             this.siticonePanel10.ShadowDecoration.Parent = this.siticonePanel10;
-            this.siticonePanel10.Size = new System.Drawing.Size(736, 111);
+            this.siticonePanel10.Size = new System.Drawing.Size(640, 111);
             this.siticonePanel10.TabIndex = 65;
             // 
             // siticonePictureBox9
@@ -386,7 +386,7 @@
             this.siticoneHtmlLabel9.ForeColor = System.Drawing.SystemColors.Control;
             this.siticoneHtmlLabel9.Location = new System.Drawing.Point(27, 47);
             this.siticoneHtmlLabel9.Name = "siticoneHtmlLabel9";
-            this.siticoneHtmlLabel9.Size = new System.Drawing.Size(682, 17);
+            this.siticoneHtmlLabel9.Size = new System.Drawing.Size(613, 17);
             this.siticoneHtmlLabel9.TabIndex = 1;
             this.siticoneHtmlLabel9.Text = "A field has been added where you can view your license information in detail!";
             // 
@@ -395,7 +395,7 @@
             this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(208, 3);
+            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(160, 3);
             this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
             this.siticoneHtmlLabel10.Size = new System.Drawing.Size(321, 23);
             this.siticoneHtmlLabel10.TabIndex = 0;
@@ -410,10 +410,10 @@
             this.siticonePanel9.Controls.Add(this.siticoneHtmlLabel1);
             this.siticonePanel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticonePanel9.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticonePanel9.Location = new System.Drawing.Point(45, 442);
+            this.siticonePanel9.Location = new System.Drawing.Point(26, 442);
             this.siticonePanel9.Name = "siticonePanel9";
             this.siticonePanel9.ShadowDecoration.Parent = this.siticonePanel9;
-            this.siticonePanel9.Size = new System.Drawing.Size(738, 111);
+            this.siticonePanel9.Size = new System.Drawing.Size(642, 111);
             this.siticonePanel9.TabIndex = 63;
             // 
             // siticonePictureBox8
@@ -447,7 +447,7 @@
             this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel6.ForeColor = System.Drawing.SystemColors.Control;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(33, 38);
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(33, 47);
             this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
             this.siticoneHtmlLabel6.Size = new System.Drawing.Size(387, 17);
             this.siticoneHtmlLabel6.TabIndex = 1;
@@ -458,7 +458,7 @@
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(292, 3);
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(244, 3);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
             this.siticoneHtmlLabel1.Size = new System.Drawing.Size(155, 23);
             this.siticoneHtmlLabel1.TabIndex = 0;
@@ -478,7 +478,7 @@
             this.Controls.Add(this.siticonePanel9);
             this.Controls.Add(this.siticoneHtmlLabel5);
             this.Name = "changelog1";
-            this.Size = new System.Drawing.Size(825, 461);
+            this.Size = new System.Drawing.Size(690, 468);
             this.siticonePanel7.ResumeLayout(false);
             this.siticonePanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox15)).EndInit();

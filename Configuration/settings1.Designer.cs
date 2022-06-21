@@ -311,13 +311,13 @@
             this.siticoneHtmlLabel5.TabIndex = 2;
             this.siticoneHtmlLabel5.Text = "Settings";
             // 
-            // settings
+            // settings1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.Controls.Add(this.siticonePanel1);
-            this.Name = "settings";
+            this.Name = "settings1";
             this.Size = new System.Drawing.Size(666, 397);
             this.Load += new System.EventHandler(this.Settings_Load);
             this.siticonePanel1.ResumeLayout(false);
