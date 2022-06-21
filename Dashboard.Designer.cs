@@ -1574,7 +1574,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox3.Image")));
-            this.siticonePictureBox3.Location = new System.Drawing.Point(217, 7);
+            this.siticonePictureBox3.Location = new System.Drawing.Point(212, 7);
             this.siticonePictureBox3.Name = "siticonePictureBox3";
             this.siticonePictureBox3.ShadowDecoration.Parent = this.siticonePictureBox3;
             this.siticonePictureBox3.Size = new System.Drawing.Size(32, 32);
@@ -1586,7 +1586,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox8.Image")));
-            this.siticonePictureBox8.Location = new System.Drawing.Point(217, 7);
+            this.siticonePictureBox8.Location = new System.Drawing.Point(212, 7);
             this.siticonePictureBox8.Name = "siticonePictureBox8";
             this.siticonePictureBox8.ShadowDecoration.Parent = this.siticonePictureBox8;
             this.siticonePictureBox8.Size = new System.Drawing.Size(32, 32);
@@ -1598,7 +1598,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox9.Image")));
-            this.siticonePictureBox9.Location = new System.Drawing.Point(217, 7);
+            this.siticonePictureBox9.Location = new System.Drawing.Point(212, 7);
             this.siticonePictureBox9.Name = "siticonePictureBox9";
             this.siticonePictureBox9.ShadowDecoration.Parent = this.siticonePictureBox9;
             this.siticonePictureBox9.Size = new System.Drawing.Size(32, 32);
@@ -1610,7 +1610,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox10.Image")));
-            this.siticonePictureBox10.Location = new System.Drawing.Point(217, 5);
+            this.siticonePictureBox10.Location = new System.Drawing.Point(212, 5);
             this.siticonePictureBox10.Name = "siticonePictureBox10";
             this.siticonePictureBox10.ShadowDecoration.Parent = this.siticonePictureBox10;
             this.siticonePictureBox10.Size = new System.Drawing.Size(32, 32);
@@ -1622,7 +1622,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox11.Image")));
-            this.siticonePictureBox11.Location = new System.Drawing.Point(217, 0);
+            this.siticonePictureBox11.Location = new System.Drawing.Point(212, 0);
             this.siticonePictureBox11.Name = "siticonePictureBox11";
             this.siticonePictureBox11.ShadowDecoration.Parent = this.siticonePictureBox11;
             this.siticonePictureBox11.Size = new System.Drawing.Size(32, 32);
