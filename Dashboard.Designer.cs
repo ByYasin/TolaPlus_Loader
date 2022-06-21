@@ -337,7 +337,7 @@ namespace KeyAuth
             this.key.BackColor = System.Drawing.Color.Transparent;
             this.key.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.key.ForeColor = System.Drawing.Color.White;
-            this.key.Location = new System.Drawing.Point(67, 447);
+            this.key.Location = new System.Drawing.Point(68, 446);
             this.key.Margin = new System.Windows.Forms.Padding(2);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(87, 17);
@@ -609,7 +609,7 @@ namespace KeyAuth
             this.welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.welcomelabel.ForeColor = System.Drawing.Color.White;
-            this.welcomelabel.Location = new System.Drawing.Point(67, 426);
+            this.welcomelabel.Location = new System.Drawing.Point(68, 425);
             this.welcomelabel.Margin = new System.Windows.Forms.Padding(2);
             this.welcomelabel.Name = "welcomelabel";
             this.welcomelabel.Size = new System.Drawing.Size(56, 17);
@@ -620,7 +620,7 @@ namespace KeyAuth
             // 
             this.welcomepicturebox.BackColor = System.Drawing.Color.Transparent;
             this.welcomepicturebox.Image = ((System.Drawing.Image)(resources.GetObject("welcomepicturebox.Image")));
-            this.welcomepicturebox.Location = new System.Drawing.Point(16, 423);
+            this.welcomepicturebox.Location = new System.Drawing.Point(17, 422);
             this.welcomepicturebox.Name = "welcomepicturebox";
             this.welcomepicturebox.ShadowDecoration.Parent = this.welcomepicturebox;
             this.welcomepicturebox.Size = new System.Drawing.Size(45, 45);
