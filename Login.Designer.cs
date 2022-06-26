@@ -20,7 +20,7 @@ namespace KeyAuth
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Siticone.UI.AnimatorNS.Animation animation3 = new Siticone.UI.AnimatorNS.Animation();
+            Siticone.UI.AnimatorNS.Animation animation5 = new Siticone.UI.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.headerpanel = new Siticone.UI.WinForms.SiticoneCustomGradientPanel();
@@ -199,22 +199,22 @@ namespace KeyAuth
             // 
             this.siticoneTransition1.AnimationType = Siticone.UI.AnimatorNS.AnimationType.Rotate;
             this.siticoneTransition1.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(50);
-            animation3.RotateCoeff = 1F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 1F;
-            this.siticoneTransition1.DefaultAnimation = animation3;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(50);
+            animation5.RotateCoeff = 1F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 1F;
+            this.siticoneTransition1.DefaultAnimation = animation5;
             // 
             // label1
             // 
@@ -265,7 +265,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton4.Image = global::Loader.Properties.Resources.shopping_48;
             this.siticoneRoundedGradientButton4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton4.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton4.Location = new System.Drawing.Point(39, 307);
+            this.siticoneRoundedGradientButton4.Location = new System.Drawing.Point(39, 325);
             this.siticoneRoundedGradientButton4.Name = "siticoneRoundedGradientButton4";
             this.siticoneRoundedGradientButton4.PressedDepth = 38;
             this.siticoneRoundedGradientButton4.ShadowDecoration.Parent = this.siticoneRoundedGradientButton4;
@@ -302,7 +302,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton3.Image")));
             this.siticoneRoundedGradientButton3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton3.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(39, 250);
+            this.siticoneRoundedGradientButton3.Location = new System.Drawing.Point(39, 268);
             this.siticoneRoundedGradientButton3.Name = "siticoneRoundedGradientButton3";
             this.siticoneRoundedGradientButton3.PressedDepth = 38;
             this.siticoneRoundedGradientButton3.ShadowDecoration.Parent = this.siticoneRoundedGradientButton3;
@@ -330,7 +330,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton2.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton2.Image")));
             this.siticoneRoundedGradientButton2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton2.ImageSize = new System.Drawing.Size(22, 22);
-            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(38, 364);
+            this.siticoneRoundedGradientButton2.Location = new System.Drawing.Point(38, 382);
             this.siticoneRoundedGradientButton2.Name = "siticoneRoundedGradientButton2";
             this.siticoneRoundedGradientButton2.ShadowDecoration.Parent = this.siticoneRoundedGradientButton2;
             this.siticoneRoundedGradientButton2.Size = new System.Drawing.Size(184, 32);
@@ -356,7 +356,7 @@ namespace KeyAuth
             this.siticoneRoundedGradientButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneRoundedGradientButton1.Image")));
             this.siticoneRoundedGradientButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.siticoneRoundedGradientButton1.ImageSize = new System.Drawing.Size(24, 24);
-            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(38, 193);
+            this.siticoneRoundedGradientButton1.Location = new System.Drawing.Point(38, 211);
             this.siticoneRoundedGradientButton1.Name = "siticoneRoundedGradientButton1";
             this.siticoneRoundedGradientButton1.PressedDepth = 37;
             this.siticoneRoundedGradientButton1.ShadowDecoration.Parent = this.siticoneRoundedGradientButton1;
@@ -579,9 +579,9 @@ namespace KeyAuth
             this.loginstatus.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.loginstatus.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.loginstatus.ForeColor = System.Drawing.SystemColors.Control;
-            this.loginstatus.Location = new System.Drawing.Point(0, 323);
+            this.loginstatus.Location = new System.Drawing.Point(0, 324);
             this.loginstatus.Name = "loginstatus";
-            this.loginstatus.Size = new System.Drawing.Size(485, 69);
+            this.loginstatus.Size = new System.Drawing.Size(485, 68);
             this.loginstatus.TabIndex = 3;
             this.loginstatus.Text = "Status : Welcome! Authorization waiting!";
             this.loginstatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
