@@ -30,14 +30,14 @@ namespace KeyAuth
             name: "TolaPlus",
             ownerid: "fuE7N6dyWl",
             secret: "c179566b29ee7e9b75b606e4726b084b5ae95452ccf088e02a28e997ee162992",
-            version: "0.0.3"
+            version: "0.0.1"
         );
 
         public Login()
         {
             InitializeComponent();
             Rememberme_Init_Data();
-            Autologin_Inýt_Data();
+            Autologin_Init_Data();
         }
 
         private void Rememberme_Init_Data()
@@ -83,7 +83,7 @@ namespace KeyAuth
 
         }
 
-        private void Autologin_Inýt_Data()
+        private void Autologin_Init_Data()
         {
             if (Loader.Properties.Settings.Default.autologinsave == true)
             {
@@ -238,7 +238,6 @@ namespace KeyAuth
 
         private void Login_Load(object sender, EventArgs e)
         {
-
             //themecolor_Data();
             try
             {
@@ -275,12 +274,12 @@ namespace KeyAuth
                                 Environment.Exit(0);
                                 break;
                             default:
-                                MessageBox.Show("Invalid option");
+                                MessageBox.Show("Invalid option ?");
                                 Environment.Exit(0);
                                 break;
                         }
                     }
-                    MessageBox.Show("[ENG] The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software! \n _______________________________________________________________ \n [TR] Yazýlým þu anda güncelleniyor! Lütfen güncellenmesini bekleyin, güncellendiðinde toplulukta duyurulacak ve yazýlýmý baþlattýðýnýzda otomatik olarak kendini güncelleyecektir!", "Updating...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("[ENG] The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software! \n _______________________________________________________________ \n [TR] Yazï¿½lï¿½m ï¿½u anda gï¿½ncelleniyor! Lï¿½tfen gï¿½ncellenmesini bekleyin, gï¿½ncellendiï¿½inde toplulukta duyurulacak ve yazï¿½lï¿½mï¿½ baï¿½lattï¿½ï¿½ï¿½nï¿½zda otomatik olarak kendini gï¿½ncelleyecektir!", "Updating...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Thread.Sleep(5000);
                     Environment.Exit(0);
                 }
@@ -292,7 +291,7 @@ namespace KeyAuth
                 }
                 if (KeyAuthApp.checkblack())
                 {
-                    MessageBox.Show("Your device has been banned! You can contact the developer.", "Hwýd lock!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Your device has been banned! You can contact the developer.", "Hwï¿½d lock!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Environment.Exit(0);
                 }
                 else

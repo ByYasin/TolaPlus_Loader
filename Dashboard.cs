@@ -23,13 +23,13 @@ namespace KeyAuth
         {
             InitializeComponent();
             panel1.Parent = CScheatPictureBox;
-            panel1.BackColor = Color.FromArgb(160, Color.Black);
+            panel1.BackColor = Color.FromArgb(150, Color.Black);
             panel2.Parent = ValocheatPictureBox;
-            panel2.BackColor = Color.FromArgb(160, Color.Black);
+            panel2.BackColor = Color.FromArgb(150, Color.Black);
             panel3.Parent = GtaVcheatPictureBox;
-            panel3.BackColor = Color.FromArgb(160, Color.Black);
+            panel3.BackColor = Color.FromArgb(150, Color.Black);
             panel4.Parent = LolcheatPictureBox;
-            panel4.BackColor = Color.FromArgb(160, Color.Black);
+            panel4.BackColor = Color.FromArgb(150, Color.Black);
         }
 
         private void siticoneControlBox1_Click_1(object sender, EventArgs e)
