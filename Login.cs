@@ -30,7 +30,7 @@ namespace KeyAuth
             name: "TolaPlus",
             ownerid: "fuE7N6dyWl",
             secret: "c179566b29ee7e9b75b606e4726b084b5ae95452ccf088e02a28e997ee162992",
-            version: "0.0.1"
+            version: "0.0.2"
         );
 
         public Login()
@@ -228,7 +228,7 @@ namespace KeyAuth
 
         private void siticoneRoundedGradientButton4_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.tolaplus.com/");
+            Process.Start("https://tolaplus.com");
         }
 
         private void siticoneCirclePictureBox1_Click(object sender, EventArgs e)
@@ -279,7 +279,7 @@ namespace KeyAuth
                                 break;
                         }
                     }
-                    MessageBox.Show("[ENG] The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software! \n _______________________________________________________________ \n [TR] Yaz�l�m �u anda g�ncelleniyor! L�tfen g�ncellenmesini bekleyin, g�ncellendi�inde toplulukta duyurulacak ve yaz�l�m� ba�latt���n�zda otomatik olarak kendini g�ncelleyecektir!", "Updating...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("[ENG] The software is currently in update! Please wait for it to update, when it is updated it will be announced in the community and it will automatically update itself when you start the software! \n _______________________________________________________________ \n [TR] Yazılım şu anda güncelleniyor! Lütfen güncellenmesini bekleyin, güncellendiğinde toplulukta duyurulacak ve yazılımı başlattığınızda otomatik olarak kendini güncelleyecektir!", "Updating...", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Thread.Sleep(5000);
                     Environment.Exit(0);
                 }

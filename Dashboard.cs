@@ -88,6 +88,8 @@ namespace KeyAuth
                 Environment.Exit(0);
             }
 
+            numOnlineUsers.Text = "Number of online users: " + Login.KeyAuthApp.app_data.numOnlineUsers;
+
 
             if (subscription.Text == "Active Subscription: CS 1.6" || subscription.Text == "Active Subscription: Premium")
             {
@@ -154,7 +156,7 @@ namespace KeyAuth
                 createDate.Text = "Creation date: " + FromUnixTime(long.Parse(Login.KeyAuthApp.user_data.createdate));
                 lastLogin.Text = "Last login: " + FromUnixTime(long.Parse(Login.KeyAuthApp.user_data.lastlogin));
                 numUsers.Text = "Number of users: " + Login.KeyAuthApp.app_data.numUsers;
-                numOnlineUsers.Text = "Number of online users: " + Login.KeyAuthApp.app_data.numOnlineUsers;
+
                 numKeys.Text = "Number of licenses: " + Login.KeyAuthApp.app_data.numKeys;
                 version.Text = "Version: " + Login.KeyAuthApp.app_data.version;
                 customerPanelLink.Text = "Customer panel: " + Login.KeyAuthApp.app_data.customerPanelLink;
@@ -256,7 +258,7 @@ namespace KeyAuth
 
         private void buyrenewbutton_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.tolaplus.com/");
+            Process.Start("https://tolaplus.com");
         }
 
 

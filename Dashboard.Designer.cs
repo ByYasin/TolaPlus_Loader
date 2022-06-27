@@ -58,10 +58,8 @@ namespace KeyAuth
             this.siticoneVSeparator1 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.siticoneGradientPanel3 = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
             this.siticoneVSeparator4 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
-            this.siticoneVSeparator3 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.siticoneVSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
             this.licensedetailsbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.buyrenewbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.siticonePictureBox2 = new Siticone.UI.WinForms.SiticonePictureBox();
             this.siticoneSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneSeparator();
             this.siticoneGradientPanel4 = new Siticone.Desktop.UI.WinForms.SiticoneGradientPanel();
@@ -126,6 +124,8 @@ namespace KeyAuth
             this.valo11 = new Loader.Products.valo1();
             this.gtaV11 = new Loader.Products.gtaV1();
             this.lolbot11 = new Loader.Products.lolbot1();
+            this.siticoneVSeparator3 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
+            this.buyrenewbutton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox4)).BeginInit();
@@ -187,14 +187,11 @@ namespace KeyAuth
             // 
             this.headerpanel.Controls.Add(this.siticonePictureBox7);
             this.headerpanel.Controls.Add(this.siticoneVSeparator5);
-            this.headerpanel.Controls.Add(this.siticonePictureBox4);
             this.headerpanel.Controls.Add(this.siticoneControlBox2);
             this.headerpanel.Controls.Add(this.numOnlineUsers);
-            this.headerpanel.Controls.Add(this.versiontitlelabel);
             this.headerpanel.Controls.Add(this.siticoneControlBox1);
             this.headerpanel.Controls.Add(this.label3);
             this.headerpanel.Controls.Add(this.siticonePictureBox1);
-            this.headerpanel.Controls.Add(this.version);
             this.headerpanel.CustomBorderColor = System.Drawing.Color.Transparent;
             this.headerpanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerpanel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(30)))), ((int)(((byte)(46)))));
@@ -211,7 +208,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox7.Image")));
-            this.siticonePictureBox7.Location = new System.Drawing.Point(576, 4);
+            this.siticonePictureBox7.Location = new System.Drawing.Point(769, 4);
             this.siticonePictureBox7.Name = "siticonePictureBox7";
             this.siticonePictureBox7.ShadowDecoration.Parent = this.siticonePictureBox7;
             this.siticonePictureBox7.Size = new System.Drawing.Size(25, 25);
@@ -223,7 +220,7 @@ namespace KeyAuth
             // 
             this.siticoneVSeparator5.BackColor = System.Drawing.Color.Transparent;
             this.siticoneVSeparator5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(154)))), ((int)(((byte)(154)))));
-            this.siticoneVSeparator5.Location = new System.Drawing.Point(766, 0);
+            this.siticoneVSeparator5.Location = new System.Drawing.Point(754, 0);
             this.siticoneVSeparator5.Name = "siticoneVSeparator5";
             this.siticoneVSeparator5.Size = new System.Drawing.Size(10, 32);
             this.siticoneVSeparator5.TabIndex = 64;
@@ -232,7 +229,7 @@ namespace KeyAuth
             // 
             this.siticonePictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox4.Image")));
-            this.siticonePictureBox4.Location = new System.Drawing.Point(792, 4);
+            this.siticonePictureBox4.Location = new System.Drawing.Point(12, 444);
             this.siticonePictureBox4.Name = "siticonePictureBox4";
             this.siticonePictureBox4.ShadowDecoration.Parent = this.siticonePictureBox4;
             this.siticonePictureBox4.Size = new System.Drawing.Size(25, 25);
@@ -262,7 +259,7 @@ namespace KeyAuth
             this.numOnlineUsers.BackColor = System.Drawing.Color.Transparent;
             this.numOnlineUsers.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.numOnlineUsers.ForeColor = System.Drawing.SystemColors.Control;
-            this.numOnlineUsers.Location = new System.Drawing.Point(606, 8);
+            this.numOnlineUsers.Location = new System.Drawing.Point(799, 8);
             this.numOnlineUsers.Margin = new System.Windows.Forms.Padding(2);
             this.numOnlineUsers.Name = "numOnlineUsers";
             this.numOnlineUsers.Size = new System.Drawing.Size(124, 17);
@@ -274,7 +271,7 @@ namespace KeyAuth
             this.versiontitlelabel.BackColor = System.Drawing.Color.Transparent;
             this.versiontitlelabel.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.versiontitlelabel.ForeColor = System.Drawing.Color.White;
-            this.versiontitlelabel.Location = new System.Drawing.Point(820, 8);
+            this.versiontitlelabel.Location = new System.Drawing.Point(40, 449);
             this.versiontitlelabel.Margin = new System.Windows.Forms.Padding(2);
             this.versiontitlelabel.Name = "versiontitlelabel";
             this.versiontitlelabel.Size = new System.Drawing.Size(29, 17);
@@ -327,7 +324,7 @@ namespace KeyAuth
             this.version.BackColor = System.Drawing.Color.Transparent;
             this.version.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.version.ForeColor = System.Drawing.Color.White;
-            this.version.Location = new System.Drawing.Point(852, 8);
+            this.version.Location = new System.Drawing.Point(70, 449);
             this.version.Margin = new System.Windows.Forms.Padding(2);
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(73, 17);
@@ -349,7 +346,7 @@ namespace KeyAuth
             this.key.BackColor = System.Drawing.Color.Transparent;
             this.key.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.key.ForeColor = System.Drawing.Color.White;
-            this.key.Location = new System.Drawing.Point(68, 446);
+            this.key.Location = new System.Drawing.Point(895, 38);
             this.key.Margin = new System.Windows.Forms.Padding(2);
             this.key.Name = "key";
             this.key.Size = new System.Drawing.Size(87, 17);
@@ -564,7 +561,7 @@ namespace KeyAuth
             this.subscriptionDaysLabel.BackColor = System.Drawing.Color.Transparent;
             this.subscriptionDaysLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.subscriptionDaysLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.subscriptionDaysLabel.Location = new System.Drawing.Point(685, 28);
+            this.subscriptionDaysLabel.Location = new System.Drawing.Point(437, 28);
             this.subscriptionDaysLabel.Margin = new System.Windows.Forms.Padding(2);
             this.subscriptionDaysLabel.Name = "subscriptionDaysLabel";
             this.subscriptionDaysLabel.Size = new System.Drawing.Size(125, 17);
@@ -594,13 +591,14 @@ namespace KeyAuth
             // 
             this.siticoneGradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.siticoneGradientPanel2.Controls.Add(this.siticoneSeparator1);
-            this.siticoneGradientPanel2.Controls.Add(this.welcomelabel);
-            this.siticoneGradientPanel2.Controls.Add(this.key);
-            this.siticoneGradientPanel2.Controls.Add(this.welcomepicturebox);
+            this.siticoneGradientPanel2.Controls.Add(this.licensedetailsbutton);
+            this.siticoneGradientPanel2.Controls.Add(this.siticonePictureBox4);
             this.siticoneGradientPanel2.Controls.Add(this.settingsbutton);
             this.siticoneGradientPanel2.Controls.Add(this.cheatsbutton);
+            this.siticoneGradientPanel2.Controls.Add(this.versiontitlelabel);
             this.siticoneGradientPanel2.Controls.Add(this.newschangebutton);
             this.siticoneGradientPanel2.Controls.Add(this.siticoneVSeparator1);
+            this.siticoneGradientPanel2.Controls.Add(this.version);
             this.siticoneGradientPanel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.siticoneGradientPanel2.Location = new System.Drawing.Point(0, 106);
             this.siticoneGradientPanel2.Name = "siticoneGradientPanel2";
@@ -611,7 +609,7 @@ namespace KeyAuth
             // siticoneSeparator1
             // 
             this.siticoneSeparator1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.siticoneSeparator1.Location = new System.Drawing.Point(3, 394);
+            this.siticoneSeparator1.Location = new System.Drawing.Point(2, 420);
             this.siticoneSeparator1.Name = "siticoneSeparator1";
             this.siticoneSeparator1.Size = new System.Drawing.Size(163, 10);
             this.siticoneSeparator1.TabIndex = 57;
@@ -621,7 +619,7 @@ namespace KeyAuth
             this.welcomelabel.BackColor = System.Drawing.Color.Transparent;
             this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.welcomelabel.ForeColor = System.Drawing.Color.White;
-            this.welcomelabel.Location = new System.Drawing.Point(68, 425);
+            this.welcomelabel.Location = new System.Drawing.Point(895, 17);
             this.welcomelabel.Margin = new System.Windows.Forms.Padding(2);
             this.welcomelabel.Name = "welcomelabel";
             this.welcomelabel.Size = new System.Drawing.Size(56, 17);
@@ -632,7 +630,7 @@ namespace KeyAuth
             // 
             this.welcomepicturebox.BackColor = System.Drawing.Color.Transparent;
             this.welcomepicturebox.Image = ((System.Drawing.Image)(resources.GetObject("welcomepicturebox.Image")));
-            this.welcomepicturebox.Location = new System.Drawing.Point(12, 422);
+            this.welcomepicturebox.Location = new System.Drawing.Point(839, 14);
             this.welcomepicturebox.Name = "welcomepicturebox";
             this.welcomepicturebox.ShadowDecoration.Parent = this.welcomepicturebox;
             this.welcomepicturebox.Size = new System.Drawing.Size(44, 44);
@@ -661,13 +659,14 @@ namespace KeyAuth
             this.settingsbutton.Image = global::Loader.Properties.Resources.settings_48;
             this.settingsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.settingsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.settingsbutton.Location = new System.Drawing.Point(5, 182);
+            this.settingsbutton.Location = new System.Drawing.Point(0, 250);
             this.settingsbutton.Name = "settingsbutton";
             this.settingsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.settingsbutton.ShadowDecoration.Parent = this.settingsbutton;
-            this.settingsbutton.Size = new System.Drawing.Size(162, 63);
+            this.settingsbutton.Size = new System.Drawing.Size(163, 63);
             this.settingsbutton.TabIndex = 59;
             this.settingsbutton.Text = " Settings";
+            this.settingsbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.settingsbutton.Click += new System.EventHandler(this.settingsbutton_Click);
             // 
             // cheatsbutton
@@ -691,13 +690,14 @@ namespace KeyAuth
             this.cheatsbutton.Image = ((System.Drawing.Image)(resources.GetObject("cheatsbutton.Image")));
             this.cheatsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.cheatsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.cheatsbutton.Location = new System.Drawing.Point(5, 97);
+            this.cheatsbutton.Location = new System.Drawing.Point(0, 88);
             this.cheatsbutton.Name = "cheatsbutton";
             this.cheatsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.cheatsbutton.ShadowDecoration.Parent = this.cheatsbutton;
-            this.cheatsbutton.Size = new System.Drawing.Size(162, 63);
+            this.cheatsbutton.Size = new System.Drawing.Size(163, 63);
             this.cheatsbutton.TabIndex = 58;
-            this.cheatsbutton.Text = "         Cheat Library";
+            this.cheatsbutton.Text = " Cheat Library";
+            this.cheatsbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.cheatsbutton.Click += new System.EventHandler(this.cheatsbutton_Click);
             // 
             // newschangebutton
@@ -719,14 +719,16 @@ namespace KeyAuth
             this.newschangebutton.ForeColor = System.Drawing.SystemColors.Control;
             this.newschangebutton.HoverState.Parent = this.newschangebutton;
             this.newschangebutton.Image = global::Loader.Properties.Resources.news_48;
+            this.newschangebutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.newschangebutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.newschangebutton.Location = new System.Drawing.Point(5, 12);
+            this.newschangebutton.Location = new System.Drawing.Point(0, 7);
             this.newschangebutton.Name = "newschangebutton";
             this.newschangebutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.newschangebutton.ShadowDecoration.Parent = this.newschangebutton;
-            this.newschangebutton.Size = new System.Drawing.Size(162, 63);
+            this.newschangebutton.Size = new System.Drawing.Size(163, 63);
             this.newschangebutton.TabIndex = 57;
-            this.newschangebutton.Text = "  News Changelog";
+            this.newschangebutton.Text = " News Changelog";
+            this.newschangebutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.newschangebutton.Click += new System.EventHandler(this.newschangebutton_Click);
             // 
             // siticoneVSeparator1
@@ -742,12 +744,14 @@ namespace KeyAuth
             // siticoneGradientPanel3
             // 
             this.siticoneGradientPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.siticoneGradientPanel3.Controls.Add(this.siticoneVSeparator4);
             this.siticoneGradientPanel3.Controls.Add(this.siticoneVSeparator3);
+            this.siticoneGradientPanel3.Controls.Add(this.siticoneVSeparator4);
+            this.siticoneGradientPanel3.Controls.Add(this.welcomelabel);
             this.siticoneGradientPanel3.Controls.Add(this.siticoneVSeparator2);
-            this.siticoneGradientPanel3.Controls.Add(this.licensedetailsbutton);
+            this.siticoneGradientPanel3.Controls.Add(this.key);
             this.siticoneGradientPanel3.Controls.Add(this.buyrenewbutton);
             this.siticoneGradientPanel3.Controls.Add(this.siticonePictureBox2);
+            this.siticoneGradientPanel3.Controls.Add(this.welcomepicturebox);
             this.siticoneGradientPanel3.Controls.Add(this.siticoneSeparator2);
             this.siticoneGradientPanel3.Controls.Add(this.subscriptionDaysLabel);
             this.siticoneGradientPanel3.Controls.Add(this.siticoneGradientPanel4);
@@ -768,15 +772,6 @@ namespace KeyAuth
             this.siticoneVSeparator4.Size = new System.Drawing.Size(10, 60);
             this.siticoneVSeparator4.TabIndex = 63;
             // 
-            // siticoneVSeparator3
-            // 
-            this.siticoneVSeparator3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneVSeparator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.siticoneVSeparator3.Location = new System.Drawing.Point(608, 6);
-            this.siticoneVSeparator3.Name = "siticoneVSeparator3";
-            this.siticoneVSeparator3.Size = new System.Drawing.Size(10, 60);
-            this.siticoneVSeparator3.TabIndex = 62;
-            // 
             // siticoneVSeparator2
             // 
             this.siticoneVSeparator2.BackColor = System.Drawing.Color.Transparent;
@@ -789,9 +784,10 @@ namespace KeyAuth
             // licensedetailsbutton
             // 
             this.licensedetailsbutton.Animated = true;
+            this.licensedetailsbutton.AnimatedGIF = true;
             this.licensedetailsbutton.BorderColor = System.Drawing.Color.Empty;
             this.licensedetailsbutton.CheckedState.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(0, 0, 0, 2);
+            this.licensedetailsbutton.CustomBorderThickness = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.licensedetailsbutton.CustomImages.Parent = this.licensedetailsbutton;
             this.licensedetailsbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.licensedetailsbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -799,53 +795,27 @@ namespace KeyAuth
             this.licensedetailsbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.licensedetailsbutton.DisabledState.Parent = this.licensedetailsbutton;
             this.licensedetailsbutton.FillColor = System.Drawing.Color.Transparent;
-            this.licensedetailsbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.licensedetailsbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.licensedetailsbutton.ForeColor = System.Drawing.SystemColors.Control;
             this.licensedetailsbutton.HoverState.Parent = this.licensedetailsbutton;
             this.licensedetailsbutton.Image = global::Loader.Properties.Resources.software_license_48;
+            this.licensedetailsbutton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.licensedetailsbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.licensedetailsbutton.Location = new System.Drawing.Point(415, 14);
+            this.licensedetailsbutton.Location = new System.Drawing.Point(0, 169);
             this.licensedetailsbutton.Name = "licensedetailsbutton";
-            this.licensedetailsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
+            this.licensedetailsbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
             this.licensedetailsbutton.ShadowDecoration.Parent = this.licensedetailsbutton;
-            this.licensedetailsbutton.Size = new System.Drawing.Size(169, 45);
+            this.licensedetailsbutton.Size = new System.Drawing.Size(163, 63);
             this.licensedetailsbutton.TabIndex = 61;
             this.licensedetailsbutton.Text = " License Details";
+            this.licensedetailsbutton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.licensedetailsbutton.Click += new System.EventHandler(this.licensedetailsbutton_Click);
-            // 
-            // buyrenewbutton
-            // 
-            this.buyrenewbutton.Animated = true;
-            this.buyrenewbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.buyrenewbutton.BorderColor = System.Drawing.Color.Empty;
-            this.buyrenewbutton.CheckedState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
-            this.buyrenewbutton.CustomImages.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.buyrenewbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.buyrenewbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.buyrenewbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.buyrenewbutton.DisabledState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.FillColor = System.Drawing.Color.Transparent;
-            this.buyrenewbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buyrenewbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.buyrenewbutton.HoverState.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.Image = global::Loader.Properties.Resources.shopping_48;
-            this.buyrenewbutton.ImageSize = new System.Drawing.Size(32, 32);
-            this.buyrenewbutton.Location = new System.Drawing.Point(183, 14);
-            this.buyrenewbutton.Name = "buyrenewbutton";
-            this.buyrenewbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
-            this.buyrenewbutton.ShadowDecoration.Parent = this.buyrenewbutton;
-            this.buyrenewbutton.Size = new System.Drawing.Size(165, 45);
-            this.buyrenewbutton.TabIndex = 60;
-            this.buyrenewbutton.Text = "License Buy || Renew";
-            this.buyrenewbutton.Click += new System.EventHandler(this.buyrenewbutton_Click);
             // 
             // siticonePictureBox2
             // 
             this.siticonePictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.siticonePictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("siticonePictureBox2.Image")));
-            this.siticonePictureBox2.Location = new System.Drawing.Point(648, 20);
+            this.siticonePictureBox2.Location = new System.Drawing.Point(400, 20);
             this.siticonePictureBox2.Name = "siticonePictureBox2";
             this.siticonePictureBox2.ShadowDecoration.Parent = this.siticonePictureBox2;
             this.siticonePictureBox2.Size = new System.Drawing.Size(32, 32);
@@ -1714,6 +1684,43 @@ namespace KeyAuth
             this.lolbot11.Size = new System.Drawing.Size(776, 449);
             this.lolbot11.TabIndex = 0;
             // 
+            // siticoneVSeparator3
+            // 
+            this.siticoneVSeparator3.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneVSeparator3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.siticoneVSeparator3.Location = new System.Drawing.Point(815, 6);
+            this.siticoneVSeparator3.Name = "siticoneVSeparator3";
+            this.siticoneVSeparator3.Size = new System.Drawing.Size(10, 60);
+            this.siticoneVSeparator3.TabIndex = 64;
+            // 
+            // buyrenewbutton
+            // 
+            this.buyrenewbutton.Animated = true;
+            this.buyrenewbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.buyrenewbutton.BorderColor = System.Drawing.Color.Empty;
+            this.buyrenewbutton.CheckedState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(161)))), ((int)(((byte)(1)))));
+            this.buyrenewbutton.CustomImages.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.buyrenewbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.buyrenewbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.buyrenewbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.buyrenewbutton.DisabledState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.FillColor = System.Drawing.Color.Transparent;
+            this.buyrenewbutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buyrenewbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.buyrenewbutton.HoverState.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.Image = global::Loader.Properties.Resources.shopping_48;
+            this.buyrenewbutton.ImageSize = new System.Drawing.Size(32, 32);
+            this.buyrenewbutton.Location = new System.Drawing.Point(192, 14);
+            this.buyrenewbutton.Name = "buyrenewbutton";
+            this.buyrenewbutton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(97)))), ((int)(((byte)(1)))));
+            this.buyrenewbutton.ShadowDecoration.Parent = this.buyrenewbutton;
+            this.buyrenewbutton.Size = new System.Drawing.Size(165, 45);
+            this.buyrenewbutton.TabIndex = 60;
+            this.buyrenewbutton.Text = "License Buy || Renew";
+            this.buyrenewbutton.Click += new System.EventHandler(this.buyrenewbutton_Click);
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1847,10 +1854,8 @@ namespace KeyAuth
         private Siticone.UI.WinForms.SiticonePictureBox siticonePictureBox2;
         private Siticone.UI.WinForms.SiticonePictureBox welcomepicturebox;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientPanel licensedetailspanel;
-        private Siticone.Desktop.UI.WinForms.SiticoneButton buyrenewbutton;
         private Siticone.UI.WinForms.SiticoneLabel versiontitlelabel;
         private Siticone.Desktop.UI.WinForms.SiticoneButton licensedetailsbutton;
-        private Siticone.Desktop.UI.WinForms.SiticoneVSeparator siticoneVSeparator3;
         private Siticone.Desktop.UI.WinForms.SiticoneVSeparator siticoneVSeparator2;
         private Siticone.Desktop.UI.WinForms.SiticoneTabControl siticoneTabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -1919,5 +1924,7 @@ namespace KeyAuth
         private Loader.Products.valo1 valo11;
         private Loader.Products.gtaV1 gtaV11;
         private Loader.Products.lolbot1 lolbot11;
+        private Siticone.Desktop.UI.WinForms.SiticoneVSeparator siticoneVSeparator3;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton buyrenewbutton;
     }
 }
