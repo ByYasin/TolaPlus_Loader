@@ -256,12 +256,11 @@ namespace KeyAuth
                                 break;
                             case DialogResult.Yes:
                                 WebClient webClient = new WebClient();
-                                //string destFile = Application.ExecutablePath;
-                                string destFile = $"{Application.ExecutablePath}/UpdateFolder/";
+                                string destFile = Application.ExecutablePath;
 
                                 string rand = random_string();
 
-                                //destFile = destFile.Replace(".exe", $"-{rand}.exe");
+                                destFile = destFile.Replace(".exe", $"-{rand}.exe");
                                 webClient.DownloadFile(KeyAuthApp.app_data.downloadLink, destFile);
 
                                 Process.Start(destFile);
@@ -307,9 +306,8 @@ namespace KeyAuth
             
             catch (Exception)
             {
-                //MessageBox.Show("Check your internet connection!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                throw;
-                //Environment.Exit(0);
+                MessageBox.Show("Check your internet connection!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Environment.Exit(0);
             }
 
             if (Loader.Properties.Settings.Default.logintop == true)
