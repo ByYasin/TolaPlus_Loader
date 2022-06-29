@@ -256,11 +256,12 @@ namespace KeyAuth
                                 break;
                             case DialogResult.Yes:
                                 WebClient webClient = new WebClient();
-                                string destFile = Application.ExecutablePath;
+                                //string destFile = Application.ExecutablePath;
+                                string destFile = $"{Application.ExecutablePath}/UpdateFolder/";
 
                                 string rand = random_string();
 
-                                destFile = destFile.Replace(".exe", $"-{rand}.exe");
+                                //destFile = destFile.Replace(".exe", $"-{rand}.exe");
                                 webClient.DownloadFile(KeyAuthApp.app_data.downloadLink, destFile);
 
                                 Process.Start(destFile);
@@ -291,7 +292,7 @@ namespace KeyAuth
                 }
                 if (KeyAuthApp.checkblack())
                 {
-                    MessageBox.Show("Your device has been banned! You can contact the developer.", "Hw�d lock!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Your device has been banned! You can contact the developer.", "Hwid lock!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     Environment.Exit(0);
                 }
                 else
@@ -303,11 +304,12 @@ namespace KeyAuth
                 //siticoneTabControl1.TabButtonSelectedState.InnerColor = Color.GreenYellow;  
 
             }
-
+            
             catch (Exception)
             {
-                MessageBox.Show("Check your internet connection!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Environment.Exit(0);
+                //MessageBox.Show("Check your internet connection!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                throw;
+                //Environment.Exit(0);
             }
 
             if (Loader.Properties.Settings.Default.logintop == true)

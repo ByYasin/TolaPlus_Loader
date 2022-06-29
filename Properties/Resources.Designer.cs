@@ -113,6 +113,16 @@ namespace Loader.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap hamburgermenu_32 {
+            get {
+                object obj = ResourceManager.GetObject("hamburgermenu_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap header_bg {
             get {
                 object obj = ResourceManager.GetObject("header_bg", resourceCulture);
