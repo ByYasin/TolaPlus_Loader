@@ -120,6 +120,12 @@ namespace KeyAuth
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
+            this.changelog11 = new Loader.Configuration.changelog1();
+            this.settings11 = new Loader.Configuration.settings1();
+            this.cs11 = new Loader.Products.cs1();
+            this.valo11 = new Loader.Products.valo1();
+            this.gtaV11 = new Loader.Products.gtaV1();
+            this.lolbot11 = new Loader.Products.lolbot1();
             this.headerpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox1)).BeginInit();
@@ -148,6 +154,7 @@ namespace KeyAuth
             ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox1)).BeginInit();
             this.siticoneTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.LoLBotCheatPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).BeginInit();
@@ -165,6 +172,11 @@ namespace KeyAuth
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             this.SuspendLayout();
             // 
             // siticoneDragControl1
@@ -917,7 +929,7 @@ namespace KeyAuth
             this.licensedetailspanel.Location = new System.Drawing.Point(3, 3);
             this.licensedetailspanel.Name = "licensedetailspanel";
             this.licensedetailspanel.ShadowDecoration.Parent = this.licensedetailspanel;
-            this.licensedetailspanel.Size = new System.Drawing.Size(651, 471);
+            this.licensedetailspanel.Size = new System.Drawing.Size(830, 471);
             this.licensedetailspanel.TabIndex = 56;
             // 
             // siticonePanel5
@@ -1147,6 +1159,7 @@ namespace KeyAuth
             this.siticoneTabControl1.TabButtonSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl1.TabIndex = 57;
             this.siticoneTabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.siticoneTabControl1.TabMenuVisible = false;
             // 
             // tabPage1
             // 
@@ -1154,10 +1167,10 @@ namespace KeyAuth
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.tabPage1.Controls.Add(this.licensedetailspanel);
             this.tabPage1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage1.Location = new System.Drawing.Point(184, 4);
+            this.tabPage1.Location = new System.Drawing.Point(5, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(657, 477);
+            this.tabPage1.Size = new System.Drawing.Size(836, 477);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "License Details";
             // 
@@ -1165,6 +1178,7 @@ namespace KeyAuth
             // 
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.tabPage2.Controls.Add(this.changelog11);
             this.tabPage2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tabPage2.Location = new System.Drawing.Point(184, 4);
             this.tabPage2.Name = "tabPage2";
@@ -1184,9 +1198,9 @@ namespace KeyAuth
             this.tabPage3.Controls.Add(this.ValorantCheatPanel);
             this.tabPage3.Controls.Add(this.CSCheatPanel);
             this.tabPage3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tabPage3.Location = new System.Drawing.Point(5, 4);
+            this.tabPage3.Location = new System.Drawing.Point(184, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(836, 477);
+            this.tabPage3.Size = new System.Drawing.Size(657, 477);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Cheats";
             // 
@@ -1607,46 +1621,51 @@ namespace KeyAuth
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage4.Location = new System.Drawing.Point(5, 4);
+            this.tabPage4.Controls.Add(this.settings11);
+            this.tabPage4.Location = new System.Drawing.Point(184, 4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(836, 477);
+            this.tabPage4.Size = new System.Drawing.Size(657, 477);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Settings";
             // 
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage5.Location = new System.Drawing.Point(5, 4);
+            this.tabPage5.Controls.Add(this.cs11);
+            this.tabPage5.Location = new System.Drawing.Point(184, 4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(836, 477);
+            this.tabPage5.Size = new System.Drawing.Size(657, 477);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "CS";
             // 
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage6.Location = new System.Drawing.Point(5, 4);
+            this.tabPage6.Controls.Add(this.valo11);
+            this.tabPage6.Location = new System.Drawing.Point(184, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(836, 477);
+            this.tabPage6.Size = new System.Drawing.Size(657, 477);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Valo";
             // 
             // tabPage7
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage7.Location = new System.Drawing.Point(5, 4);
+            this.tabPage7.Controls.Add(this.gtaV11);
+            this.tabPage7.Location = new System.Drawing.Point(184, 4);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(836, 477);
+            this.tabPage7.Size = new System.Drawing.Size(657, 477);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "GtaV";
             // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
-            this.tabPage8.Location = new System.Drawing.Point(5, 4);
+            this.tabPage8.Controls.Add(this.lolbot11);
+            this.tabPage8.Location = new System.Drawing.Point(184, 4);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(836, 477);
+            this.tabPage8.Size = new System.Drawing.Size(657, 477);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "LoLBot";
             // 
@@ -1664,6 +1683,63 @@ namespace KeyAuth
             // siticoneAnimateWindow1
             // 
             this.siticoneAnimateWindow1.AnimationType = Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow.AnimateWindowType.AW_ACTIVATE;
+            // 
+            // changelog11
+            // 
+            this.changelog11.AutoScroll = true;
+            this.changelog11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.changelog11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.changelog11.Location = new System.Drawing.Point(3, 3);
+            this.changelog11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.changelog11.Name = "changelog11";
+            this.changelog11.Size = new System.Drawing.Size(651, 471);
+            this.changelog11.TabIndex = 0;
+            // 
+            // settings11
+            // 
+            this.settings11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.settings11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settings11.Location = new System.Drawing.Point(0, 0);
+            this.settings11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.settings11.Name = "settings11";
+            this.settings11.Size = new System.Drawing.Size(657, 477);
+            this.settings11.TabIndex = 0;
+            // 
+            // cs11
+            // 
+            this.cs11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.cs11.Location = new System.Drawing.Point(27, 7);
+            this.cs11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cs11.Name = "cs11";
+            this.cs11.Size = new System.Drawing.Size(787, 458);
+            this.cs11.TabIndex = 0;
+            // 
+            // valo11
+            // 
+            this.valo11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.valo11.Location = new System.Drawing.Point(38, 6);
+            this.valo11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.valo11.Name = "valo11";
+            this.valo11.Size = new System.Drawing.Size(789, 467);
+            this.valo11.TabIndex = 0;
+            // 
+            // gtaV11
+            // 
+            this.gtaV11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.gtaV11.Location = new System.Drawing.Point(25, 9);
+            this.gtaV11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.gtaV11.Name = "gtaV11";
+            this.gtaV11.Size = new System.Drawing.Size(786, 459);
+            this.gtaV11.TabIndex = 0;
+            // 
+            // lolbot11
+            // 
+            this.lolbot11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
+            this.lolbot11.Location = new System.Drawing.Point(29, 15);
+            this.lolbot11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.lolbot11.Name = "lolbot11";
+            this.lolbot11.Size = new System.Drawing.Size(778, 447);
+            this.lolbot11.TabIndex = 0;
             // 
             // Dashboard
             // 
@@ -1721,6 +1797,7 @@ namespace KeyAuth
             ((System.ComponentModel.ISupportInitialize)(this.subscriptionPictureBox1)).EndInit();
             this.siticoneTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.LoLBotCheatPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.LolcheatPictureBox)).EndInit();
@@ -1742,6 +1819,11 @@ namespace KeyAuth
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.siticonePictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CScheatPictureBox)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1858,5 +1940,11 @@ namespace KeyAuth
         private Siticone.Desktop.UI.WinForms.SiticoneVSeparator siticoneVSeparator3;
         private Siticone.Desktop.UI.WinForms.SiticoneButton buyrenewbutton;
         private Siticone.Desktop.UI.WinForms.SiticoneButton hamburgerButton;
+        private Loader.Configuration.changelog1 changelog11;
+        private Loader.Configuration.settings1 settings11;
+        private Loader.Products.cs1 cs11;
+        private Loader.Products.valo1 valo11;
+        private Loader.Products.gtaV1 gtaV11;
+        private Loader.Products.lolbot1 lolbot11;
     }
 }
