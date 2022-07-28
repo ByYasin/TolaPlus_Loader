@@ -30,7 +30,7 @@ namespace KeyAuth
             name: "TolaPlus",
             ownerid: "fuE7N6dyWl",
             secret: "c179566b29ee7e9b75b606e4726b084b5ae95452ccf088e02a28e997ee162992",
-            version: "0.0.2"
+            version: "0.0.3"
         );
 
         public Login()

@@ -256,7 +256,7 @@
             this.cheatupdatedatelabel.Name = "cheatupdatedatelabel";
             this.cheatupdatedatelabel.Size = new System.Drawing.Size(65, 19);
             this.cheatupdatedatelabel.TabIndex = 3;
-            this.cheatupdatedatelabel.Text = "18.06.2022";
+            this.cheatupdatedatelabel.Text = "29.07.2022";
             // 
             // siticonePanel2
             // 
@@ -342,13 +342,13 @@
             this.siticonePictureBox4.TabIndex = 8;
             this.siticonePictureBox4.TabStop = false;
             // 
-            // gtaV
+            // gtaV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(39)))));
             this.Controls.Add(this.siticonePanel1);
-            this.Name = "gtaV";
+            this.Name = "gtaV1";
             this.Size = new System.Drawing.Size(658, 387);
             this.siticonePanel4.ResumeLayout(false);
             this.siticonePanel4.PerformLayout();

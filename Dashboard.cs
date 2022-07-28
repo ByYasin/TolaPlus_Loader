@@ -80,8 +80,9 @@ namespace KeyAuth
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //Login.KeyAuthApp.ban();
 
-            subscriptionDaysLabel.Text = "Expiry: " + Login.KeyAuthApp.expirydaysleft();
+                        subscriptionDaysLabel.Text = "Expiry: " + Login.KeyAuthApp.expirydaysleft();
             if (subscriptionDaysLabel.Text == "Expiry: 0 Days 0 Hours 0 Minutes 0 Seconds left.")
             {
                 closing_Data();
@@ -331,7 +332,7 @@ namespace KeyAuth
             string download1 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
             string download2 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\TuYtHgPoMa.zip");
             string download3 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\QwSdCxFrYb.zip");
-            string download4 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\GqTsAcXgU.zip");
+            string download4 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\XaQeWsAwTaDs.rar");
             string download5 = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\PmYvRxEaQw.zip");
 
             Directory.Delete(download1, true);

