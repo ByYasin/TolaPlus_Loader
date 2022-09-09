@@ -28,9 +28,9 @@ namespace KeyAuth
 
         public static api KeyAuthApp = new api(
             name: "TolaPlus",
-            ownerid: "fuE7N6dyWl",
-            secret: "c179566b29ee7e9b75b606e4726b084b5ae95452ccf088e02a28e997ee162992",
-            version: "0.0.4"
+            ownerid: "g1JUqgSeGI",
+            secret: "9549b202077578d3ce7b81041493cc0d24081d546c5a63e754121430abdb3682",
+            version: "0.0.1"
         );
 
         public Login()
